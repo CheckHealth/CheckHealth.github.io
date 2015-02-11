@@ -30,7 +30,7 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6616541" vertical-offset="351" max-vertical-offset="990">
+            <state vertical-scroll-proportion="0.6616541" vertical-offset="351" max-vertical-offset="1005">
               <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
@@ -243,7 +243,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6616541" vertical-offset="351" max-vertical-offset="990">
+        <state vertical-scroll-proportion="0.6616541" vertical-offset="351" max-vertical-offset="1005">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>

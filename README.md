@@ -39,6 +39,7 @@ I have already extracted location data (with meta info) on the following:
 ### Visualization Representation of Zipcode data:
 
 * Zipcode boundary geo-information overlaid on top of a google-maps like. Think something  along these lines:
+
 ![](assets/img/zipcodes.png)
 
 ---
