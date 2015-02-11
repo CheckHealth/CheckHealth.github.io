@@ -38,7 +38,8 @@ I have already extracted location data (with meta info) on the following:
     
 ### Visualization Representation of Zipcode data:
 
-* Zipcode boundary geo-information overlaid on top of a google-maps like. Think something  along these lines: ![](assets/img/zipcodes.png)
+* Zipcode boundary geo-information overlaid on top of a google-maps like. Think something  along these lines:
+![](assets/img/zipcodes.png)
 
 ---
 
@@ -51,7 +52,7 @@ I have already extracted location data (with meta info) on the following:
 ---
 
 ### Visual Representations of the Community services:
-* Google maps style Markers (this is from an application I built last semester). We will have identifiable markers containing 'popup' tooltip windows containing anything from links to websites or other relevant meta information (addresses for example): ![](assets/img/popups.png) ![](assets/img/markers)
+* Google maps style Markers (this is from an application I built last semester). We will have identifiable markers containing 'popup' tooltip windows containing anything from links to websites or other relevant meta information (addresses for example): ![](assets/img/popups.png) ![](assets/img/markers.png)
 
 
 
