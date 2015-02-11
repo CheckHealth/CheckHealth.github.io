@@ -18,15 +18,16 @@ For the map based API, we will use the following Javascript Libraries:
 * [Chicago Data Portal](https://data.cityofchicago.org/): Contains a wealth of information about city services locations, community health centers, various census data stats.
 
 ---
+
 I have already extracted location data (with meta info) on the following:
 
-** Community Service Centers
-** Libraries
-** Mental Health Clinics
-** Chicago Primary Care Community Health Centers
-** Neighborhood Health Clinics
-** Women and children health clinics
-** Sexually Transmitted Infections Health Clinics
+  * Community Service Centers
+  * Libraries
+  * Mental Health Clinics
+  * Chicago Primary Care Community Health Centers
+  * Neighborhood Health Clinics
+  * Women and children health clinics
+  * Sexually Transmitted Infections Health Clinics
 
 ---
 
