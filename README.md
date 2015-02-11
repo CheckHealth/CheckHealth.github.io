@@ -37,4 +37,23 @@ I have already extracted location data (with meta info) on the following:
 ---
     
 ### Visualization Representation of Zipcode data:
-Zipcode boundary geo-information overlaid on top of a google-maps like. Think something  along these lines:
+
+* Zipcode boundary geo-information overlaid on top of a google-maps like. Think something  along these lines: ![](assets/img/zipcodes.png)
+
+---
+
+### Visualization Representation of Population Density within Zipcode boundaries
+
+* Population densities will be best represented as a Choropleth map, or a Heatmap. Think something like this: ![](assets/img/choropleth.png)
+* As an alternative, we could do something akin to this if you prefer that type of representation better: ![](assets/img/bubbles.png)
+  * There are Costs and Benefits to both representations, of course. I think representing the data as a Choropleth will give us a good sense of which zones have the highest densities, without visually occluding other types of information such as Location markers for the various service types.
+
+---
+
+### Visual Representations of the Community services:
+* Google maps style Markers (this is from an application I built last semester). We will have identifiable markers containing 'popup' tooltip windows containing anything from links to websites or other relevant meta information (addresses for example): ![](assets/img/popups.png) ![](assets/img/markers)
+
+
+
+
+
