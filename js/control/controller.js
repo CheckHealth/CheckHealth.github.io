@@ -36,11 +36,13 @@ Controller.prototype.getWomenAndChildrenHealthClinics= function() {
     d3.json("assets/Data/WomenChildrenClean.json", function(data){
         console.log(data, typeof(data), data.data[0]);
         dataSet = data.data;
-        for(var i=0; i > data.length; i++){
-            dataArray = data[0][i];
+        console.log(dataSet, dataSet.length);
+        for(var i=0; i < dataSet.length; i++){
+            dataArray = dataSet[i];
             this.WomenChildrenClinics[i] = new WomenChildrenMarker(dataArray);
             this.WomenChildrenClinics[i].viewNewIcon();
             this.WomenChildrenClinics[i].addTo(this.map);
+            console.log("markers",this.WomenChildrenClinics[i]);
         }
     }.bind(this))
 };

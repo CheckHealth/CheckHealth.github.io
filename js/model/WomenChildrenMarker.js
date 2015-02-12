@@ -3,6 +3,7 @@
 //////////////////////////////////////////////////////////////
 
 var WomenChildrenMarker = function(data) {
+    console.log("in WomenChildrenMarker", data);
     this.site_name = data[8];
     this.hoursOfOperation = data[10];
     this.address = data[11];
