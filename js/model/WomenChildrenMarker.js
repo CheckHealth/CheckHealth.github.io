@@ -24,12 +24,12 @@ var WomenChildrenMarker = function(data) {
                    "</br><b>Phone:</b> " + this.phone +
                    "</br><b>Address:</b> " + this.address + "," + this.city + "," + this.state + " " + this.zipcode +
                    "</br><b>Hours:</b> " + this.hoursOfOperation +
-                   "</br><b>Service Availability:</b>" +
-                   "</br><b>Public Health Nursing:</b>" + this.public_health_nursing +
-                   "</br><b>Family Case Management:</b>" + this.family_case_management +
-                   "</br><b>Healthy Start Program:</b>" + this.healthy_start_program +
-                   "</br><b>Healthy Families Program:</b>" + this.healthy_families_program +
-                   "</br><b>WIC service:</b>" + this.wic;
+                   "</br><b>Service Availability:</b> " +
+                   "<blockquote><b>Public Health Nursing:</b> " + this.public_health_nursing +
+                   "</br><b>Family Case Management:</b> " + this.family_case_management +
+                   "</br><b>Healthy Start Program:</b> " + this.healthy_start_program +
+                   "</br><b>Healthy Families Program:</b> " + this.healthy_families_program +
+                   "</br><b>WIC service:</b> " + this.wic + "</blockquote>";
 
     var icon = L.AwesomeMarkers.icon({
         icon: "heart",

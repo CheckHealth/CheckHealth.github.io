@@ -9,6 +9,7 @@ function init() {
     context = new Controller();
 
     context.init();
+    context.getBoundingDataFromFile();
     context.getWomenAndChildrenHealthClinics();
 
     //context.getChicagoData();

@@ -20,9 +20,15 @@ Controller.prototype.init = function() {
 };
 
 
-Controller.prototype.getBoundingDataFromFile= function(){};
+Controller.prototype.getBoundingDataFromFile= function(){
+    d3.json("assets/Data/chi.json", function(error, json) {
+        if (error) return console.error(error);
+        var chi = topojson.feature(json, json.objects.chicago_health2);
+        L.geoJson(chi).addTo(this.map)
+    }.bind(this))
+};
 
-Controller.prototype.getCommunityHealthCenters= function() { /* d3.json(....) */ };
+Controller.prototype.getCommunityHealthCenters= function() {};
 
 Controller.prototype.getLibraries= function() {};
 
