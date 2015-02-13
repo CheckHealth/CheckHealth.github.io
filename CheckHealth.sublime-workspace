@@ -1,0 +1,1095 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tre",
+				"treeNode"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"comm",
+				"community"
+			],
+			[
+				"F",
+				"FarNorthSide"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"Sout",
+				"SouthSide"
+			],
+			[
+				"West",
+				"WestSide"
+			],
+			[
+				"read",
+				"readlines	function"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"poin",
+				"pointLight"
+			],
+			[
+				"Po",
+				"pointLight"
+			],
+			[
+				"sp",
+				"sphereMaterial"
+			],
+			[
+				"base",
+				"buildDataset"
+			],
+			[
+				"Freq",
+				"FreqDist"
+			],
+			[
+				"pre",
+				"preprocessing"
+			],
+			[
+				"classif",
+				"classification"
+			],
+			[
+				"constru",
+				"constructFeatureIndex"
+			],
+			[
+				"filt",
+				"filterFeatureFrequency"
+			],
+			[
+				"feature",
+				"featureDist"
+			],
+			[
+				"token",
+				"tokenNegation"
+			],
+			[
+				"twi",
+				"twokenizer"
+			],
+			[
+				"emoji",
+				"emojiRE"
+			],
+			[
+				"class",
+				"class	class"
+			],
+			[
+				"cc",
+				"cc	shortcut - case class"
+			],
+			[
+				"case",
+				"case	case"
+			],
+			[
+				"for",
+				"for	for - Yield"
+			],
+			[
+				"useCl",
+				"useCluster4"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"pr",
+				"prn-str"
+			],
+			[
+				"prn",
+				"prn-str"
+			],
+			[
+				"stim",
+				"stimListPath"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "mv transportation: \n    Trapese dispatch system\n    Carmel -- Uber like sytsem \n\nIllinois Contractor: 1st Transit\n    \n\nIronWorker: Scheduler application\n\nCHS: Consensus text messaging smart phone app\n\n\nSustainability: when this project is over, will it be sustainable\n\nWe dont know how these patients are going to respond to this program\n\nMoney available to assit in develop of Ruby on Rails MyTapp application\n\n\n\nMake a new installation\nSetup new Twillio ",
+			"settings":
+			{
+				"buffer_size": 457,
+				"line_ending": "Unix",
+				"name": "mv transportation:"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"js",
+				"Set Syntax: JSON"
+			],
+			[
+				"fo",
+				"Format: Javascript"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"migra",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"F",
+				"Format Code"
+			],
+			[
+				"f",
+				"Format Code"
+			],
+			[
+				"form",
+				"Format Code"
+			],
+			[
+				"code",
+				"Format Code"
+			],
+			[
+				"For",
+				"Format Code"
+			],
+			[
+				"packare",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"JSO",
+				"Set Syntax: JSON"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"lat",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"snipp",
+				"Snippet: Tabular"
+			],
+			[
+				"snippet",
+				"Snippet: Chapter"
+			],
+			[
+				"sca",
+				"Set Syntax: Scala Improved"
+			],
+			[
+				"scala",
+				"Set Syntax: Scala"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"PY",
+				"Set Syntax: Python Improved"
+			],
+			[
+				"c",
+				"Set Syntax: C++"
+			],
+			[
+				"hask",
+				"Set Syntax: Haskell"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"scal",
+				"Set Syntax: Scala Improved"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disa",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"ov",
+				"Set Syntax: Objective-C++"
+			],
+			[
+				"scala ",
+				"Set Syntax: Scala Improved"
+			],
+			[
+				"Scala",
+				"Set Syntax: Scala"
+			],
+			[
+				"Pyth",
+				"Set Syntax: Python Improved"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"scaa",
+				"SublimeREPL: Scala"
+			],
+			[
+				"re",
+				"SublimeREPL: Scala"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"glsl",
+				"Set Syntax: GLSL"
+			],
+			[
+				"gl",
+				"Set Syntax: GLSL"
+			],
+			[
+				"obj",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"syn",
+				"Set Syntax: C"
+			],
+			[
+				"synt C",
+				"Set Syntax: C"
+			],
+			[
+				"objc",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"snippet	",
+				"Snippet: Do While Loop"
+			],
+			[
+				"xm",
+				"Set Syntax: XML"
+			],
+			[
+				"repl",
+				"SublimeREPL: Clojure"
+			],
+			[
+				"pow",
+				"Set Syntax: Powershell v2"
+			],
+			[
+				"power",
+				"Set Syntax: Powershell v2"
+			],
+			[
+				"synsh",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"bat",
+				"Set Syntax: Batch File"
+			],
+			[
+				"py	",
+				"Set Syntax: Python"
+			],
+			[
+				"ma",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"M",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"remp",
+				"Package Control: Remove Package"
+			],
+			[
+				"mat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"symat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/css",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/control",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/model"
+	],
+	"file_history":
+	[
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/README.md",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/index.html",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/PhantomJsACDC.txt",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/mail/contact_me.php",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/index.html",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/startbootstrap-freelancer-1.0.2/css/freelancer.css",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/startbootstrap-freelancer-1.0.2/index.html",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/ViewersChoice/index.html",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/Meeting_notes_02-06-2015.txt",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/CV/KyleCV_2014.tex",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/ViewersChoice/script.js",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/ViewersChoice/style.css",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/ViewersChoice/index2.html",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/ViewersChoice/page/home.html",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/ViewersChoice/page/good.html",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/ViewersChoice/page/bad.html",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/.git/MERGE_MSG",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/ViewersChoice/page/overview.html",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/SweetHomeChicago/home.html",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/ViewersChoice/bad.html",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/ViewersChoice/good.html",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/ViewersChoice/overview.html",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/ViewersChoice/home.html",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/KrbAlmryde.sublime-project",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/SynestheticRendering/Resources/tex3D.fsh",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/SynestheticRendering/Resources/tex3D.vsh",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/SynestheticRendering/SynestheticRendering/MaryShelleyFrankenstein.txt",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/SynestheticRendering/SynestheticRendering/main.mm",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/SynestheticRendering/SynestheticRendering/Attribution.txt",
+		"/Users/krbalmryde/.bash_functions",
+		"/Users/krbalmryde/.bash_aliases",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/SweetHomeChicago/chicago.js",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BicycleRace/IconMarkers.js",
+		"/Users/krbalmryde/.bash_profile",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/bicyclerace.github.io/webapp/js/controllers/map-layer/StationsPopularityLayerViewController.js",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/bicyclerace.github.io/webapp/js/controllers/MapViewController.js",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BicycleRace/index.html",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/bicyclerace.github.io/webapp/js/controllers/map-layer/PlayADayLayerViewController.js",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/bicyclerace.github.io/webapp/js/models/Model.js",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/bicyclerace.github.io/webapp/index.html",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/bicyclerace.github.io/webapp/js/models/MapModel.js",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BicycleRace/toStation.txt",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/.gitignore",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BicycleRace/fromStations.txt",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BicycleRace/stations.py",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/SweetHomeChicago/Examples/js/modernizr.custom.79639.js",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/CV/res.cls",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BrainChoropleth/index.html",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/CV/KyleBibliography.bib",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BrainChoropleth/GeoJson/ax_144_inf_0mm.geojson",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BrainChoropleth/WeaveTutorialData/ax_144_inf_0mm.geojson",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BrainChoropleth/GeoJson/ax_108_inf_-18mm.geojson",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BrainChoropleth/GeoJson/axialTopo.json",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/SweetHomeChicago/data/Excel/Education by Race and Gender in Chicago.xlsx",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/SweetHomeChicago/data/RaceAgeGenderComm.tsv",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/SweetHomeChicago/index.html",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/CV/KyleCV_2014.tex",
+		"/Users/krbalmryde/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/README.markdown",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/params.json",
+		"/Users/krbalmryde/Dropbox/Code-Projects/Projects.sublime-project",
+		"/Users/krbalmryde/Dropbox/Code-Projects/EVL/aluminum/Aluminum.sublime-project",
+		"/C/Users/KrbAlmryde/Dropbox/Class-Projects/cs424/HW1/index.html",
+		"/C/Users/KrbAlmryde/Dropbox/Class-Projects/cs424/HW1/style.css",
+		"/C/Users/KrbAlmryde/Dropbox/Class-Projects/cs424/HW1/Instructions.md",
+		"/C/Users/Kyle/.ipython/profile_default/startup/00-profile.py",
+		"/C/Users/Kyle/.ipython/profile_default/ipython_config.py",
+		"/C/Users/Kyle/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/data/chicago_health.json",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/data/GeoJson/chicago_topo.json",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/uk.json",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/step-7.html",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/Notes/Choropleth/us.json",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/data/District/district.json",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/index-district.html",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/index-topo.html",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/data/District/distric.json",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs335/AlphaSuperAwesomeCoolDynamiteWolfSquadron/MUD_UserStories.doc",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/data/chi.json",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs227/SortTest.java",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs227/Seconds.java",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/backup/index_geo.html",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/data/chicago_health2.json",
+		"/E/Applications/Chocolatey/lib/ChocolateyGUI.0.11.1/tools/chocolateyUninstall.ps1",
+		"/E/Applications/Chocolatey/lib/PowerShell.3.0.20121027/ChocolateyInstall.ps1",
+		"/C/Users/Kyle/Dropbox/Personal-Projects/CV stuff/CV_Full/KyleCV_2014.tex",
+		"/C/Users/Kyle/AppData/Local/Temp/7zE65E2.tmp/Box.pde",
+		"/C/Users/Kyle/AppData/Local/Temp/7zE5140.tmp/Plot.pde",
+		"/C/Users/Kyle/AppData/Local/Temp/7zE3AD9.tmp/Plot.pde",
+		"/C/Users/Kyle/AppData/Local/Temp/7zOE49.tmp/args.txt",
+		"/C/Users/Kyle/AppData/Local/Temp/7zOE4A8.tmp/491_proj1_data.txt",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs227/CourseGrade227.java",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/Notes/basic.html",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/backup/dataFix.html",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/Notes/Heatmap/data.csv",
+		"/C/Users/Kyle/Dropbox/Class-Projects/ISTA516/HW5/secretgraffiti/dropbox-app.json",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs251/Lab2/diagram.txt",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs335/.metadata/.plugins/com.python.pydev.analysis/python_v1_bm109oo8jsa5gnqmc06ekl12p/v1_indexcache/Carbon.Help_buje.v1_indexcache",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/backup_chiGEOcr84.html",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/data/chicagoGEOcrs84.json",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/chicago_health.json",
+		"/C/Users/Kyle/Dropbox/Class-Projects/ISTA130/ISTA130v1.0/BankAccount.py",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs227/Boggle/Boggle.java",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs335/.metadata/.plugins/com.python.pydev.analysis/python_v1_bm109oo8jsa5gnqmc06ekl12p/v1_indexcache/altgraph.__init___24ao.v1_indexcache",
+		"/C/Users/Kyle/Dropbox/Class-Projects/ISTA555/YouAreWhatYouEat/docs/healthyFoods.txt",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs335/AlphaSuperAwesomeCoolDynamiteWolfSquadron/Characters/HeadlessKnight.java",
+		"/C/Users/Kyle/Dropbox/Class-Projects/ISTA555/YouAreWhatYouEat/data/etc/HappyEmoji.txt",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs533/HW2/homework3",
+		"/C/Users/Kyle/Documents/WindowsPowerShell/Microsoft.PowerShellISE_profile.ps1",
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/Notes/Heatmap/index.html",
+		"/C/Users/KrbAlmryde/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1",
+		"/Users/krbalmryde/Dropbox/Class-Projects/cs488/TA/InstallingAluminum.md",
+		"/Users/krbalmryde/Dropbox/Class-Projects/cs424/Notes/Class_List.txt",
+		"/Users/krbalmryde/Dropbox/Class-Projects/cs488/HW1/Assignment1_Results.txt",
+		"/Users/krbalmryde/Dropbox/Class-Projects/cs488/HW1/late/walter_dworak_assignment1.txt",
+		"/Users/krbalmryde/Dropbox/Class-Projects/Class.sublime-project",
+		"/Users/krbalmryde/Dropbox/XCodeProjects/aluminum/.git/MERGE_MSG",
+		"/Users/krbalmryde/Dropbox/Class-Projects/cs251/HW1/sortAlgComparisons.cpp",
+		"/Users/krbalmryde/Dropbox/Class-Projects/cs251/HW1/SortComparisonData.txt",
+		"/Users/krbalmryde/Dropbox/Class-Projects/cs251/lecture/sortAlgComparisons.cpp",
+		"/Users/krbalmryde/Dropbox/XCodeProjects/aluminum/osx/examples/rubix/rubix/RubixCube.mm",
+		"/Users/krbalmryde/Dropbox/XCodeProjects/aluminum/osx/examples/rubix/rubix/RubixCube.hpp",
+		"/Users/krbalmryde/Dropbox/Class-projects/cs533/HW5/HW5/homework5.cpp",
+		"/Users/krbalmryde/Dropbox/Class-projects/ISTA555/AnalyzeHappiness/Project1.py",
+		"/Users/krbalmryde/Downloads/rips/imgur_dRrDl/index.txt",
+		"/Users/krbalmryde/Dropbox/Class-Projects/ISTA555/AnalyzeHappiness/Project1.py",
+		"/Users/krbalmryde/Dropbox/Class-Projects/ISTA516/HW5/secretgraffiti/graffitiScene.js",
+		"/Users/krbalmryde/Dropbox/Class-Projects/cs533/HW5/HW5/homework5.cpp",
+		"/Users/krbalmryde/Dropbox/Class-Projects/cs533/HW5/HW5/Utilities.hpp"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"",
+			"chicago_health.json",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"assets/",
+			"2c3e50",
+			"18bc9c",
+			"Univeristy",
+			"video",
+			"^\\n",
+			"[Ll]*",
+			"\\\\n\\",
+			"\"\\n\"",
+			"\n\\n",
+			"^\\n$",
+			"^\\n",
+			"\n",
+			"again.\n",
+			".\n",
+			"\n",
+			"chicagoLayer",
+			"///////////////////////////",
+			"_mapContainer",
+			"stArray",
+			"fromStation",
+			"stations",
+			"Stations",
+			"stations",
+			"Stations",
+			"stations",
+			"json",
+			"brain",
+			"topo",
+			"uk",
+			",",
+			"wh",
+			"which",
+			"./",
+			"aluminum/",
+			"nii",
+			"XCodeProjects",
+			"15000",
+			"1300",
+			"chicago_health2",
+			"district",
+			"chi",
+			"d.",
+			"d.district",
+			"name\": \"NorthWestSide",
+			"name\": \"FarSouthEastSide",
+			"name\": \"SouthWestSide",
+			"name\": \"FarSouthWestSide",
+			"name\": \"SouthSide",
+			"name\": \"WestSide",
+			"name\": \"NorthSide",
+			"\"name\": \"FarNorthSide\"",
+			"\"district\": {\n                        \"slug\":",
+			"\"id\"",
+			"oh",
+			"district",
+			".side",
+			"side",
+			"Side",
+			"side",
+			"\"side\":",
+			"comm",
+			"side",
+			"comm",
+			"slug",
+			"properties",
+			"chi.features[i].",
+			"> 1)",
+			"side:",
+			"if(",
+			"f(",
+			"]",
+			") > 1)",
+			"var",
+			" = [",
+			"[0-9][0-9]",
+			"(\"slug\":)(\"rogers_park\"|\"loop\")",
+			"(\"slug\":)(\"rogers_park\")",
+			"(\"slug\":)(\"near_north_side\"|\"loop\")",
+			"(\"slug\":)(\"cabrini*\"|\"gold_coast\"|\"goose_island\")",
+			"(\"slug\":)(\"cabrini*\"|\"gold_caost\"|\"goose_island\")",
+			"(\"slug\":)(\"rogers_park\"|\"lake_view\")",
+			"(\"slug\")+(\"cabrini*\"||\"gold_caost\"||\"goose_island\")",
+			"(\"slug\")+(\"cabrini\"||\"gold_caost\"||\"goose_island\")",
+			"(\"slug\":)+(\"cabrini\"|\"gold_caost\"|\"goose_island\")",
+			"\"slug",
+			"dcd",
+			" (index):67",
+			"json",
+			"SEC_NEIGH",
+			"\"PRI_NEIGH\"",
+			"\"COMM_AREA\"",
+			"\"SIDE\"",
+			"bronze",
+			"PRI_NEIGH",
+			"North Side",
+			"North",
+			"Near North Side",
+			"Belmont",
+			"Lake View",
+			"lakeview",
+			"Belmont",
+			"BELMONT",
+			"\"id\":",
+			"id",
+			"WEST ELSDON",
+			"West Elsdon",
+			"WEST ELSDON",
+			"}",
+			"json",
+			",\"",
+			",'",
+			",\"",
+			"startup",
+			"initApp",
+			"_",
+			"Evaluator",
+			"TweetParser",
+			"texIDs",
+			"glUniform1i",
+			"FreqDist",
+			"]]",
+			"head[i",
+			"sceneCycle",
+			"cube",
+			"VIEW_ANGLE",
+			"HEIGHT",
+			"WIDTH"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"\"district\":",
+			"community",
+			"\"side\":\"central\",(\"slug\":)(\"rogers_park\"|\"loop\")",
+			",\"side\":\"central\",$1",
+			"secondary",
+			"\"secondary\"",
+			"\"neighborhood\"",
+			"\"community\"",
+			"\"side\"",
+			"\n,\"",
+			";\\n",
+			"\"\"\"\n",
+			"\n",
+			"\n\n",
+			"\n",
+			"\n\n",
+			"\n",
+			"\n\n",
+			"",
+			"\n",
+			"\\n",
+			"\n",
+			"",
+			"\n",
+			"\n\n\n",
+			"\n",
+			"",
+			"\n",
+			"!Audio\\DING.wav,\"0,0,0\",700",
+			"/",
+			"",
+			"2",
+			"",
+			".wav",
+			"2.wa",
+			"	",
+			"    ",
+			"\\t",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 457,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								457,
+								457
+							]
+						],
+						"settings":
+						{
+							"auto_name": "mv transportation:",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 126.0
+	},
+	"project": "CheckHealth.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ax_144_inf_0mm",
+				"BrainChoropleth/GeoJson/ax_144_inf_0mm.geojson"
+			],
+			[
+				"axa",
+				"BrainChoropleth/GeoJson/axialTopo.json"
+			],
+			[
+				"chi",
+				"SweetHomeChicago/chicago.js"
+			],
+			[
+				"us.",
+				"cs424\\Notes\\Choropleth\\us.json"
+			],
+			[
+				"step",
+				"cs424\\HW1\\step-7.html"
+			],
+			[
+				"uk",
+				"cs424\\HW1\\uk.json"
+			],
+			[
+				"dataf",
+				"cs424\\HW1\\backup\\dataFix.html"
+			],
+			[
+				"chica",
+				"cs424\\HW1\\data\\chicago_health.json"
+			],
+			[
+				"chea",
+				"cs424\\HW1\\chicago_health.json"
+			],
+			[
+				"basic",
+				"cs424\\Notes\\basic.html"
+			],
+			[
+				"chicagogeocrs84",
+				"cs424\\HW1\\data\\chicagoGEOcrs84.json"
+			],
+			[
+				"home4",
+				"cs533/HW4/HW4/homework4.cpp"
+			],
+			[
+				"homewo5",
+				"cs533/HW5/HW5/homework5.cpp"
+			],
+			[
+				"detec",
+				"ISTA516/HW5/js/Detector.js"
+			],
+			[
+				"1",
+				"ISTA516/HW5/1st.html"
+			],
+			[
+				"sort",
+				"cs227/SortTest.java"
+			],
+			[
+				"home",
+				"cs533/HW3/homework3.cpp"
+			],
+			[
+				"hw1",
+				"cs533/HW1/hw1.cxx"
+			],
+			[
+				"demo",
+				"cs533/HW1/paintdemo_mac/demo.cxx"
+			],
+			[
+				"geo",
+				"ISTA555/Docs/twitter_code/GeoTag.scala"
+			],
+			[
+				"emo",
+				"ISTA555/YouAreWhatYouEat/data/Emoji-FreqDist.txt"
+			],
+			[
+				"emoj",
+				"ISTA555/YouAreWhatYouEat/data/etc/emoji-codes.txt"
+			],
+			[
+				"project4",
+				"ISTA555/YouAreWhatYouEat/docs/Project4Notes.txt"
+			],
+			[
+				"use",
+				"ISTA555/YouAreWhatYouEat/src/useful.py"
+			],
+			[
+				"project2",
+				"ISTA555/GoodMovieOrBad/docs/project2_key.py"
+			],
+			[
+				"project4.",
+				"ISTA555/YouAreWhatYouEat/src/Project4.py"
+			],
+			[
+				"proj2",
+				"ISTA555/GoodMovieOrBad/docs/project2_key.py"
+			],
+			[
+				"project4re",
+				"ISTA555/YouAreWhatYouEat/docs/Project 4 Report.txt"
+			],
+			[
+				"proj4",
+				"ISTA555/YouAreWhatYouEat/src/Project4.py"
+			],
+			[
+				"perspouse",
+				"ISTA555/NSAInterview/docs/project3_data/per_spouse.test"
+			],
+			[
+				"movi",
+				"ISTA555/GoodMovieOrBad/src/MovieSentiment.scala"
+			],
+			[
+				"slice",
+				"osx/examples/niftiViewer/niftiViewer/Slices.mm"
+			],
+			[
+				"pro",
+				"src/Program.cpp"
+			],
+			[
+				"pr",
+				"src/Program.cpp"
+			],
+			[
+				"in",
+				"osx/Includes.hpp"
+			],
+			[
+				"be",
+				"src/Behavior.cpp"
+			],
+			[
+				"co",
+				"osx/CocoaGL.mm"
+			],
+			[
+				"ren",
+				"osx/RendererOSX.mm"
+			],
+			[
+				"ma",
+				"niftiViewer/niftiViewer/Main.mm"
+			],
+			[
+				"prog",
+				"src/Program.cpp"
+			],
+			[
+				"",
+				"osx/CocoaGL.h"
+			],
+			[
+				"progr",
+				"src/Program.cpp"
+			],
+			[
+				"mri",
+				"Utilities/.Utilities.backup/MRI.py"
+			],
+			[
+				"java",
+				"Scripts/Java/JavaBatRecursion/JavaBat_Recursion.java"
+			],
+			[
+				"ass2",
+				"CLASS/cs372/ass2.hs"
+			],
+			[
+				"javab",
+				"Scripts/Java/JavaBatRecursion/JavaBat_Recursion.java"
+			],
+			[
+				"pig",
+				"Scripts/CLOJURE/piglatin.clj"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/Class-Projects/Class.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

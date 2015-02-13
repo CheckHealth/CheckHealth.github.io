@@ -24,6 +24,7 @@ Controller.prototype.getBoundingDataFromFile= function(){
     d3.json("assets/Data/chi.json", function(error, json) {
         if (error) return console.error(error);
         var chi = topojson.feature(json, json.objects.chicago_health2);
+        console.log(chi)
         L.geoJson(chi).addTo(this.map)
     }.bind(this))
 };
@@ -40,7 +41,6 @@ Controller.prototype.getNeighborhoodHealthClinics= function() {};
 
 Controller.prototype.getWomenAndChildrenHealthClinics= function() {
     d3.json("assets/Data/WomenChildrenClean.json", function(data){
-        console.log(data, typeof(data), data.data[0]);
         dataSet = data.data;
         console.log(dataSet, dataSet.length);
         for(var i=0; i < dataSet.length; i++){
@@ -48,7 +48,6 @@ Controller.prototype.getWomenAndChildrenHealthClinics= function() {
             this.WomenChildrenClinics[i] = new WomenChildrenMarker(dataArray);
             this.WomenChildrenClinics[i].viewNewIcon();
             this.WomenChildrenClinics[i].addTo(this.map);
-            console.log("markers",this.WomenChildrenClinics[i]);
         }
     }.bind(this))
 };
