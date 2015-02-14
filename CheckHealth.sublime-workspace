@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"zips",
+				"zipCodes	statement"
+			],
+			[
 				"tre",
 				"treeNode"
 			],
@@ -132,35 +136,46 @@
 	"buffers":
 	[
 		{
-			"contents": "mv transportation: \n    Trapese dispatch system\n    Carmel -- Uber like sytsem \n\nIllinois Contractor: 1st Transit\n    \n\nIronWorker: Scheduler application\n\nCHS: Consensus text messaging smart phone app\n\n\nSustainability: when this project is over, will it be sustainable\n\nWe dont know how these patients are going to respond to this program\n\nMoney available to assit in develop of Ruby on Rails MyTapp application\n\n\n\nMake a new installation\nSetup new Twillio ",
+			"file": "assets/Data/chiZipCodesTopo.json",
 			"settings":
 			{
-				"buffer_size": 457,
-				"line_ending": "Unix",
-				"name": "mv transportation:"
+				"buffer_size": 1427339,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/Data/chiZipCodesGeo.jspn",
+			"settings":
+			{
+				"buffer_size": 3607993,
+				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 400.0,
+		"height": 305.0,
 		"selected_items":
 		[
-			[
-				"pyth",
-				"Set Syntax: Python"
-			],
 			[
 				"js",
 				"Set Syntax: JSON"
 			],
 			[
-				"fo",
+				"for",
 				"Format: Javascript"
 			],
 			[
-				"for",
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"fo",
 				"Format: Javascript"
 			],
 			[
@@ -218,10 +233,6 @@
 			[
 				"ins",
 				"Package Control: Install Package"
-			],
-			[
-				"py",
-				"Set Syntax: Python"
 			],
 			[
 				"JSO",
@@ -441,17 +452,27 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/css",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/control",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/model"
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/external",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw"
 	],
 	"file_history":
 	[
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/external/topojson-1.0/topojson.v1.min.js",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/README.md",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/ZipsRaw.txt",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/tl_2010_17_zcta510/chiZipCodesGeo.jspn",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/tl_2010_17_zcta510/buildGeoJsonZips.py",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/ZipsClean.txt",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/elidgableZips.txt",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/tl_2010_17_zcta510/foo",
+		"/Users/krbalmryde/Downloads/ne_10m_admin_0_map_subunits/ne_10m_admin_0_map_subunits.prj",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/ZipCodes.txt",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/index.html",
 		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/PhantomJsACDC.txt",
 		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/mail/contact_me.php",
@@ -569,20 +590,11 @@
 		"/Users/krbalmryde/Dropbox/XCodeProjects/aluminum/.git/MERGE_MSG",
 		"/Users/krbalmryde/Dropbox/Class-Projects/cs251/HW1/sortAlgComparisons.cpp",
 		"/Users/krbalmryde/Dropbox/Class-Projects/cs251/HW1/SortComparisonData.txt",
-		"/Users/krbalmryde/Dropbox/Class-Projects/cs251/lecture/sortAlgComparisons.cpp",
-		"/Users/krbalmryde/Dropbox/XCodeProjects/aluminum/osx/examples/rubix/rubix/RubixCube.mm",
-		"/Users/krbalmryde/Dropbox/XCodeProjects/aluminum/osx/examples/rubix/rubix/RubixCube.hpp",
-		"/Users/krbalmryde/Dropbox/Class-projects/cs533/HW5/HW5/homework5.cpp",
-		"/Users/krbalmryde/Dropbox/Class-projects/ISTA555/AnalyzeHappiness/Project1.py",
-		"/Users/krbalmryde/Downloads/rips/imgur_dRrDl/index.txt",
-		"/Users/krbalmryde/Dropbox/Class-Projects/ISTA555/AnalyzeHappiness/Project1.py",
-		"/Users/krbalmryde/Dropbox/Class-Projects/ISTA516/HW5/secretgraffiti/graffitiScene.js",
-		"/Users/krbalmryde/Dropbox/Class-Projects/cs533/HW5/HW5/homework5.cpp",
-		"/Users/krbalmryde/Dropbox/Class-Projects/cs533/HW5/HW5/Utilities.hpp"
+		"/Users/krbalmryde/Dropbox/Class-Projects/cs251/lecture/sortAlgComparisons.cpp"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -599,6 +611,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"^\\d\\d\\d\\d\\n",
+			"6527",
+			"\"ZCTA5CE10\": \"6527*",
+			"61527",
+			"\"6527",
+			"6527",
+			"\\d\\d\\d\\d\\d",
+			"60",
+			"\"\\d\\d\\d\\d\\d\"",
+			"\\d\\d\\d\\d\\d\"",
 			"assets/",
 			"2c3e50",
 			"18bc9c",
@@ -716,17 +738,7 @@
 			"initApp",
 			"_",
 			"Evaluator",
-			"TweetParser",
-			"texIDs",
-			"glUniform1i",
-			"FreqDist",
-			"]]",
-			"head[i",
-			"sceneCycle",
-			"cube",
-			"VIEW_ANGLE",
-			"HEIGHT",
-			"WIDTH"
+			"TweetParser"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -784,32 +796,60 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "assets/Data/chiZipCodesTopo.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 457,
+						"buffer_size": 1427339,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								457,
-								457
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "mv transportation:",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/Data/chiZipCodesGeo.jspn",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3607993,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3580028,
+								3580028
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2631.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1086,7 +1126,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 286.0,
 	"status_bar_visible": true,
 	"template_settings":

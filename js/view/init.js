@@ -9,8 +9,23 @@ function init() {
     context = new Controller();
 
     context.init();
-    context.getBoundingDataFromFile();
+
+////////////////////////////////////////////
+//      SVG Boundary Layer tests
+///////////////////////////////////////////
+    //context.testD3GeoJson();
+    context.testD3TopoJson();
+    //context.getBoundingDataFromFile();
+    //context.getGeoBoundingDataFromFile();
+    //context.getTopoBoundingDataFromFile();
+
+////////////////////////////////////////////
+//      Add Relevant Data
+///////////////////////////////////////////
     context.getWomenAndChildrenHealthClinics();
+
+
+
 
     //context.getChicagoData();
     //context.map.on("click", context.onMapClick.bind(context));

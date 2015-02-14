@@ -8,3 +8,4 @@ function extend(ChildClass, ParentClass) {
 }
 
 extend(WomenChildrenMarker, AbstractMarker);
+extend(CommServiceCentersMarker, AbstractMarker);
