@@ -23,6 +23,7 @@ function init() {
 //      Add Relevant Data
 ///////////////////////////////////////////
     context.getWomenAndChildrenHealthClinics();
+    context.getCommunityHealthCenters();
 
 
 

@@ -5,13 +5,13 @@
 var CommServiceCentersMarker = function(data) {
     this.site_name = data[0];
     this.hoursOfOperation = data[1];
-    this.address = data[2];
-    this.city = data[3];
-    this.state = data[4];
-    this.zipcode = data[5];
-    this.phone = data[20];  // This may need to be an Array depending on how many phone numbers it has, or if this field is null
-    this.latitude = data[27][1];
-    this.longitude = data[27][2];
+    this.address = data[3];
+    this.city = data[4];
+    this.state = data[5];
+    this.zipcode = data[6];
+    this.phone = data[2];  // This may need to be an Array depending on how many phone numbers it has, or if this field is null
+    this.latitude = data[7];
+    this.longitude = data[8];
     var latlng = L.latLng(this.latitude, this.longitude);
 
     var popupstr = "<p><b>Name:</b> " + this.site_name +
@@ -23,7 +23,7 @@ var CommServiceCentersMarker = function(data) {
         icon: "heart",
         spin:false,
         markerColor: "white",
-        iconColor: "red"
+        iconColor: "blue"
     });
 
     this.setIconNew(icon);

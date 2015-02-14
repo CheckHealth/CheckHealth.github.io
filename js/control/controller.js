@@ -11,6 +11,7 @@ function Controller() {
 
     // Set up marker Arrays
     this.WomenChildrenClinics = {};
+    this.CommunityHealthCenters = {};
 
     window.map = this.map;
 }
@@ -133,7 +134,21 @@ Controller.prototype.getTopoBoundingDataFromFile= function(){
     }.bind(this))
 };
 
-Controller.prototype.getCommunityHealthCenters= function() {};
+Controller.prototype.getCommunityHealthCenters= function() {
+    d3.json("assets/Data/CommServiceCentersClean.json", function(data){
+        console.log("working on data Community health centers...");
+        dataSet = data.data;
+        console.log(dataSet, dataSet.length);
+        console.log("data printed..");
+        for(var i = 0; i < dataSet.length; i++){
+            dataArray = dataSet[i];
+            console.log("data array", dataArray);
+            this.CommunityHealthCenters[i] = new CommServiceCentersMarker(dataArray);
+            this.CommunityHealthCenters[i].viewNewIcon();
+            this.CommunityHealthCenters[i].addTo(this.map);
+        }
+    }.bind(this));
+};
 
 Controller.prototype.getLibraries= function() {};
 
