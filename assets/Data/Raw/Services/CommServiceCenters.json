@@ -1,0 +1,421 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "bspy-6mw8",
+      "name" : "Community Service Centers",
+      "attribution" : "City of Chicago",
+      "attributionLink" : "http://www.cityofchicago.org",
+      "averageRating" : 0,
+      "category" : "Health & Human Services",
+      "createdAt" : 1293052444,
+      "description" : "Community Service Center locations, hours of operation and contact information.",
+      "displayType" : "table",
+      "downloadCount" : 406,
+      "indexUpdatedAt" : 1414517376,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 6862066,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1387474357,
+      "publicationGroup" : 220750,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1387474337,
+      "rowsUpdatedBy" : "3qqc-w7ag",
+      "tableId" : 1406197,
+      "totalTimesRated" : 0,
+      "viewCount" : 6228,
+      "viewLastModified" : 1387474357,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 123482685,
+        "name" : "SITE",
+        "dataTypeName" : "text",
+        "fieldName" : "site",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424839,
+        "width" : 118,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "Englewood Center",
+          "null" : 0,
+          "largest" : "Trina Davila Center",
+          "top" : [ {
+            "count" : 20,
+            "item" : "North Area Center"
+          }, {
+            "count" : 19,
+            "item" : "Englewood Center"
+          }, {
+            "count" : 18,
+            "item" : "Garfield Center"
+          }, {
+            "count" : 17,
+            "item" : "King Center"
+          }, {
+            "count" : 16,
+            "item" : "Trina Davila Center"
+          }, {
+            "count" : 15,
+            "item" : "South Chicago Center"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 123482686,
+        "name" : "HOURS OF OPERATION",
+        "dataTypeName" : "text",
+        "fieldName" : "hours_of_operation",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424845,
+        "width" : 242,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "M-F 9am-5pm",
+          "null" : 0,
+          "largest" : "M-F 9am-5pm",
+          "top" : [ {
+            "count" : 20,
+            "item" : "M-F 9am-5pm"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 123482687,
+        "name" : "PHONE",
+        "dataTypeName" : "text",
+        "fieldName" : "phone",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424844,
+        "width" : 130,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "312-744-2014",
+          "null" : 0,
+          "largest" : "312-747-2300",
+          "top" : [ {
+            "count" : 20,
+            "item" : "312-744-2580"
+          }, {
+            "count" : 19,
+            "item" : "312-747-0200"
+          }, {
+            "count" : 18,
+            "item" : "312-746-5400"
+          }, {
+            "count" : 17,
+            "item" : "312-747-2300"
+          }, {
+            "count" : 16,
+            "item" : "312-744-2014"
+          }, {
+            "count" : 15,
+            "item" : "312-747-0331"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 123482688,
+        "name" : "ADDRESS",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424840,
+        "width" : 154,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "10 S. Kedzie Avenue",
+          "null" : 0,
+          "largest" : "8650 S. Commercial Avenue",
+          "top" : [ {
+            "count" : 20,
+            "item" : "845 W. Wilson Avenue"
+          }, {
+            "count" : 19,
+            "item" : "1140 W. 79th Street"
+          }, {
+            "count" : 18,
+            "item" : "10 S. Kedzie Avenue"
+          }, {
+            "count" : 17,
+            "item" : "4314 S. Cottage Grove"
+          }, {
+            "count" : 16,
+            "item" : "4357 W. Armitage Avenue"
+          }, {
+            "count" : 15,
+            "item" : "8650 S. Commercial Avenue"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 123482689,
+        "name" : "CITY",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424841,
+        "width" : 67,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "Chicago",
+          "null" : 0,
+          "largest" : "Chicago",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Chicago"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 123482690,
+        "name" : "STATE",
+        "dataTypeName" : "text",
+        "fieldName" : "state",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424842,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "IL",
+          "null" : 0,
+          "largest" : "IL",
+          "top" : [ {
+            "count" : 20,
+            "item" : "IL"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 123482691,
+        "name" : "ZIP",
+        "dataTypeName" : "text",
+        "fieldName" : "zip",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424846,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "60612",
+          "null" : 0,
+          "largest" : "60653",
+          "top" : [ {
+            "count" : 20,
+            "item" : "60640"
+          }, {
+            "count" : 19,
+            "item" : "60620"
+          }, {
+            "count" : 18,
+            "item" : "60612"
+          }, {
+            "count" : 17,
+            "item" : "60653"
+          }, {
+            "count" : 16,
+            "item" : "60639"
+          }, {
+            "count" : 15,
+            "item" : "60617"
+          } ]
+        },
+        "format" : {
+          "align" : "right",
+          "precisionStyle" : "standard"
+        }
+      }, {
+        "id" : 123482692,
+        "name" : "LOCATION",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 8,
+        "renderTypeName" : "location",
+        "tableColumnId" : 4112727,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : {
+            "human_address" : "{\"address\":\"10 S. Kedzie Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60612\"}"
+          },
+          "null" : 0,
+          "largest" : {
+            "human_address" : "{\"address\":\"8650 S. Commercial Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60617\"}"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "human_address" : "{\"address\":\"845 W. Wilson Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60640\"}"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "human_address" : "{\"address\":\"1140 W. 79th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60620\"}"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "human_address" : "{\"address\":\"10 S. Kedzie Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60612\"}"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "human_address" : "{\"address\":\"4314 S. Cottage Grove\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60653\"}"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "human_address" : "{\"address\":\"4357 W. Armitage Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60639\"}"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "human_address" : "{\"address\":\"8650 S. Commercial Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60617\"}"
+            }
+          } ]
+        },
+        "format" : {
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Metadata" : {
+            "Data Owner" : "Family & Support Services",
+            "Time Period" : "Current as of 2011",
+            "Frequency" : "Data is updated as needed"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/4783/7574/CitySeal_Small_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/4783/7574/CitySeal_Small_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/4783/7574/CitySeal_Small_tiny.jpg",
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/4783/7574/CitySeal_Small_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/4783/7574/CitySeal_Small_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/4783/7574/CitySeal_Small_tiny.jpg",
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "facilities" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "4EE10A6F-EB24-413D-9379-9C032C144540", 1, 1387474333, "700397", 1387474333, "700397", "{\n}", "North Area Center", "M-F 9am-5pm", "312-744-2580", "845 W. Wilson Avenue", "Chicago", "IL", "60640", [ "{\"address\":\"845 W. Wilson Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60640\"}", null, null, null, true ] ]
+, [ 2, "52CD615B-1B0D-4724-949A-367D2A3542E6", 2, 1387474333, "700397", 1387474333, "700397", "{\n}", "Englewood Center", "M-F 9am-5pm", "312-747-0200", "1140 W. 79th Street", "Chicago", "IL", "60620", [ "{\"address\":\"1140 W. 79th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60620\"}", null, null, null, true ] ]
+, [ 3, "1EA952BF-31C3-4A1D-ADDF-716E69BB606B", 3, 1387474333, "700397", 1387474333, "700397", "{\n}", "Garfield Center", "M-F 9am-5pm", "312-746-5400", "10 S. Kedzie Avenue", "Chicago", "IL", "60612", [ "{\"address\":\"10 S. Kedzie Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60612\"}", null, null, null, true ] ]
+, [ 4, "F87B7473-9FBC-4BF5-8FB0-ED4E437F33F7", 4, 1387474333, "700397", 1387474333, "700397", "{\n}", "King Center", "M-F 9am-5pm", "312-747-2300", "4314 S. Cottage Grove", "Chicago", "IL", "60653", [ "{\"address\":\"4314 S. Cottage Grove\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60653\"}", null, null, null, true ] ]
+, [ 5, "2A212A09-3119-4171-8A1E-88998608AACF", 5, 1387474333, "700397", 1387474333, "700397", "{\n}", "Trina Davila Center", "M-F 9am-5pm", "312-744-2014", "4357 W. Armitage Avenue", "Chicago", "IL", "60639", [ "{\"address\":\"4357 W. Armitage Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60639\"}", null, null, null, true ] ]
+, [ 6, "A49D35AC-783F-4B3A-A72D-F55DE689556C", 6, 1387474333, "700397", 1387474333, "700397", "{\n}", "South Chicago Center", "M-F 9am-5pm", "312-747-0331", "8650 S. Commercial Avenue", "Chicago", "IL", "60617", [ "{\"address\":\"8650 S. Commercial Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60617\"}", null, null, null, true ] ]
+ ]
+}

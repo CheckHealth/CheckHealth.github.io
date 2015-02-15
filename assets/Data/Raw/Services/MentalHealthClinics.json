@@ -1,0 +1,430 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "v56e-cy8y",
+      "name" : "Mental Health Clinics",
+      "attribution" : "City of Chicago",
+      "attributionLink" : "http://www.cityofchicago.org",
+      "averageRating" : 0,
+      "category" : "Health & Human Services",
+      "createdAt" : 1294153036,
+      "description" : "City of Chicago Mental Health Clinic locations, hours of operation and contact information.",
+      "downloadCount" : 744,
+      "indexUpdatedAt" : 1414517352,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 680725,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1337040672,
+      "publicationGroup" : 220868,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1337040597,
+      "rowsUpdatedBy" : "scy9-9wg4",
+      "tableId" : 340837,
+      "totalTimesRated" : 0,
+      "viewCount" : 15275,
+      "viewLastModified" : 1337040672,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 9375327,
+        "name" : "Site Name",
+        "dataTypeName" : "text",
+        "fieldName" : "site_name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1427641,
+        "width" : 178,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "Englewood MHC",
+          "null" : 0,
+          "largest" : "Roseland MHC",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Englewood MHC"
+          }, {
+            "count" : 19,
+            "item" : "Greater Grand/MID-South MHC "
+          }, {
+            "count" : 18,
+            "item" : "Greater Lawn MHC"
+          }, {
+            "count" : 17,
+            "item" : "Lawndale MHC  "
+          }, {
+            "count" : 16,
+            "item" : "North River MHC"
+          }, {
+            "count" : 15,
+            "item" : "Roseland MHC"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9375328,
+        "name" : "Hours of Operation",
+        "dataTypeName" : "text",
+        "fieldName" : "hours_of_operation",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1427642,
+        "width" : 168,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "Mon - Fri: 8:30 am – 4:30 pm",
+          "null" : 0,
+          "largest" : "Mon - Fri: 8:30 am – 4:30 pm",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Mon - Fri: 8:30 am – 4:30 pm"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9375329,
+        "name" : "Street Address",
+        "dataTypeName" : "text",
+        "fieldName" : "street_address",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1427643,
+        "width" : 139,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "1201 S. Campbell St",
+          "null" : 0,
+          "largest" : "641 W. 63rd St",
+          "top" : [ {
+            "count" : 20,
+            "item" : "641 W. 63rd St"
+          }, {
+            "count" : 19,
+            "item" : "4314 S. Cottage Grove"
+          }, {
+            "count" : 18,
+            "item" : "4150 W. 55th Street"
+          }, {
+            "count" : 17,
+            "item" : "1201 S. Campbell St"
+          }, {
+            "count" : 16,
+            "item" : "5801 N. Pulaski Road"
+          }, {
+            "count" : 15,
+            "item" : "200 E. 115th Street "
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9375330,
+        "name" : "City",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1427644,
+        "width" : 69,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "Chicago",
+          "null" : 0,
+          "largest" : "Chicago",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Chicago"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9375331,
+        "name" : "State",
+        "dataTypeName" : "text",
+        "fieldName" : "state",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1427645,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "IL",
+          "null" : 0,
+          "largest" : "IL",
+          "top" : [ {
+            "count" : 20,
+            "item" : "IL"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9375332,
+        "name" : "Zipcode",
+        "dataTypeName" : "text",
+        "fieldName" : "zipcode",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1427648,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "60608",
+          "null" : 0,
+          "largest" : "60653",
+          "top" : [ {
+            "count" : 20,
+            "item" : "60621"
+          }, {
+            "count" : 19,
+            "item" : "60653"
+          }, {
+            "count" : 18,
+            "item" : "60632"
+          }, {
+            "count" : 17,
+            "item" : "60608"
+          }, {
+            "count" : 16,
+            "item" : "60646"
+          }, {
+            "count" : 15,
+            "item" : "60628"
+          } ]
+        },
+        "format" : {
+          "align" : "right",
+          "precisionStyle" : "standard"
+        }
+      }, {
+        "id" : 9375333,
+        "name" : "Phone",
+        "dataTypeName" : "text",
+        "fieldName" : "phone",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1427647,
+        "width" : 106,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "(312) 744-1906",
+          "null" : 0,
+          "largest" : "(312) 747-7496",
+          "top" : [ {
+            "count" : 20,
+            "item" : "(312) 747-7496"
+          }, {
+            "count" : 19,
+            "item" : "(312) 747-0036"
+          }, {
+            "count" : 18,
+            "item" : "(312) 747-1020"
+          }, {
+            "count" : 17,
+            "item" : "(312) 746-5905"
+          }, {
+            "count" : 16,
+            "item" : "(312) 744-1906"
+          }, {
+            "count" : 15,
+            "item" : "(312) 747-7320"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9375334,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 9,
+        "renderTypeName" : "location",
+        "tableColumnId" : 1427649,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : {
+            "longitude" : -87.68849234323406,
+            "latitude" : 41.865346111260145,
+            "human_address" : "{\"address\":\"1201 Campbell St\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60608\"}"
+          },
+          "null" : 0,
+          "largest" : {
+            "longitude" : -87.64157740963851,
+            "latitude" : 41.779780316087795,
+            "human_address" : "{\"address\":\"641 63rd St\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60621\"}"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "longitude" : -87.64157740963851,
+              "latitude" : 41.779780316087795,
+              "human_address" : "{\"address\":\"641 63rd St\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60621\"}"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : -87.60677199999999,
+              "latitude" : 41.82046891505544,
+              "human_address" : "{\"address\":\"4314 Cottage Grove\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60653\"}"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "longitude" : -87.72719722165824,
+              "latitude" : 41.79322143469052,
+              "human_address" : "{\"address\":\"4150 55th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60632\"}"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "longitude" : -87.68849234323406,
+              "latitude" : 41.865346111260145,
+              "human_address" : "{\"address\":\"1201 Campbell St\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60608\"}"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "longitude" : -87.72849630405965,
+              "latitude" : 41.98634938091262,
+              "human_address" : "{\"address\":\"5801 Pulaski Road\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60646\"}"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "longitude" : -87.61804579760663,
+              "latitude" : 41.68540464454324,
+              "human_address" : "{\"address\":\"200 115th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60628\"}"
+            }
+          } ]
+        },
+        "format" : {
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Metadata" : {
+            "Time Period" : "",
+            "Data Owner" : "Public Health",
+            "Frequency" : ""
+          }
+        },
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/4783/7574/CitySeal_Small_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/4783/7574/CitySeal_Small_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/4783/7574/CitySeal_Small_tiny.jpg",
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/4783/7574/CitySeal_Small_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/4783/7574/CitySeal_Small_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/4783/7574/CitySeal_Small_tiny.jpg",
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "facilities", "gis" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "4DC30A41-F974-46EF-85EC-049C6E7DB0C2", 1, 1337040595, "386464", 1337040595, "386464", "{\n}", "Englewood MHC", "Mon - Fri: 8:30 am – 4:30 pm", "641 W. 63rd St", "Chicago", "IL", "60621", "(312) 747-7496", [ "{\"address\":\"641 63rd St\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60621\"}", "41.779780316087795", "-87.64157740963851", null, false ] ]
+, [ 2, "F3BFB6FD-F4AE-48B9-9B0F-27FB15D56E65", 2, 1337040595, "386464", 1337040595, "386464", "{\n}", "Greater Grand/MID-South MHC ", "Mon - Fri: 8:30 am – 4:30 pm", "4314 S. Cottage Grove", "Chicago", "IL", "60653", "(312) 747-0036", [ "{\"address\":\"4314 Cottage Grove\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60653\"}", "41.82046891505544", "-87.60677199999999", null, false ] ]
+, [ 3, "B389294B-0B06-43D4-875A-F39C80764360", 3, 1337040595, "386464", 1337040595, "386464", "{\n}", "Greater Lawn MHC", "Mon - Fri: 8:30 am – 4:30 pm", "4150 W. 55th Street", "Chicago", "IL", "60632", "(312) 747-1020", [ "{\"address\":\"4150 55th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60632\"}", "41.79322143469052", "-87.72719722165824", null, false ] ]
+, [ 4, "4F414081-09A8-4AF8-B211-E0B16F8E775F", 4, 1337040595, "386464", 1337040595, "386464", "{\n}", "Lawndale MHC  ", "Mon - Fri: 8:30 am – 4:30 pm", "1201 S. Campbell St", "Chicago", "IL", "60608", "(312) 746-5905", [ "{\"address\":\"1201 Campbell St\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60608\"}", "41.865346111260145", "-87.68849234323406", null, false ] ]
+, [ 5, "CC247E1D-0204-485A-A41C-51B274B76696", 5, 1337040595, "386464", 1337040595, "386464", "{\n}", "North River MHC", "Mon - Fri: 8:30 am – 4:30 pm", "5801 N. Pulaski Road", "Chicago", "IL", "60646", "(312) 744-1906", [ "{\"address\":\"5801 Pulaski Road\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60646\"}", "41.98634938091262", "-87.72849630405965", null, false ] ]
+, [ 6, "7B2DEE2C-6E0B-4F8D-B024-6D4111B1F9A8", 6, 1337040595, "386464", 1337040595, "386464", "{\n}", "Roseland MHC", "Mon - Fri: 8:30 am – 4:30 pm", "200 E. 115th Street ", "Chicago", "IL", "60628", "(312) 747-7320", [ "{\"address\":\"200 115th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60628\"}", "41.68540464454324", "-87.61804579760663", null, false ] ]
+ ]
+}
