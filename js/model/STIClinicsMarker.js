@@ -25,7 +25,7 @@ var STIClinicsMarker = function(data){
 
 
     var icon = L.AwesomeMarkers.icon({
-        icon: "heart",
+        icon: "medkit",
         spin:false,
         markerColor: "white",
         iconColor: "green"

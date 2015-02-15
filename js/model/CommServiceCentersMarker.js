@@ -20,7 +20,7 @@ var CommServiceCentersMarker = function(data) {
                    "</br><b>Hours:</b> " + this.hoursOfOperation;
 
     var icon = L.AwesomeMarkers.icon({
-        icon: "heart",
+        icon: "check-square",
         spin:false,
         markerColor: "white",
         iconColor: "blue"

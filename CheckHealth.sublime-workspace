@@ -136,18 +136,10 @@
 	"buffers":
 	[
 		{
-			"file": "assets/Data/chiZipCodesTopo.json",
+			"file": "assets/Data/Clean/Enrollment/patient_zip_counts.json",
 			"settings":
 			{
-				"buffer_size": 1427339,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/Data/chiZipCodesGeo.jspn",
-			"settings":
-			{
-				"buffer_size": 3607993,
+				"buffer_size": 1689,
 				"line_ending": "Unix"
 			}
 		}
@@ -155,9 +147,25 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 305.0,
+		"height": 400.0,
 		"selected_items":
 		[
+			[
+				"fo",
+				"Format: Javascript"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"f",
+				"Format: Javascript"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
 			[
 				"js",
 				"Set Syntax: JSON"
@@ -167,16 +175,8 @@
 				"Format: Javascript"
 			],
 			[
-				"py",
-				"Set Syntax: Python"
-			],
-			[
 				"pyth",
 				"Set Syntax: Python"
-			],
-			[
-				"fo",
-				"Format: Javascript"
 			],
 			[
 				"insta",
@@ -208,10 +208,6 @@
 			],
 			[
 				"F",
-				"Format Code"
-			],
-			[
-				"f",
 				"Format Code"
 			],
 			[
@@ -455,14 +451,32 @@
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Clean",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Clean/Enrollment",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Clean/Location",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/Location",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/Location/tl_2012_us_zcta510",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/external",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw"
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/model"
 	],
 	"file_history":
 	[
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Clean/Location/chicago_ZC_topo.json",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils/ZipBoundaryGenerator.sh",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils/ZipCountsBuilder.py",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/chicago_ZC_topo.json",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/PatientZipsRaw.txt",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/chicagoZC_topo.json",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/PatientZips.txt",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/chicago_ZC_Geo.json",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/chi.json",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/model/CommServiceCentersMarker.js",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/model/markers.js",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/chiZipCodesTopo.json",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/chiZipCodesGeo.jspn",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/CommServiceCentersClean.json",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/external/topojson-1.0/topojson.v1.min.js",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/README.md",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/ZipsRaw.txt",
@@ -576,21 +590,7 @@
 		"/C/Users/Kyle/Dropbox/Class-Projects/cs227/Boggle/Boggle.java",
 		"/C/Users/Kyle/Dropbox/Class-Projects/cs335/.metadata/.plugins/com.python.pydev.analysis/python_v1_bm109oo8jsa5gnqmc06ekl12p/v1_indexcache/altgraph.__init___24ao.v1_indexcache",
 		"/C/Users/Kyle/Dropbox/Class-Projects/ISTA555/YouAreWhatYouEat/docs/healthyFoods.txt",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs335/AlphaSuperAwesomeCoolDynamiteWolfSquadron/Characters/HeadlessKnight.java",
-		"/C/Users/Kyle/Dropbox/Class-Projects/ISTA555/YouAreWhatYouEat/data/etc/HappyEmoji.txt",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs533/HW2/homework3",
-		"/C/Users/Kyle/Documents/WindowsPowerShell/Microsoft.PowerShellISE_profile.ps1",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/Notes/Heatmap/index.html",
-		"/C/Users/KrbAlmryde/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1",
-		"/Users/krbalmryde/Dropbox/Class-Projects/cs488/TA/InstallingAluminum.md",
-		"/Users/krbalmryde/Dropbox/Class-Projects/cs424/Notes/Class_List.txt",
-		"/Users/krbalmryde/Dropbox/Class-Projects/cs488/HW1/Assignment1_Results.txt",
-		"/Users/krbalmryde/Dropbox/Class-Projects/cs488/HW1/late/walter_dworak_assignment1.txt",
-		"/Users/krbalmryde/Dropbox/Class-Projects/Class.sublime-project",
-		"/Users/krbalmryde/Dropbox/XCodeProjects/aluminum/.git/MERGE_MSG",
-		"/Users/krbalmryde/Dropbox/Class-Projects/cs251/HW1/sortAlgComparisons.cpp",
-		"/Users/krbalmryde/Dropbox/Class-Projects/cs251/HW1/SortComparisonData.txt",
-		"/Users/krbalmryde/Dropbox/Class-Projects/cs251/lecture/sortAlgComparisons.cpp"
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs335/AlphaSuperAwesomeCoolDynamiteWolfSquadron/Characters/HeadlessKnight.java"
 	],
 	"find":
 	{
@@ -611,6 +611,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"zipcode",
+			"\"\\d\\d\\d\\d\\d\"",
+			"$^",
+			"lat",
+			"WomenChildren",
+			",",
 			"^\\d\\d\\d\\d\\n",
 			"6527",
 			"\"ZCTA5CE10\": \"6527*",
@@ -732,13 +738,7 @@
 			"}",
 			"json",
 			",\"",
-			",'",
-			",\"",
-			"startup",
-			"initApp",
-			"_",
-			"Evaluator",
-			"TweetParser"
+			",'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -796,16 +796,16 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "assets/Data/chiZipCodesTopo.json",
-					"semi_transient": false,
+					"file": "assets/Data/Clean/Enrollment/patient_zip_counts.json",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1427339,
+						"buffer_size": 1689,
 						"regions":
 						{
 						},
@@ -818,38 +818,12 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "assets/Data/chiZipCodesGeo.jspn",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3607993,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3580028,
-								3580028
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2631.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1106,7 +1080,7 @@
 		[
 			[
 				"",
-				"~/Dropbox/Class-Projects/Class.sublime-project"
+				"~/Dropbox/Code-Projects/KrbAlmryde.github.io/KrbAlmryde.sublime-project"
 			]
 		],
 		"width": 380.0

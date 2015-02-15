@@ -12,8 +12,8 @@ svg {
 }
 
 path {
-    fill: #000;
-    fill-opacity: .2;
+    /*fill: #000;*/
+    fill-opacity: .75;
     stroke: #fff;
     stroke-width: 1.5px;
 }

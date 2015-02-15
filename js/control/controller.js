@@ -24,17 +24,31 @@ Controller.prototype.init = function() {
 
 Controller.prototype.testD3TopoJson= function(){
     var svg = d3.select(this.map.map.getPanes().overlayPane).append("svg"),
-        g = svg.append("g").attr("class", "leaflet-zoom-hide");
+        g = svg.append("g").attr("class", "leaflet-zoom-hide").attr("class", "zipcodes");
 
-    d3.json("assets/Data/chiZipCodesTopo.json", function(error, json) {
+    d3.json("assets/Data/Clean/Location/chicago_ZC_Counts_topo.json", function(error, json) {
         if (error) return console.error(error);
         var transform = d3.geo.transform({point: projectPoint}),
             path = d3.geo.path().projection(transform);
 
-        var chi = topojson.feature(json, json.objects.zipCodes);
+        var color = d3.scale.linear().domain([1, 6000]).range(['blue','red']);
+        var chi = topojson.feature(json, json.objects.chicago_ZC_Geo);
+
         var feature = g.selectAll("path")
             .data(chi.features)
-            .enter().append("path");
+            .enter().append("path")
+            .style("fill", function(d) {
+                console.log(d.properties);
+                return color(d.properties.density);
+            });
+
+        //svg.append("g")
+        //    .attr("class", "counties")
+        //    .selectAll("path")
+        //    .data(counties)
+        //    .enter().append("path")
+        //    .style("fill", function(d) { return color(d.properties.density); })
+        //    .attr("d", path);
 
         self.map.map.on("viewreset", reset);
         reset();
@@ -65,11 +79,14 @@ Controller.prototype.testD3TopoJson= function(){
 
 };
 
+
+
+
 Controller.prototype.testD3GeoJson= function(){
     var svg = d3.select(this.map.map.getPanes().overlayPane).append("svg"),
         g = svg.append("g").attr("class", "leaflet-zoom-hide");
 
-    d3.json("assets/Data/chiZipCodesGeo.json", function(collection) {
+    d3.json("assets/Data/Clean/chicago_ZC_Geo.json", function(collection) {
         var transform = d3.geo.transform({point: projectPoint}),
             path = d3.geo.path().projection(transform);
 
@@ -105,9 +122,8 @@ Controller.prototype.testD3GeoJson= function(){
 
 };
 
-
 Controller.prototype.getBoundingDataFromFile= function(){
-    d3.json("assets/Data/chi.json", function(error, json) {
+    d3.json("assets/Data/Clean/chi.json", function(error, json) {
         if (error) return console.error(error);
         var chi = topojson.feature(json, json.objects.chicago_health2);
         console.log(chi);
@@ -116,7 +132,7 @@ Controller.prototype.getBoundingDataFromFile= function(){
 };
 
 Controller.prototype.getGeoBoundingDataFromFile= function(){
-    d3.json("assets/Data/chiZipCodesGeo.json", function(error, json) {
+    d3.json("assets/Data/Clean/Location/chicago_ZC_Geo.json", function(error, json) {
         if (error) return console.error(error);
         var chi = json.features;
         console.log(chi);
@@ -125,7 +141,7 @@ Controller.prototype.getGeoBoundingDataFromFile= function(){
 };
 
 Controller.prototype.getTopoBoundingDataFromFile= function(){
-    d3.json("assets/Data/chiZipCodesTopo.json", function(error, json) {
+    d3.json("assets/Data/Clean/Location/chicago_ZC_Topo.json", function(error, json) {
         if (error) return console.error(error);
         window.chi = json;
         //var chi = json.features;
@@ -136,7 +152,7 @@ Controller.prototype.getTopoBoundingDataFromFile= function(){
 };
 
 Controller.prototype.getCommunityHealthCenters= function() {
-    d3.json("assets/Data/CommServiceCentersClean.json", function(data){
+    d3.json("assets/Data/Clean/Services/CommServiceCentersClean.json", function(data){
         console.log("working on data Community health centers...");
         dataSet = data.data;
         console.log(dataSet, dataSet.length);
@@ -159,7 +175,7 @@ Controller.prototype.getChiPCCommunityHealthCenters= function() {};
 Controller.prototype.getNeighborhoodHealthClinics= function() {};
 
 Controller.prototype.getWomenAndChildrenHealthClinics= function() {
-    d3.json("assets/Data/WomenChildrenClean.json", function(data){
+    d3.json("assets/Data/Clean/Services/WomenChildrenClean.json", function(data){
         dataSet = data.data;
         console.log(dataSet, dataSet.length);
         for(var i=0; i < dataSet.length; i++){
@@ -172,7 +188,7 @@ Controller.prototype.getWomenAndChildrenHealthClinics= function() {
 };
 
 Controller.prototype.getSTIHealthClinics= function() {
-    d3.json("assets/Data/STIClinicsClean.json", function (data) {
+    d3.json("assets/Data/Clean/Services/STIClinicsClean.json", function (data) {
         dataSet = data.data;
         console.log("STIHealClinics", dataSet);
         for(var i = 0; i < dataSet.length; i++){
