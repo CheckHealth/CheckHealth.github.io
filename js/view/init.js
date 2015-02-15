@@ -24,6 +24,7 @@ function init() {
 ///////////////////////////////////////////
     context.getWomenAndChildrenHealthClinics();
     context.getCommunityHealthCenters();
+    context.getSTIHealthClinics();
 
 
 

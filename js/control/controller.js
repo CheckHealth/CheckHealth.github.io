@@ -12,6 +12,7 @@ function Controller() {
     // Set up marker Arrays
     this.WomenChildrenClinics = {};
     this.CommunityHealthCenters = {};
+    this.STIClinics = {};
 
     window.map = this.map;
 }
@@ -142,7 +143,6 @@ Controller.prototype.getCommunityHealthCenters= function() {
         console.log("data printed..");
         for(var i = 0; i < dataSet.length; i++){
             dataArray = dataSet[i];
-            console.log("data array", dataArray);
             this.CommunityHealthCenters[i] = new CommServiceCentersMarker(dataArray);
             this.CommunityHealthCenters[i].viewNewIcon();
             this.CommunityHealthCenters[i].addTo(this.map);
@@ -171,4 +171,15 @@ Controller.prototype.getWomenAndChildrenHealthClinics= function() {
     }.bind(this))
 };
 
-Controller.prototype.getSTIHealthClinics= function() {};
+Controller.prototype.getSTIHealthClinics= function() {
+    d3.json("assets/Data/STIClinicsClean.json", function (data) {
+        dataSet = data.data;
+        console.log("STIHealClinics", dataSet);
+        for(var i = 0; i < dataSet.length; i++){
+            dataArray = dataSet[i];
+            this.STIClinics[i] = new STIClinicsMarker(dataArray);
+            this.STIClinics[i].viewNewIcon();
+            this.STIClinics[i].addTo(this.map);
+        }
+    }.bind(this));
+};
