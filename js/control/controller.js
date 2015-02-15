@@ -24,33 +24,31 @@ Controller.prototype.init = function() {
 
 Controller.prototype.testD3TopoJson= function(){
     var svg = d3.select(this.map.map.getPanes().overlayPane).append("svg"),
-        g = svg.append("g").attr("class", "leaflet-zoom-hide");
-
-
-    //function getColor(d) {
-    //    return d > 1000 ? '#800026' :
-    //        d > 500  ? '#BD0026' :
-    //        d > 200  ? '#E31A1C' :
-    //        d > 100  ? '#FC4E2A' :
-    //        d > 50   ? '#FD8D3C' :
-    //        d > 20   ? '#FEB24C' :
-    //        d > 10   ? '#FED976' :
-    //                    '#FFEDA0';
-    //}
+        g = svg.append("g").attr("class", "leaflet-zoom-hide").attr("class", "zipcodes");
 
     d3.json("assets/Data/Clean/Location/chicago_ZC_Counts_topo.json", function(error, json) {
         if (error) return console.error(error);
         var transform = d3.geo.transform({point: projectPoint}),
             path = d3.geo.path().projection(transform);
 
-        var color = d3.scale.linear().domain([1, 6,000]).range(['red','blue']);
+        var color = d3.scale.linear().domain([1, 6000]).range(['blue','red']);
         var chi = topojson.feature(json, json.objects.chicago_ZC_Geo);
-        window.chi = chi;
-        window.json = json;
 
         var feature = g.selectAll("path")
             .data(chi.features)
-            .enter().append("path");
+            .enter().append("path")
+            .style("fill", function(d) {
+                console.log(d.properties);
+                return color(d.properties.density);
+            });
+
+        //svg.append("g")
+        //    .attr("class", "counties")
+        //    .selectAll("path")
+        //    .data(counties)
+        //    .enter().append("path")
+        //    .style("fill", function(d) { return color(d.properties.density); })
+        //    .attr("d", path);
 
         self.map.map.on("viewreset", reset);
         reset();
