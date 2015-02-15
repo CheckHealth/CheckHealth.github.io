@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3ae7b8b-6c59-45eb-b743-890e7c1443a6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CheckHealth.sublime-workspace" afterPath="$PROJECT_DIR$/CheckHealth.sublime-workspace" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/control/controller.js" afterPath="$PROJECT_DIR$/js/control/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MapView.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,26 +28,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/control/controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="2190">
-              <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.32467532" vertical-offset="435" max-vertical-offset="2220">
+              <caret line="39" column="122" selection-start-line="39" selection-start-column="122" selection-end-line="39" selection-end-column="122" />
               <folding>
-                <element signature="e#2577#3921#0" expanded="false" />
-                <element signature="e#3980#4252#0" expanded="false" />
-                <element signature="e#4314#4567#0" expanded="false" />
-                <element signature="e#4630#4978#0" expanded="false" />
+                <element signature="e#2851#4195#0" expanded="false" />
+                <element signature="e#4254#4526#0" expanded="false" />
+                <element signature="e#4588#4841#0" expanded="false" />
+                <element signature="e#4904#5252#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chicago_ZC_Counts_topo.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/Data/Clean/Location/chicago_ZC_Counts_topo.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+              <caret line="0" column="160" selection-start-line="0" selection-start-column="153" selection-end-line="0" selection-end-column="160" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48701298" vertical-offset="0" max-vertical-offset="462">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -82,8 +93,8 @@
         <option value="$PROJECT_DIR$/js/view/init.js" />
         <option value="$PROJECT_DIR$/js/model/STIClinicsMarker.js" />
         <option value="$PROJECT_DIR$/js/model/CommServiceCentersMarker.js" />
-        <option value="$PROJECT_DIR$/js/control/controller.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/control/controller.js" />
       </list>
     </option>
   </component>
@@ -420,10 +431,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -468,10 +479,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="2220">
           <caret line="45" column="79" selection-start-line="45" selection-start-column="79" selection-end-line="45" selection-end-column="79" />
           <folding>
-            <element signature="e#2577#3921#0" expanded="false" />
-            <element signature="e#3980#4252#0" expanded="false" />
-            <element signature="e#4314#4567#0" expanded="false" />
-            <element signature="e#4630#4978#0" expanded="false" />
+            <element signature="e#2851#4195#0" expanded="false" />
+            <element signature="e#4254#4526#0" expanded="false" />
+            <element signature="e#4588#4841#0" expanded="false" />
+            <element signature="e#4904#5252#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -497,10 +508,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1815">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2577#3921#0" expanded="false" />
-            <element signature="e#3980#4252#0" expanded="false" />
-            <element signature="e#4314#4567#0" expanded="false" />
-            <element signature="e#4630#4978#0" expanded="false" />
+            <element signature="e#2851#4195#0" expanded="false" />
+            <element signature="e#4254#4526#0" expanded="false" />
+            <element signature="e#4588#4841#0" expanded="false" />
+            <element signature="e#4904#5252#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -526,10 +537,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="469" max-vertical-offset="900">
           <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
           <folding>
-            <element signature="e#2577#3921#0" expanded="false" />
-            <element signature="e#3980#4252#0" expanded="false" />
-            <element signature="e#4314#4567#0" expanded="false" />
-            <element signature="e#4630#4978#0" expanded="false" />
+            <element signature="e#2851#4195#0" expanded="false" />
+            <element signature="e#4254#4526#0" expanded="false" />
+            <element signature="e#4588#4841#0" expanded="false" />
+            <element signature="e#4904#5252#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -563,10 +574,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="469" max-vertical-offset="900">
           <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
           <folding>
-            <element signature="e#2577#3921#0" expanded="false" />
-            <element signature="e#3980#4252#0" expanded="false" />
-            <element signature="e#4314#4567#0" expanded="false" />
-            <element signature="e#4630#4978#0" expanded="false" />
+            <element signature="e#2851#4195#0" expanded="false" />
+            <element signature="e#4254#4526#0" expanded="false" />
+            <element signature="e#4588#4841#0" expanded="false" />
+            <element signature="e#4904#5252#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -600,10 +611,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="795">
           <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
           <folding>
-            <element signature="e#2577#3921#0" expanded="false" />
-            <element signature="e#3980#4252#0" expanded="false" />
-            <element signature="e#4314#4567#0" expanded="false" />
-            <element signature="e#4630#4978#0" expanded="false" />
+            <element signature="e#2851#4195#0" expanded="false" />
+            <element signature="e#4254#4526#0" expanded="false" />
+            <element signature="e#4588#4841#0" expanded="false" />
+            <element signature="e#4904#5252#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -643,10 +654,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="795">
           <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
           <folding>
-            <element signature="e#2577#3921#0" expanded="false" />
-            <element signature="e#3980#4252#0" expanded="false" />
-            <element signature="e#4314#4567#0" expanded="false" />
-            <element signature="e#4630#4978#0" expanded="false" />
+            <element signature="e#2851#4195#0" expanded="false" />
+            <element signature="e#4254#4526#0" expanded="false" />
+            <element signature="e#4588#4841#0" expanded="false" />
+            <element signature="e#4904#5252#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -771,6 +782,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="15176" max-vertical-offset="72015">
           <caret line="1022" column="0" selection-start-line="1022" selection-start-column="0" selection-end-line="1022" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -808,24 +820,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/control/controller.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="2190">
-          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
-          <folding>
-            <element signature="e#2577#3921#0" expanded="false" />
-            <element signature="e#3980#4252#0" expanded="false" />
-            <element signature="e#4314#4567#0" expanded="false" />
-            <element signature="e#4630#4978#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/assets/Data/Clean/Location/chicago_ZC_Counts_topo.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48701298" vertical-offset="0" max-vertical-offset="462">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+          <caret line="0" column="160" selection-start-line="0" selection-start-column="153" selection-end-line="0" selection-end-column="160" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/control/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32467532" vertical-offset="435" max-vertical-offset="2220">
+          <caret line="39" column="122" selection-start-line="39" selection-start-column="122" selection-end-line="39" selection-end-column="122" />
+          <folding>
+            <element signature="e#2851#4195#0" expanded="false" />
+            <element signature="e#4254#4526#0" expanded="false" />
+            <element signature="e#4588#4841#0" expanded="false" />
+            <element signature="e#4904#5252#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

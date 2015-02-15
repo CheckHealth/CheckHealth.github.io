@@ -135,14 +135,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "assets/Data/Clean/Enrollment/patient_zip_counts.json",
-			"settings":
-			{
-				"buffer_size": 1689,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -448,24 +440,22 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Clean",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Clean/Enrollment",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Clean/Location",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/Location",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/Location/tl_2012_us_zcta510",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/model"
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/control",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/view"
 	],
 	"file_history":
 	[
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/CheckHealth.sublime-project",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/control/controller.js",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/view/init.js",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/STIClinicsClean.json",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/.idea/workspace.xml",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils/ZipCountsBuilder.py",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Clean/Location/chicago_ZC_Counts_topo.json",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Clean/Location/chicago_ZC_topo.json",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils/ZipBoundaryGenerator.sh",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils/ZipCountsBuilder.py",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/chicago_ZC_topo.json",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/PatientZipsRaw.txt",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/chicagoZC_topo.json",
@@ -584,13 +574,7 @@
 		"/C/Users/Kyle/Dropbox/Class-Projects/cs251/Lab2/diagram.txt",
 		"/C/Users/Kyle/Dropbox/Class-Projects/cs335/.metadata/.plugins/com.python.pydev.analysis/python_v1_bm109oo8jsa5gnqmc06ekl12p/v1_indexcache/Carbon.Help_buje.v1_indexcache",
 		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/backup_chiGEOcr84.html",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/data/chicagoGEOcrs84.json",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/chicago_health.json",
-		"/C/Users/Kyle/Dropbox/Class-Projects/ISTA130/ISTA130v1.0/BankAccount.py",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs227/Boggle/Boggle.java",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs335/.metadata/.plugins/com.python.pydev.analysis/python_v1_bm109oo8jsa5gnqmc06ekl12p/v1_indexcache/altgraph.__init___24ao.v1_indexcache",
-		"/C/Users/Kyle/Dropbox/Class-Projects/ISTA555/YouAreWhatYouEat/docs/healthyFoods.txt",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs335/AlphaSuperAwesomeCoolDynamiteWolfSquadron/Characters/HeadlessKnight.java"
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/data/chicagoGEOcrs84.json"
 	],
 	"find":
 	{
@@ -611,6 +595,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Enrollment",
+			"_ENROLL",
+			"ENROLL",
 			"zipcode",
 			"\"\\d\\d\\d\\d\\d\"",
 			"$^",
@@ -735,10 +722,7 @@
 			"WEST ELSDON",
 			"West Elsdon",
 			"WEST ELSDON",
-			"}",
-			"json",
-			",\"",
-			",'"
+			"}"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -796,39 +780,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "assets/Data/Clean/Enrollment/patient_zip_counts.json",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1689,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

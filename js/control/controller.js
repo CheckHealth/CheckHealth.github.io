@@ -22,6 +22,8 @@ Controller.prototype.init = function() {
     this.map.init(this.mapCenter, 11);
 };
 
+
+
 Controller.prototype.testD3TopoJson= function(){
     var svg = d3.select(this.map.map.getPanes().overlayPane).append("svg"),
         g = svg.append("g").attr("class", "leaflet-zoom-hide").attr("class", "zipcodes");
@@ -31,24 +33,24 @@ Controller.prototype.testD3TopoJson= function(){
         var transform = d3.geo.transform({point: projectPoint}),
             path = d3.geo.path().projection(transform);
 
-        var color = d3.scale.linear().domain([1, 6000]).range(['blue','red']);
+        var color = d3.scale.threshold()
+            .domain([1, 10, 50, 100, 500, 1000, 2000, 5000])
+            .range(['#ffffd9', '#edf8b1', '#c7e9b4', '#7fcdbb', '#41b6c4', '#1d91c0', '#225ea8', '#253494', '#081d58']);
+            //.range(["#fff7ec", "#fee8c8", "#fdd49e", "#fdbb84", "#fc8d59", "#ef6548", "#d7301f", "#b30000", "#7f0000"]);
+            //.range(['#f7fcfd', '#e0ecf4', '#bfd3e6', '#9ebcda', '#8c96c6', '#8c6bb1', '#88419d', '#810f7c', '#4d004b']);
+
+
+
+        // var color = d3.scale.threshold()
+        //     .domain([1, 10, 50, 100, 500, 1000, 2000, 5000])
+        //     .range(["#fff7ec", "#fee8c8", "#fdd49e", "#fdbb84", "#fc8d59", "#ef6548", "#d7301f", "#b30000", "#7f0000"]);
+
         var chi = topojson.feature(json, json.objects.chicago_ZC_Geo);
 
         var feature = g.selectAll("path")
             .data(chi.features)
             .enter().append("path")
-            .style("fill", function(d) {
-                console.log(d.properties);
-                return color(d.properties.density);
-            });
-
-        //svg.append("g")
-        //    .attr("class", "counties")
-        //    .selectAll("path")
-        //    .data(counties)
-        //    .enter().append("path")
-        //    .style("fill", function(d) { return color(d.properties.density); })
-        //    .attr("d", path);
+            .style("fill", function(d) { return color(d.properties.density); });
 
         self.map.map.on("viewreset", reset);
         reset();
