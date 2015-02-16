@@ -8,6 +8,7 @@ function MapController() {
 	L.control.scale().addTo(this.map);
 
     var MapID = {
+        "light": "krbalmryde.l7f0fcjh",
         "street": "krbalmryde.jk1dm68f",
         "aerial": "krbalmryde.jko2k1c4"
     };
@@ -20,6 +21,7 @@ function MapController() {
 
     // Create our street and aerial view base layers
     // Keeping these as public parameters so we can turn them on and off at will;
+    this.lightBaseLayer = L.tileLayer(mapboxURL, {id: MapID.light, attribution: mapboxAttribution});
     this.streetBaseLayer = L.tileLayer(mapboxURL, {id: MapID.street, attribution: mapboxAttribution});
     this.aerialBaseLayer = L.tileLayer(mapboxURL, {id: MapID.aerial, attribution: mapboxAttribution});
 
@@ -68,9 +70,10 @@ MapController.prototype.init = function(mapCenter, zoom){
 
     this.map.setView(mapCenter, zoom);
 
+    this.map.addLayer(this.lightBaseLayer);
     this.map.addLayer(this.streetBaseLayer);
     this.map.addLayer(this.aerialBaseLayer);
-    this.viewStreet();
+    this.viewLight();
 };
 
 MapController.prototype.addLayers = function(layerGroupName, arrayOfLayers) {
@@ -144,14 +147,23 @@ MapController.prototype.fitBounds = function(bounds){
 };
 
 MapController.prototype.viewAerial = function(){
+    this.map.removeLayer(this.lightBaseLayer);
     this.map.removeLayer(this.streetBaseLayer);
     this.map.addLayer(this.aerialBaseLayer);
 };
 
 MapController.prototype.viewStreet = function(){
+    this.map.removeLayer(this.lightBaseLayer);
     this.map.removeLayer(this.aerialBaseLayer);
     this.map.addLayer(this.streetBaseLayer);
 };
+
+MapController.prototype.viewLight = function(){
+    this.map.removeLayer(this.streetBaseLayer);
+    this.map.removeLayer(this.aerialBaseLayer);
+    this.map.addLayer(this.lightBaseLayer);
+};
+
 
 MapController.prototype.bringToBack = function(layerGroupName){
     this.map.layerGroups[layerGroupName].bringToBack();
