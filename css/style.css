@@ -2,7 +2,7 @@
     position:			absolute;
     top:				0%;
     height:				100%;
-    left:				16vw;
+    left:				0vw;
     right:				0vw;
     background-color:	black;
 }
@@ -12,9 +12,9 @@ svg {
 }
 
 path {
-    /*fill: #000;*/
+    fill: #000;
     fill-opacity: .75;
-    stroke: #fff;
+    stroke: #000;
     stroke-width: 1.5px;
 }
 
@@ -22,3 +22,4 @@ path:hover {
     fill: brown;
     fill-opacity: .7;
 }
+

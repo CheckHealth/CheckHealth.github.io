@@ -135,6 +135,32 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "List what I am doing, and What I am NOT doing\n\n\nPlan of work:\n\nScope of work:\n---------------\nCreate CHECK portal which contains different feeds of data coming from 3rd party vendors, such as medical health information, local partnerhsips with Community Health Clinic\n\nProject will be hosted, operated, and maintaied by the partners of Pediatrics and NOT the concern of EVL\n\nDevelopment and Testing\n-Check portal,\n\n\nMaintanence of website\n\n\nCHECK should be\n\n\n\n1) Research questions\n    What sort of interactive features can we use that will encourage active use and make people WANT to come back?\n    How can we give participants a sense of control, without actually giving them control\n\n\nWhat kind of information do we want from the MyChart folks?\n    Appointments -> Calendar type information\n    Health related stuffs? Progress, Prognosis,\n\n\n\nWhat are services need consistent across the population groups?\n\nTransportation issues:\n    Can we arrange for transportation?\n    Medica{id,are} has 80 vendors that coordinate pick ups....may be smaller number of people to pickup... PACE\n\n\nAppointment Reminders:\n    Multiple reminders\n    SMS reminders, confirm yes/no, connects to the system automatically.\n\n\nHow to give them the sense of self-control\n    provide them with communication tools and information that they can use to ask intelligent questions\n    Tips\n\n\nData tracking components. Need to discuss participant tracking\n\n\n\nWhat are the levels of Access? HIPPA compliant firewalls? Can we personalize participants \"profile\" with medically specific knowledge? <- This is a hippa issue for sure...\n\n\nParticipant profile will be generated from the data feed provided by the MyChart\n\nPersonalization Give them the sense of control\n\n\nClean, Readable, options for Audio source vs purely literary\n\nMost of these kids cant read good\n\nGoals, Behavioral Change component, Motivational Interactive components* (backup psychosocial theories, )\n\n\n\nDepression --> Mental Health (How to be mentally healthy)",
+			"settings":
+			{
+				"buffer_size": 2001,
+				"line_ending": "Unix",
+				"name": "List what I am doing, and What I am NOT doing"
+			}
+		},
+		{
+			"file": "/Users/krbalmryde/Downloads/lifeguide_source/readme.txt",
+			"settings":
+			{
+				"buffer_size": 4938,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Server Requirements:\n    Tomcat 7.0\n    Java 1.6-1.7\n    Any recent version of MySQL\n    SMTP must be enabled\n\n    ",
+			"settings":
+			{
+				"buffer_size": 115,
+				"line_ending": "Unix",
+				"name": "Server Requirements:"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -440,10 +466,6 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/control",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/view"
 	],
 	"file_history":
 	[
@@ -780,8 +802,102 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								457,
+								457
+							]
+						],
+						"settings":
+						{
+							"auto_name": "List what I am doing, and What I am NOT doing",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 590.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/krbalmryde/Downloads/lifeguide_source/readme.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4938,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4910,
+								4910
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1613.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								115,
+								115
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Server Requirements:",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -802,11 +918,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.474762373776,
 			1.0
 		],
 		"rows":
@@ -1033,7 +1156,7 @@
 		[
 			[
 				"",
-				"~/Dropbox/Code-Projects/KrbAlmryde.github.io/KrbAlmryde.sublime-project"
+				"~/Dropbox/Class-Projects/Class.sublime-project"
 			]
 		],
 		"width": 380.0

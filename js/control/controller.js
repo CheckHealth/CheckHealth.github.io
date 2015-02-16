@@ -23,40 +23,70 @@ Controller.prototype.init = function() {
 };
 
 
-
 Controller.prototype.testD3TopoJson= function(){
-    var svg = d3.select(this.map.map.getPanes().overlayPane).append("svg"),
+    var svg = d3.select(this.map.map.getPanes().overlayPane).append("svg").attr("id", "zipSVG"),
         g = svg.append("g").attr("class", "leaflet-zoom-hide").attr("class", "zipcodes");
+
+    var color = d3.scale.threshold()
+        .domain([1, 10, 50, 100, 500, 1000, 2000, 5000])
+        //.range(["#fff7ec", "#fee8c8", "#fdd49e", "#fdbb84", "#fc8d59", "#ef6548", "#d7301f", "#b30000", "#7f0000"]);
+        //.range(['#ffffd9', '#edf8b1', '#c7e9b4', '#7fcdbb', '#41b6c4', '#1d91c0', '#225ea8', '#253494', '#081d58']);
+        .range(['#f7fcfd', '#e0ecf4', '#bfd3e6', '#9ebcda', '#8c96c6', '#8c6bb1', '#88419d', '#810f7c', '#4d004b']);
+
+
+    function mouseOver(d){;
+        d3.select("#divmap").transition().duration(200).style("opacity", .9);
+
+
+        d3.select("#divmap").html(tooltipHtml(d.properties))
+            .style("left", (d3.event.pageX) + "px")
+            .style("top", (d3.event.pageY - 28) + "px");
+
+        function tooltipHtml(d){	/* function to create html content string in tooltip div. */
+            console.log("mouseOver", d)
+            return "<h4>"+ d.zipcode+"</h4><table>"+
+                "<tr><td>Count</td><td>"+(d.density)+"</td></tr>"+
+                "</table>";
+        }
+
+    }
+
+    function mouseOut(){
+        d3.select("#tooltip").transition().duration(500).style("opacity", 0);
+    }
+
+    //d3.select(id).selectAll(".state")
+    //    .data(uStatePaths).enter().append("path").attr("class","state").attr("d",function(d){ return d.d;})
+    //    .style("fill",function(d){ return data[d.id].color; })
+    //    .on("mouseover", mouseOver).on("mouseout", mouseOut);
+
 
     d3.json("assets/Data/Clean/Location/chicago_ZC_Counts_topo.json", function(error, json) {
         if (error) return console.error(error);
         var transform = d3.geo.transform({point: projectPoint}),
             path = d3.geo.path().projection(transform);
 
-        var color = d3.scale.threshold()
-            .domain([1, 10, 50, 100, 500, 1000, 2000, 5000])
-            //.range(['#ffffd9', '#edf8b1', '#c7e9b4', '#7fcdbb', '#41b6c4', '#1d91c0', '#225ea8', '#253494', '#081d58']);
-            .range(["#fff7ec", "#fee8c8", "#fdd49e", "#fdbb84", "#fc8d59", "#ef6548", "#d7301f", "#b30000", "#7f0000"]);
-            //.range(['#f7fcfd', '#e0ecf4', '#bfd3e6', '#9ebcda', '#8c96c6', '#8c6bb1', '#88419d', '#810f7c', '#4d004b']);
-
-
-
-        // var color = d3.scale.threshold()
-        //     .domain([1, 10, 50, 100, 500, 1000, 2000, 5000])
-        //     .range(["#fff7ec", "#fee8c8", "#fdd49e", "#fdbb84", "#fc8d59", "#ef6548", "#d7301f", "#b30000", "#7f0000"]);
-
         var chi = topojson.feature(json, json.objects.chicago_ZC_Geo);
 
         var feature = g.selectAll("path")
             .data(chi.features)
             .enter().append("path")
-            .style("fill", function(d) { return color(d.properties.density); });
+            .attr("class", function(d) { return "zip."+d.properties.zipcode})
+            .style("fill", function(d) { return color(d.properties.density); })
+            .on("mouseover", mouseOver).on("mouseout", mouseOut);
+
+
 
         self.map.map.on("viewreset", reset);
         reset();
 
         // Reposition the SVG to cover the features.
         function reset() {
+            d3.selectAll("path")
+                .style("fill-opacity", 1.0)
+                .style("stroke", "null")
+                .style("stroke-width", "null");
+
             var bounds = path.bounds(chi),
                 topLeft = bounds[0],
                 bottomRight = bounds[1];
@@ -69,6 +99,11 @@ Controller.prototype.testD3TopoJson= function(){
             g   .attr("transform", "translate(" + -topLeft[0] + "," + -topLeft[1] + ")");
 
             feature.attr("d", path);
+            //d3.selectAll("path")
+            //    .style("fill-opacity", 1.0)
+            //    .style("stroke", "null")
+            //    .style("stroke-width", "null");
+
         }
 
         // Use Leaflet to implement a D3 geometric transformation.
