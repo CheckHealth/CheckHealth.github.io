@@ -81,11 +81,9 @@ Controller.prototype.testD3TopoJson= function(){
             this.stream.point(point.x, point.y);
         }
 
-    }.bind(this))
+    }.bind(this));
 
 };
-
-
 
 
 Controller.prototype.testD3GeoJson= function(){
@@ -214,7 +212,7 @@ Controller.prototype.ableDisable = function(button) {
     switch(button.id){
         case 'STIClinics': if(this.STIClinicsBool == 0){
                                 //means I have to able...
-                                console.log("ABLE STI CLINICS");
+                                //console.log("ABLE STI CLINICS");
                                 this.STIClinicsBool = 1;
                                 button.textContent = "STI Clinics ON";
                                 //console.log("dimension", this.STIClinics);
@@ -222,7 +220,7 @@ Controller.prototype.ableDisable = function(button) {
                                     this.STIClinics[i].setOpacity(0.0);
                                 }
                             }else{
-                                console.log("DISABLE STI CLINICS");
+                                //console.log("DISABLE STI CLINICS");
                                 this.STIClinicsBool = 0;
                                 button.textContent = "STI Clinics OFF";
                                 for(var i in this.STIClinics){
@@ -232,14 +230,14 @@ Controller.prototype.ableDisable = function(button) {
                             break;
         case 'CommunityHealthCenters':if(this.CommunityHealthCentersBool == 0){
                                             //means I have to able...
-                                            console.log("ABLE Community HC");
+                                            //console.log("ABLE Community HC");
                                             this.CommunityHealthCentersBool = 1;
                                             button.textContent = "Community Health C. ON";
                                             for(var i in this.CommunityHealthCenters){
                                                 this.CommunityHealthCenters[i].setOpacity(0.0);
                                             }
                                         }else{
-                                            console.log("DISABLE Community HC");
+                                            //console.log("DISABLE Community HC");
                                             this.CommunityHealthCentersBool = 0;
                                             button.textContent = "Community Health C. OFF";
                                             for(var i in this.CommunityHealthCenters){
@@ -265,4 +263,4 @@ Controller.prototype.ableDisable = function(button) {
         default: console.log("error ableDisable");
             break;
     }
-}
+};
