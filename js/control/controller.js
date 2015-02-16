@@ -9,7 +9,7 @@ function Controller() {
     this.map = new MapController();
     this.mapCenter = new L.LatLng(41.864755, -87.631474);
 
-    // Set up marker Arrays
+    // Set up marker Container objects
     this.WomenChildrenClinics = {};
     this.CommunityHealthCenters = {};
     this.STIClinics = {};
@@ -18,20 +18,7 @@ function Controller() {
     this.CommunityHealthCentersBool = 0;
     this.WomenChildrenClinicsBool = 0;
 
-    window.map = this.map;
-}
-
-
-Controller.prototype.init = function() {
-    this.map.init(this.mapCenter, 11);
-};
-
-
-Controller.prototype.testD3TopoJson= function(){
-    var svg = d3.select(this.map.map.getPanes().overlayPane).append("svg").attr("id", "zipSVG"),
-        g = svg.append("g").attr("class", "leaflet-zoom-hide").attr("class", "zipcodes");
-
-    var color = d3.scale.threshold()
+    this.color = d3.scale.threshold()
         .domain([1, 10, 50, 100, 500, 1000, 2000, 5000])
         //.range(["#fff7ec", "#fee8c8", "#fdd49e", "#fdbb84", "#fc8d59", "#ef6548", "#d7301f", "#b30000", "#7f0000"]);
         //.range(['#ffffd9', '#edf8b1', '#c7e9b4', '#7fcdbb', '#41b6c4', '#1d91c0', '#225ea8', '#253494', '#081d58']);
@@ -39,32 +26,70 @@ Controller.prototype.testD3TopoJson= function(){
         .range(['rgb(255,255,204)','rgb(255,237,160)','rgb(254,217,118)','rgb(254,178,76)','rgb(253,141,60)','rgb(252,78,42)','rgb(227,26,28)','rgb(189,0,38)','rgb(128,0,38)']);
 
 
+
+    window.map = this.map;
+}
+
+
+Controller.prototype.init = function() {
+    this.map.init(this.mapCenter, 11);
+
+};
+
+
+Controller.prototype.addLegend= function() {
+    var self = this;
+
+    var legend = L.control({position: 'bottomright'});
+
+    legend.onAdd = function (map) {
+
+        var div = L.DomUtil.create('div', 'info legend'),
+            grades = [1, 10, 50, 100, 500, 1000, 2000, 5000];
+
+        // loop through our density intervals and generate a label with a colored square for each interval
+        for (var i = 0; i < grades.length; i++) {
+            div.innerHTML +=
+                '<i style="background:' + self.color(grades[i]) + '"></i> ' +
+                grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+        }
+        return div;
+    };
+
+    legend.addTo(self.map.map);
+};
+
+Controller.prototype.testD3TopoJson= function(){
+    var svg = d3.select(this.map.map.getPanes().overlayPane).append("svg").attr("id", "zipSVG"),
+        g = svg.append("g").attr("class", "leaflet-zoom-hide").attr("class", "zipcodes"),
+        self = this;
+
+/*
     function mouseOver(d){
         d3.select("#divmap").transition().duration(200).style("opacity", .9);
-
 
         d3.select("#divmap").html(tooltipHtml(d.properties))
             .style("left", (d3.event.pageX) + "px")
             .style("top", (d3.event.pageY - 28) + "px");
 
-        function tooltipHtml(d){	/* function to create html content string in tooltip div. */
+        function tooltipHtml(d){	//function to create html content string in tooltip div.
             console.log("mouseOver", d)
             return "<h4>"+ d.zipcode+"</h4><table>"+
                 "<tr><td>Count</td><td>"+(d.density)+"</td></tr>"+
                 "</table>";
         }
-
     }
-
 
     function mouseOut(){
         d3.select("#tooltip").transition().duration(500).style("opacity", 0);
     }
 
-    //d3.select(id).selectAll(".state")
-    //    .data(uStatePaths).enter().append("path").attr("class","state").attr("d",function(d){ return d.d;})
-    //    .style("fill",function(d){ return data[d.id].color; })
-    //    .on("mouseover", mouseOver).on("mouseout", mouseOut);
+    d3.select(id).selectAll(".state")
+        .data(uStatePaths).enter().append("path").attr("class","state").attr("d",function(d){ return d.d;})
+        .style("fill",function(d){ return data[d.id].color; })
+        .on("mouseover", mouseOver).on("mouseout", mouseOut);
+
+*/
 
 
     d3.json("assets/Data/Clean/Location/chicago_ZC_Counts_topo.json", function(error, json) {
@@ -77,21 +102,14 @@ Controller.prototype.testD3TopoJson= function(){
         var feature = g.selectAll("path")
             .data(chi.features)
             .enter().append("path")
-            .attr("class", function(d) { return "zip."+d.properties.zipcode})
-            .style("fill", function(d) { return color(d.properties.density); })
-            .on("mouseover", mouseOver).on("mouseout", mouseOut);
-
-
+            .attr("class", function(d) { return "zip."+d.id})
+            .style("fill", function(d) { return self.color(d.properties.density) });
 
         self.map.map.on("viewreset", reset);
         reset();
 
         // Reposition the SVG to cover the features.
         function reset() {
-            d3.selectAll("path")
-                .style("fill-opacity", 1.0)
-                .style("stroke", "null")
-                .style("stroke-width", "null");
 
             var bounds = path.bounds(chi),
                 topLeft = bounds[0],
@@ -105,11 +123,6 @@ Controller.prototype.testD3TopoJson= function(){
             g   .attr("transform", "translate(" + -topLeft[0] + "," + -topLeft[1] + ")");
 
             feature.attr("d", path);
-            //d3.selectAll("path")
-            //    .style("fill-opacity", 1.0)
-            //    .style("stroke", "null")
-            //    .style("stroke-width", "null");
-
         }
 
         // Use Leaflet to implement a D3 geometric transformation.
@@ -117,7 +130,6 @@ Controller.prototype.testD3TopoJson= function(){
             var point = self.map.map.latLngToLayerPoint(new L.LatLng(y, x));
             this.stream.point(point.x, point.y);
         }
-
     }.bind(this));
 
 };
@@ -241,62 +253,51 @@ Controller.prototype.getSTIHealthClinics= function() {
     }.bind(this));
 };
 
+Controller.prototype.removeMarkers = function(MarkersArray) {
+    for (var i in MarkersArray) {
+        this.map.removeLayer(MarkersArray[i]);
+    }
+};
 Controller.prototype.ableDisable = function(button) {
     console.log("called ableDisable!");
     console.log("disable/able : ", button.id);
     console.log("button text ", button.textContent);
 
     switch(button.id){
-        case 'STIClinics': if(this.STIClinicsBool == 0){
-                                //means I have to able...
-                                //console.log("ABLE STI CLINICS");
-                                this.STIClinicsBool = 1;
-                                button.textContent = "STI Clinics ON";
-                                //console.log("dimension", this.STIClinics);
-                                for(var i in this.STIClinics){
-                                    this.STIClinics[i].setOpacity(0.0);
-                                }
-                            }else{
-                                //console.log("DISABLE STI CLINICS");
-                                this.STIClinicsBool = 0;
-                                button.textContent = "STI Clinics OFF";
-                                for(var i in this.STIClinics){
-                                    this.STIClinics[i].setOpacity(1.0);
-                                }
-                            }
-                            break;
-        case 'CommunityHealthCenters':if(this.CommunityHealthCentersBool == 0){
-                                            //means I have to able...
-                                            //console.log("ABLE Community HC");
-                                            this.CommunityHealthCentersBool = 1;
-                                            button.textContent = "Community Health C. ON";
-                                            for(var i in this.CommunityHealthCenters){
-                                                this.CommunityHealthCenters[i].setOpacity(0.0);
-                                            }
-                                        }else{
-                                            //console.log("DISABLE Community HC");
-                                            this.CommunityHealthCentersBool = 0;
-                                            button.textContent = "Community Health C. OFF";
-                                            for(var i in this.CommunityHealthCenters){
-                                                this.CommunityHealthCenters[i].setOpacity(1.0);
-                                            }
-                                        }
-                                        break;
-        case 'WomenChildrenClinics':if(this.WomenChildrenClinicsBool == 0){
-                                        this.WomenChildrenClinicsBool = 1;
-                                        button.textContent = "Women Children Clinics ON";
-                                        for(var i in this.WomenChildrenClinics){
-                                            this.WomenChildrenClinics[i].setOpacity(0.0);
-                                        }
-                                    }
-                                    else{
-                                        this.WomenChildrenClinicsBool = 0;
-                                        button.textContent = "Women Children Clinics OFF";
-                                        for(var i in this.WomenChildrenClinics){
-                                                this.WomenChildrenClinics[i].setOpacity(1.0);
-                                        }
-                                    }
-                                    break;
+        case 'STIClinics':
+            if(this.STIClinicsBool == 0){
+                this.STIClinicsBool = 1;
+                button.textContent = "STI Clinics ON";
+                this.removeMarkers(this.STIClinics);
+            }else{
+                this.STIClinicsBool = 0;
+                button.textContent = "STI Clinics OFF";
+                this.getSTIHealthClinics();
+            }
+            break;
+        case 'CommunityHealthCenters':
+            if(this.CommunityHealthCentersBool == 0){
+                this.CommunityHealthCentersBool = 1;
+                button.textContent = "Community Health C. ON";
+                this.removeMarkers(this.CommunityHealthCenters);
+            }else{
+                this.CommunityHealthCentersBool = 0;
+                button.textContent = "Community Health C. OFF";
+                this.getCommunityHealthCenters();
+            }
+            break;
+        case 'WomenChildrenClinics':
+            if(this.WomenChildrenClinicsBool == 0){
+                this.WomenChildrenClinicsBool = 1;
+                button.textContent = "Women Children Clinics ON";
+                this.removeMarkers(this.WomenChildrenClinics);
+            }
+            else{
+                this.WomenChildrenClinicsBool = 0;
+                button.textContent = "Women Children Clinics OFF";
+                this.getWomenAndChildrenHealthClinics();
+            }
+            break;
         default: console.log("error ableDisable");
             break;
     }
