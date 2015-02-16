@@ -14,6 +14,10 @@ function Controller() {
     this.CommunityHealthCenters = {};
     this.STIClinics = {};
 
+    this.STIClinicsBool = 0;
+    this.CommunityHealthCentersBool = 0;
+    this.WomenChildrenClinicsBool = 0;
+
     window.map = this.map;
 }
 
@@ -201,3 +205,64 @@ Controller.prototype.getSTIHealthClinics= function() {
         }
     }.bind(this));
 };
+
+Controller.prototype.ableDisable = function(button) {
+    console.log("called ableDisable!");
+    console.log("disable/able : ", button.id);
+    console.log("button text ", button.textContent);
+
+    switch(button.id){
+        case 'STIClinics': if(this.STIClinicsBool == 0){
+                                //means I have to able...
+                                console.log("ABLE STI CLINICS");
+                                this.STIClinicsBool = 1;
+                                button.textContent = "STI Clinics ON";
+                                //console.log("dimension", this.STIClinics);
+                                for(var i in this.STIClinics){
+                                    this.STIClinics[i].setOpacity(0.0);
+                                }
+                            }else{
+                                console.log("DISABLE STI CLINICS");
+                                this.STIClinicsBool = 0;
+                                button.textContent = "STI Clinics OFF";
+                                for(var i in this.STIClinics){
+                                    this.STIClinics[i].setOpacity(1.0);
+                                }
+                            }
+                            break;
+        case 'CommunityHealthCenters':if(this.CommunityHealthCentersBool == 0){
+                                            //means I have to able...
+                                            console.log("ABLE Community HC");
+                                            this.CommunityHealthCentersBool = 1;
+                                            button.textContent = "Community Health C. ON";
+                                            for(var i in this.CommunityHealthCenters){
+                                                this.CommunityHealthCenters[i].setOpacity(0.0);
+                                            }
+                                        }else{
+                                            console.log("DISABLE Community HC");
+                                            this.CommunityHealthCentersBool = 0;
+                                            button.textContent = "Community Health C. OFF";
+                                            for(var i in this.CommunityHealthCenters){
+                                                this.CommunityHealthCenters[i].setOpacity(1.0);
+                                            }
+                                        }
+                                        break;
+        case 'WomenChildrenClinics':if(this.WomenChildrenClinicsBool == 0){
+                                        this.WomenChildrenClinicsBool = 1;
+                                        button.textContent = "Women Children Clinics ON";
+                                        for(var i in this.WomenChildrenClinics){
+                                            this.WomenChildrenClinics[i].setOpacity(0.0);
+                                        }
+                                    }
+                                    else{
+                                        this.WomenChildrenClinicsBool = 0;
+                                        button.textContent = "Women Children Clinics OFF";
+                                        for(var i in this.WomenChildrenClinics){
+                                                this.WomenChildrenClinics[i].setOpacity(1.0);
+                                        }
+                                    }
+                                    break;
+        default: console.log("error ableDisable");
+            break;
+    }
+}
