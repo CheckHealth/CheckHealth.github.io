@@ -41,15 +41,6 @@ Controller.prototype.addLegend= function() {
     var self = this;
     var info = L.control(),
         legend = L.control({position: 'bottomright'});
-    //    buttons = L.control({position: 'topleft'});
-    //
-    //buttons.onAdd = function(map) {
-    //    var div = L.DomUtil.create('div', 'info button');
-    //    div.innerHTML = "<img src='assets/img/medkit.svg' height='20' width='20'/> <button id='STIClinics' type='button' onclick='self.ableDisable(this)'>STI Clinics ON</button><br><br>"+
-    //                    "<img src='assets/img/check.png' height='20' width='20'/> <button id='CommunityHealthCenters' type='button' onclick='self.ableDisable(this)'>Community Health C. ON</button><br><br>" +
-    //                    "<img src='assets/img/heart.svg' height='20' width='20'/><button id ='WomenChildrenClinics' type='button' onclick='self.ableDisable(this)'>Women Children Clinics ON</button>"
-    //    return div;
-    //};
 
     legend.onAdd = function (map) {
         var div = L.DomUtil.create('div', 'info legend'),
