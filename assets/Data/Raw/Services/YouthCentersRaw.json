@@ -1,0 +1,1284 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "meks-hp6f",
+      "name" : "Youth Centers",
+      "attribution" : "City of Chicago",
+      "averageRating" : 0,
+      "category" : "Health & Human Services",
+      "createdAt" : 1302277667,
+      "description" : "Location and contact information for Family & Support Services' delegate agencies that provide youth programming. For more information, go to http://www.cityofchicago.org/city/en/depts/fss/provdrs/youth.html.",
+      "displayType" : "table",
+      "downloadCount" : 825,
+      "indexUpdatedAt" : 1414517843,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 315102,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1302998589,
+      "publicationGroup" : 226670,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1313894856,
+      "rowsUpdatedBy" : "scy9-9wg4",
+      "tableId" : 226670,
+      "totalTimesRated" : 0,
+      "viewCount" : 4072,
+      "viewLastModified" : 1314574182,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 2684747,
+        "name" : "AGENCY NAME",
+        "dataTypeName" : "text",
+        "fieldName" : "agency_name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455361,
+        "width" : 202,
+        "cachedContents" : {
+          "non_null" : 221,
+          "smallest" : "Abraham Lincoln Center",
+          "null" : 0,
+          "largest" : "Zam's Hope",
+          "top" : [ {
+            "count" : 3,
+            "item" : "Universal Family Connection"
+          }, {
+            "count" : 2,
+            "item" : "Child Link"
+          }, {
+            "count" : 2,
+            "item" : "South Side Help Center"
+          }, {
+            "count" : 2,
+            "item" : "BAGS  Foundation"
+          }, {
+            "count" : 2,
+            "item" : "Southwest Youth Services Collaborative"
+          }, {
+            "count" : 2,
+            "item" : "Better Boys Foundation"
+          }, {
+            "count" : 1,
+            "item" : "New Hope Community Service Center"
+          }, {
+            "count" : 1,
+            "item" : "YMCA - Adventure Camp"
+          }, {
+            "count" : 1,
+            "item" : "Back of the Yards"
+          }, {
+            "count" : 1,
+            "item" : "Centro Romero - Latino Youth Power"
+          }, {
+            "count" : 1,
+            "item" : "Neighborhood Technology Resource  Center (The)"
+          }, {
+            "count" : 1,
+            "item" : "Jane Addams Hull House Association"
+          }, {
+            "count" : 1,
+            "item" : "Project Exploration"
+          }, {
+            "count" : 1,
+            "item" : "BUILD, Inc - Gang Violence"
+          }, {
+            "count" : 1,
+            "item" : "Center on Halsted"
+          }, {
+            "count" : 1,
+            "item" : "Chinese Mutual Aid Association"
+          }, {
+            "count" : 1,
+            "item" : "Alliance of Local Service Organizations"
+          }, {
+            "count" : 1,
+            "item" : "Cabrini Connections - Huron"
+          }, {
+            "count" : 1,
+            "item" : "Family Focus Lawndale"
+          }, {
+            "count" : 1,
+            "item" : "Douglas Park Youth Services"
+          } ]
+        },
+        "format" : {
+        },
+        "metadata" : {
+          "originalName" : "AGENCY NAME"
+        }
+      }, {
+        "id" : 2684748,
+        "name" : "PROJECT",
+        "dataTypeName" : "text",
+        "fieldName" : "project",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455362,
+        "width" : 127,
+        "cachedContents" : {
+          "non_null" : 221,
+          "smallest" : "Counseling",
+          "null" : 0,
+          "largest" : "YRCC",
+          "top" : [ {
+            "count" : 166,
+            "item" : "Out of School"
+          }, {
+            "count" : 18,
+            "item" : "Counseling"
+          }, {
+            "count" : 15,
+            "item" : "Mentoring"
+          }, {
+            "count" : 6,
+            "item" : "YRCC"
+          }, {
+            "count" : 5,
+            "item" : "Summer Program only"
+          }, {
+            "count" : 4,
+            "item" : "Gang Intervention"
+          }, {
+            "count" : 4,
+            "item" : "Summer Program "
+          }, {
+            "count" : 2,
+            "item" : "Homeless"
+          }, {
+            "count" : 1,
+            "item" : "OST - Gang Intervention"
+          } ]
+        },
+        "format" : {
+        },
+        "metadata" : {
+          "originalName" : "PROJECT"
+        }
+      }, {
+        "id" : 2684749,
+        "name" : "Street Number",
+        "dataTypeName" : "number",
+        "fieldName" : "street_number",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1455363,
+        "width" : 53,
+        "cachedContents" : {
+          "non_null" : 219,
+          "smallest" : "10",
+          "sum" : "810254",
+          "null" : 2,
+          "average" : "3699.789954337900",
+          "largest" : "13260",
+          "top" : [ {
+            "count" : 4,
+            "item" : "7601"
+          }, {
+            "count" : 4,
+            "item" : "7200"
+          }, {
+            "count" : 3,
+            "item" : "3039"
+          }, {
+            "count" : 3,
+            "item" : "1210"
+          }, {
+            "count" : 2,
+            "item" : "4250"
+          }, {
+            "count" : 2,
+            "item" : "1542"
+          }, {
+            "count" : 2,
+            "item" : "3500"
+          }, {
+            "count" : 2,
+            "item" : "7050"
+          }, {
+            "count" : 2,
+            "item" : "5110"
+          }, {
+            "count" : 2,
+            "item" : "1212"
+          }, {
+            "count" : 2,
+            "item" : "10420"
+          }, {
+            "count" : 2,
+            "item" : "1100"
+          }, {
+            "count" : 2,
+            "item" : "2929"
+          }, {
+            "count" : 2,
+            "item" : "6216"
+          }, {
+            "count" : 2,
+            "item" : "1512"
+          }, {
+            "count" : 2,
+            "item" : "3517"
+          }, {
+            "count" : 2,
+            "item" : "2950"
+          }, {
+            "count" : 2,
+            "item" : "1021"
+          }, {
+            "count" : 2,
+            "item" : "1055"
+          }, {
+            "count" : 2,
+            "item" : "11621"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        },
+        "metadata" : {
+          "originalName" : "Street Number"
+        }
+      }, {
+        "id" : 2684750,
+        "name" : "Street Direction",
+        "dataTypeName" : "text",
+        "fieldName" : "street_direction",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455364,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 219,
+          "smallest" : "E",
+          "null" : 2,
+          "largest" : "W ",
+          "top" : [ {
+            "count" : 89,
+            "item" : "W"
+          }, {
+            "count" : 70,
+            "item" : "S"
+          }, {
+            "count" : 46,
+            "item" : "N"
+          }, {
+            "count" : 13,
+            "item" : "E"
+          }, {
+            "count" : 1,
+            "item" : "W "
+          } ]
+        },
+        "format" : {
+        },
+        "metadata" : {
+          "originalName" : "Street Direction"
+        }
+      }, {
+        "id" : 2684751,
+        "name" : "Street Name",
+        "dataTypeName" : "text",
+        "fieldName" : "street_name",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455365,
+        "width" : 118,
+        "cachedContents" : {
+          "non_null" : 219,
+          "smallest" : "103rd",
+          "null" : 2,
+          "largest" : "Wrightwood",
+          "top" : [ {
+            "count" : 5,
+            "item" : "Cottage Grove"
+          }, {
+            "count" : 5,
+            "item" : "91st"
+          }, {
+            "count" : 5,
+            "item" : "Washington"
+          }, {
+            "count" : 4,
+            "item" : "Division"
+          }, {
+            "count" : 4,
+            "item" : "Michigan"
+          }, {
+            "count" : 4,
+            "item" : "Ingleside"
+          }, {
+            "count" : 4,
+            "item" : "Pulaski"
+          }, {
+            "count" : 4,
+            "item" : "Halsted"
+          }, {
+            "count" : 4,
+            "item" : "Western"
+          }, {
+            "count" : 3,
+            "item" : "Arthington"
+          }, {
+            "count" : 3,
+            "item" : "Broadway"
+          }, {
+            "count" : 3,
+            "item" : "Clark"
+          }, {
+            "count" : 3,
+            "item" : "Sheridan"
+          }, {
+            "count" : 3,
+            "item" : "Armitage"
+          }, {
+            "count" : 3,
+            "item" : "Wabash"
+          }, {
+            "count" : 3,
+            "item" : "79th"
+          }, {
+            "count" : 2,
+            "item" : "119th"
+          }, {
+            "count" : 2,
+            "item" : "Indiana"
+          }, {
+            "count" : 2,
+            "item" : "24th"
+          }, {
+            "count" : 2,
+            "item" : "103rd"
+          } ]
+        },
+        "format" : {
+        },
+        "metadata" : {
+          "originalName" : "Street Name"
+        }
+      }, {
+        "id" : 2684752,
+        "name" : "Street Type",
+        "dataTypeName" : "text",
+        "fieldName" : "street_type",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455366,
+        "width" : 57,
+        "cachedContents" : {
+          "non_null" : 217,
+          "smallest" : "Ave",
+          "null" : 4,
+          "largest" : "St",
+          "top" : [ {
+            "count" : 100,
+            "item" : "St"
+          }, {
+            "count" : 93,
+            "item" : "Ave"
+          }, {
+            "count" : 11,
+            "item" : "Rd"
+          }, {
+            "count" : 4,
+            "item" : "Pl"
+          }, {
+            "count" : 4,
+            "item" : "Blvd"
+          }, {
+            "count" : 3,
+            "item" : "Dr"
+          }, {
+            "count" : 1,
+            "item" : "Park"
+          }, {
+            "count" : 1,
+            "item" : "Ct"
+          } ]
+        },
+        "format" : {
+        },
+        "metadata" : {
+          "originalName" : "Street Type"
+        }
+      }, {
+        "id" : 2684753,
+        "name" : "City",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455367,
+        "width" : 58,
+        "cachedContents" : {
+          "non_null" : 221,
+          "smallest" : "Chicago",
+          "null" : 0,
+          "largest" : "Chicago",
+          "top" : [ {
+            "count" : 221,
+            "item" : "Chicago"
+          } ]
+        },
+        "format" : {
+        },
+        "metadata" : {
+          "originalName" : "City"
+        }
+      }, {
+        "id" : 2684754,
+        "name" : "State",
+        "dataTypeName" : "text",
+        "fieldName" : "state",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455368,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 221,
+          "smallest" : "IL",
+          "null" : 0,
+          "largest" : "IL",
+          "top" : [ {
+            "count" : 221,
+            "item" : "IL"
+          } ]
+        },
+        "format" : {
+        },
+        "metadata" : {
+          "originalName" : "State"
+        }
+      }, {
+        "id" : 2684761,
+        "name" : "Zip Code",
+        "dataTypeName" : "text",
+        "fieldName" : "zip_code",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455375,
+        "width" : 51,
+        "cachedContents" : {
+          "non_null" : 219,
+          "smallest" : "60603",
+          "null" : 2,
+          "largest" : "60660",
+          "top" : [ {
+            "count" : 14,
+            "item" : "60608"
+          }, {
+            "count" : 11,
+            "item" : "60640"
+          }, {
+            "count" : 11,
+            "item" : "60628"
+          }, {
+            "count" : 10,
+            "item" : "60623"
+          }, {
+            "count" : 10,
+            "item" : "60653"
+          }, {
+            "count" : 9,
+            "item" : "60619"
+          }, {
+            "count" : 8,
+            "item" : "60651"
+          }, {
+            "count" : 8,
+            "item" : "60647"
+          }, {
+            "count" : 8,
+            "item" : "60620"
+          }, {
+            "count" : 8,
+            "item" : "60621"
+          }, {
+            "count" : 7,
+            "item" : "60617"
+          }, {
+            "count" : 7,
+            "item" : "60616"
+          }, {
+            "count" : 6,
+            "item" : "60618"
+          }, {
+            "count" : 6,
+            "item" : "60632"
+          }, {
+            "count" : 6,
+            "item" : "60610"
+          }, {
+            "count" : 6,
+            "item" : "60644"
+          }, {
+            "count" : 6,
+            "item" : "60643"
+          }, {
+            "count" : 5,
+            "item" : "60639"
+          }, {
+            "count" : 5,
+            "item" : "60609"
+          }, {
+            "count" : 5,
+            "item" : "60660"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 2684758,
+        "name" : "PHONE #",
+        "dataTypeName" : "text",
+        "fieldName" : "phone",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455372,
+        "width" : 114,
+        "cachedContents" : {
+          "non_null" : 214,
+          "smallest" : "312.226.1177",
+          "null" : 7,
+          "largest" : "847-609-2469",
+          "top" : [ {
+            "count" : 3,
+            "item" : "773-542-9030"
+          }, {
+            "count" : 3,
+            "item" : "815-931-7488"
+          }, {
+            "count" : 3,
+            "item" : "312-404-3180"
+          }, {
+            "count" : 3,
+            "item" : "773-418-6701"
+          }, {
+            "count" : 2,
+            "item" : "773-924-0220"
+          }, {
+            "count" : 2,
+            "item" : "312-339-5508"
+          }, {
+            "count" : 2,
+            "item" : "773-881-1711"
+          }, {
+            "count" : 2,
+            "item" : "312-435-5987"
+          }, {
+            "count" : 2,
+            "item" : "773-445-5445"
+          }, {
+            "count" : 2,
+            "item" : "773-358-4070"
+          }, {
+            "count" : 2,
+            "item" : "773-483-4333"
+          }, {
+            "count" : 2,
+            "item" : "773-476-3534"
+          }, {
+            "count" : 2,
+            "item" : "773-371-3707 "
+          }, {
+            "count" : 2,
+            "item" : "773-995-9077"
+          }, {
+            "count" : 2,
+            "item" : "773-264-6348"
+          }, {
+            "count" : 2,
+            "item" : "773-287-5717"
+          }, {
+            "count" : 2,
+            "item" : "312-943-8530"
+          }, {
+            "count" : 2,
+            "item" : "773-463-4161"
+          }, {
+            "count" : 2,
+            "item" : "773-521-1600"
+          }, {
+            "count" : 2,
+            "item" : "773-483-0412"
+          } ]
+        },
+        "format" : {
+        },
+        "metadata" : {
+          "originalName" : "PHONE #"
+        }
+      }, {
+        "id" : 2684759,
+        "name" : "FAX #",
+        "dataTypeName" : "text",
+        "fieldName" : "fax",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455373,
+        "width" : 130,
+        "cachedContents" : {
+          "non_null" : 208,
+          "smallest" : "219-803-0115",
+          "null" : 13,
+          "largest" : "877-852-7586",
+          "top" : [ {
+            "count" : 3,
+            "item" : "312-447-7543"
+          }, {
+            "count" : 3,
+            "item" : "773-924-0222"
+          }, {
+            "count" : 3,
+            "item" : "312-253-4917"
+          }, {
+            "count" : 3,
+            "item" : "773-881-3379"
+          }, {
+            "count" : 3,
+            "item" : "773-614-1633"
+          }, {
+            "count" : 2,
+            "item" : "773-721-3920"
+          }, {
+            "count" : 2,
+            "item" : "773-445-9818"
+          }, {
+            "count" : 2,
+            "item" : "773-463-5392"
+          }, {
+            "count" : 2,
+            "item" : "773-521-6308"
+          }, {
+            "count" : 2,
+            "item" : "312-943-8911"
+          }, {
+            "count" : 2,
+            "item" : "773-542-9212"
+          }, {
+            "count" : 2,
+            "item" : "773-508-5399"
+          }, {
+            "count" : 2,
+            "item" : "773-277-9768"
+          }, {
+            "count" : 2,
+            "item" : "773-205-3585"
+          }, {
+            "count" : 2,
+            "item" : "773-483-9538"
+          }, {
+            "count" : 2,
+            "item" : "773-264-3912"
+          }, {
+            "count" : 2,
+            "item" : "773-287-9418"
+          }, {
+            "count" : 2,
+            "item" : "773-358-4089"
+          }, {
+            "count" : 2,
+            "item" : "773-476-3615"
+          }, {
+            "count" : 2,
+            "item" : "312-583-0320"
+          } ]
+        },
+        "format" : {
+        },
+        "metadata" : {
+          "originalName" : "FAX #"
+        }
+      }, {
+        "id" : 2684760,
+        "name" : "Alternate Phone #",
+        "dataTypeName" : "text",
+        "fieldName" : "alternate_phone",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455374,
+        "width" : 144,
+        "cachedContents" : {
+          "non_null" : 54,
+          "smallest" : "219-795-9640 Fax 219-795-1244",
+          "null" : 167,
+          "largest" : "773-890-0055",
+          "top" : [ {
+            "count" : 4,
+            "item" : "312-795-3500"
+          }, {
+            "count" : 3,
+            "item" : "312-986-4135"
+          }, {
+            "count" : 2,
+            "item" : "773-829-6626"
+          }, {
+            "count" : 2,
+            "item" : "773-434-2001"
+          }, {
+            "count" : 2,
+            "item" : "312-943-8530"
+          }, {
+            "count" : 2,
+            "item" : "773-277-9582 (program)"
+          }, {
+            "count" : 1,
+            "item" : "312-226-6161"
+          }, {
+            "count" : 1,
+            "item" : "773-777-7500 fax 773-777-8892"
+          }, {
+            "count" : 1,
+            "item" : "312-863-6361"
+          }, {
+            "count" : 1,
+            "item" : "312-275-0440 xt.2"
+          }, {
+            "count" : 1,
+            "item" : "773-293-3621"
+          }, {
+            "count" : 1,
+            "item" : "773-262-6622"
+          }, {
+            "count" : 1,
+            "item" : "773-645-2330"
+          }, {
+            "count" : 1,
+            "item" : " 773-334-5609 X 1364"
+          }, {
+            "count" : 1,
+            "item" : "773-218-6700"
+          }, {
+            "count" : 1,
+            "item" : "312-485-7809"
+          }, {
+            "count" : 1,
+            "item" : "312-243-7300"
+          }, {
+            "count" : 1,
+            "item" : "773-787-9824 fax 773-787-7713"
+          }, {
+            "count" : 1,
+            "item" : "312-738-5354 "
+          }, {
+            "count" : 1,
+            "item" : "312-906-8600"
+          } ]
+        },
+        "format" : {
+        },
+        "metadata" : {
+          "originalName" : "Alternate Phone #"
+        }
+      }, {
+        "id" : 2684756,
+        "name" : "Ward",
+        "dataTypeName" : "number",
+        "fieldName" : "ward",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1455370,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 220,
+          "smallest" : "1",
+          "sum" : "5233",
+          "null" : 1,
+          "average" : "23.78636363636364",
+          "largest" : "50",
+          "top" : [ {
+            "count" : 12,
+            "item" : "25"
+          }, {
+            "count" : 10,
+            "item" : "34"
+          }, {
+            "count" : 9,
+            "item" : "24"
+          }, {
+            "count" : 8,
+            "item" : "2"
+          }, {
+            "count" : 8,
+            "item" : "46"
+          }, {
+            "count" : 8,
+            "item" : "27"
+          }, {
+            "count" : 8,
+            "item" : "17"
+          }, {
+            "count" : 8,
+            "item" : "26"
+          }, {
+            "count" : 7,
+            "item" : "20"
+          }, {
+            "count" : 7,
+            "item" : "40"
+          }, {
+            "count" : 7,
+            "item" : "10"
+          }, {
+            "count" : 7,
+            "item" : "4"
+          }, {
+            "count" : 7,
+            "item" : "3"
+          }, {
+            "count" : 6,
+            "item" : "35"
+          }, {
+            "count" : 6,
+            "item" : "28"
+          }, {
+            "count" : 6,
+            "item" : "30"
+          }, {
+            "count" : 6,
+            "item" : "6"
+          }, {
+            "count" : 5,
+            "item" : "29"
+          }, {
+            "count" : 5,
+            "item" : "22"
+          }, {
+            "count" : 5,
+            "item" : "21"
+          } ]
+        },
+        "format" : {
+        },
+        "metadata" : {
+          "originalName" : "Ward"
+        }
+      }, {
+        "id" : 2684757,
+        "name" : "Community Area",
+        "dataTypeName" : "text",
+        "fieldName" : "community_area",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455371,
+        "width" : 140,
+        "cachedContents" : {
+          "non_null" : 219,
+          "smallest" : "Albany Park",
+          "null" : 2,
+          "largest" : "Woodlawn",
+          "top" : [ {
+            "count" : 12,
+            "item" : "Austin"
+          }, {
+            "count" : 12,
+            "item" : "Uptown"
+          }, {
+            "count" : 9,
+            "item" : "Near West Side"
+          }, {
+            "count" : 9,
+            "item" : "South Lawndale"
+          }, {
+            "count" : 9,
+            "item" : "Lower West Side"
+          }, {
+            "count" : 8,
+            "item" : "Englewood"
+          }, {
+            "count" : 8,
+            "item" : "Humboldt Park"
+          }, {
+            "count" : 8,
+            "item" : "Near North Side"
+          }, {
+            "count" : 7,
+            "item" : "North Lawndale"
+          }, {
+            "count" : 7,
+            "item" : "South Chicago"
+          }, {
+            "count" : 7,
+            "item" : "Greater Grand Crossing"
+          }, {
+            "count" : 7,
+            "item" : "West Town"
+          }, {
+            "count" : 6,
+            "item" : "Logan Square"
+          }, {
+            "count" : 6,
+            "item" : "West Pullman"
+          }, {
+            "count" : 5,
+            "item" : "Chatham"
+          }, {
+            "count" : 5,
+            "item" : "West Ridge"
+          }, {
+            "count" : 4,
+            "item" : "New City"
+          }, {
+            "count" : 4,
+            "item" : "Chicago Lawn"
+          }, {
+            "count" : 4,
+            "item" : "Roseland"
+          }, {
+            "count" : 4,
+            "item" : "Rogers Park"
+          } ]
+        },
+        "format" : {
+        },
+        "metadata" : {
+          "originalName" : "Community Area"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Metadata" : {
+            "Time Period" : "Current list",
+            "Data Owner" : "Family & Support Services",
+            "Frequency" : "Data is updated as needed"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/4783/7574/CitySeal_Small_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/4783/7574/CitySeal_Small_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/4783/7574/CitySeal_Small_tiny.jpg",
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/4783/7574/CitySeal_Small_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/4783/7574/CitySeal_Small_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/4783/7574/CitySeal_Small_tiny.jpg",
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "youth", "facilities", "gis" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "ADB2A65F-18AB-4B2C-A286-CC25373AF381", 1, 1302277668, "386464", 1302277668, "386464", null, "A Knock at Midnight", "Summer Program only", "7050", "S", "May", "St", "Chicago", "IL", "60620", "773-488-2960", "773-488-2020", null, "17", "Englewood" ]
+, [ 2, "6FEAE5CA-C2A2-498C-AF4B-48766FF2FC86", 2, 1302277668, "386464", 1302277668, "386464", null, "Abraham Lincoln Center", "Out of School", "3858", "S", "Cottage Grove", "Ave", "Chicago", "IL", "60653", "773-268-3840", "773-268-3389", null, "4", "Oakland" ]
+, [ 3, "F42ED2A9-0144-4093-9B31-A45035ADD0EA", 3, 1302277668, "386464", 1302277668, "386464", null, "Access Living", "Mentoring", "115", "W", "Chicago", "Ave", "Chicago", "IL", "60654", "312-640-2198", "312-640-2101", null, "42", "Near North Side" ]
+, [ 4, "FEF1DB21-DC7B-41E4-9E03-FB397D88836F", 4, 1302277668, "386464", 1302277668, "386464", null, "Ada S. McKinley (CRY)", "Out of School", "8458", "S", "Mackinaw", "Ave", "Chicago", "IL", "60617", "773-731-8187 ", "773-731-8130", null, "10", "South Chicago" ]
+, [ 5, "4B6C67CA-833A-47EC-A052-AE5C53BE5729", 5, 1302277668, "386464", 1302277668, "386464", null, "Ada S. McKinley (youth and family)", "Out of School", "2938", "E", "91st", "St", "Chicago", "IL", "60617", "773-768-5452", "773-768-5522", null, "10", "South Chicago" ]
+, [ 6, "145076E7-9986-4A81-A62D-999F42287463", 6, 1302277668, "386464", 1302277668, "386464", null, "Albany Park", "Out of School", "3403", "W", "Lawrence", "Ave", "Chicago", "IL", "60625", "773-583-5111", "773-583-5062", "773-433-3260", "33", "Albany Park" ]
+, [ 7, "0CE2206E-2519-4ED3-90F3-B75F779279B2", 7, 1302277668, "386464", 1302277668, "386464", null, "Alliance for Community Peace (each one reach one)", "Out of School", "509", "W", "Elm", "St", "Chicago", "IL", "60610", "312-943-8530", "312-943-8911", "312-943-8530", "27", "Near North Side" ]
+, [ 8, "162AADF9-CBE1-4DFC-AC41-CEF3B56B8EDA", 8, 1302277668, "386464", 1302277668, "386464", null, "Alliance for Community Peace (healthy teens)", "Out of School", "509", "W", "Elm", "St", "Chicago", "IL", "60610", "312-943-8530", "312-943-8911", "312-943-8530", "27", "Near North Side" ]
+, [ 9, "CB812D07-67B2-41F3-A82E-A1081B920A36", 9, 1302277668, "386464", 1302277668, "386464", null, "Alliance of Local Service Organizations", "Out of School", "3429", "W", "Diversey", "St", "Chicago", "IL", "60651", "773-235-5705", "773-235-5747", null, "35", "Logan Square" ]
+, [ 10, "F73A6674-197E-4B30-9482-B18D22A5F03E", 10, 1302277668, "386464", 1302277668, "386464", null, "Alternatives, Inc.", "Out of School", "1542", "W", "Devon", "Ave", "Chicago", "IL", "60660", "773-506-7474", "773-506-9420", null, "40", "Uptown" ]
+, [ 11, "978F3105-3CC5-460B-9A02-81C9299D0C55", 11, 1302277668, "386464", 1302277668, "386464", null, "American Indian Center", "Out of School", "1630", "W", "Wilson", "Ave", "Chicago", "IL", "60640", "773-275-5871", "773-275-5874", null, "47", "Uptown" ]
+, [ 12, "9D220635-0F53-4C23-93A2-BB4E0F86FAAF", 12, 1302277668, "386464", 1302277668, "386464", null, "Arab American Action Network", "Out of School", "3148", "W", "63rd", "St", "Chicago", "IL", "60629", "773-436-6060", "773-436-6460", null, "15", "Chicago Lawn" ]
+, [ 13, "78C7338D-5B88-4933-B8C1-6306227B41B3", 13, 1302277668, "386464", 1302277668, "386464", null, "Asian Human Services, Inc", "Out of School", "2424", "W", "Peterson", "Ave", "Chicago", "IL", "60640", "773- 549-1052  ", "773-549-1210  773-728-4750", "773-293-8448", "40", "West Ridge" ]
+, [ 14, "83573DFA-3A46-4F7A-B13D-57A9DDF493B6", 14, 1302277668, "386464", 1302277668, "386464", null, "Association House of Chicago", "Out of School", "1116", "N", "Kedzie", "Ave", "Chicago", "IL", "60651", "773-772-7170", "773-792-5490", null, "26", "Humboldt Park" ]
+, [ 15, "C287BED9-EAB2-4BE4-857A-469F190CB9B4", 15, 1302277668, "386464", 1302277668, "386464", null, "Back of the Yards", "Out of School", "1751", "W", "47th", "St", "Chicago", "IL", "60609", "773-523-4416x103", "773-254-3525", null, "20", "New City" ]
+, [ 16, "51DB3B1E-C530-4545-AC28-8B31473149C1", 16, 1302277668, "386464", 1302277668, "386464", null, "BAGS  Foundation", "Mentoring", "243", "W", "119th", "St", "Chicago", "IL", "60628", "773-264-6348", "773-821-9151", "773-829-6626", "34", "West Pullman" ]
+, [ 17, "70914894-FE02-40B7-B5A4-FAD706939A6F", 17, 1302277668, "386464", 1302277668, "386464", null, "BAGS  Foundation", "Out of School", "226", "W", "104th", "St", "Chicago", "IL", "60628", "773-264-6348", "773-821-9151", "773-829-6626", "34", "West Pullman" ]
+, [ 18, "BCA11619-0438-4891-8EFC-D987F5A62E9F", 18, 1302277668, "386464", 1302277668, "386464", null, "Beacon  St. Gallery", "Out of School", "4525", "N", "Kenmore", "Ave", "Chicago", "IL", "60605", "312-212-1323", "312-212-1324", null, "46", "Uptown" ]
+, [ 19, "2C97F0ED-86A5-415E-8B51-9BA1B8A61A11", 19, 1302277668, "386464", 1302277668, "386464", null, "Better Boys Foundation", "Out of School", "1512", "S", "Pulaski", "Rd", "Chicago", "IL", "60623", "773-542-7340", "773-277-9768", "773-277-9582 (program)", "24", "North Lawndale" ]
+, [ 20, "A62F5E28-A2E9-4864-9070-432B87017087", 20, 1302277668, "386464", 1302277668, "386464", null, "Better Boys Foundation", "YRCC", "1512", "S", "Pulaski", "Rd", "Chicago", "IL", "60623", "773-542-7340", "773-277-9768", "773-277-9582 (program)", "24", "North Lawndale" ]
+, [ 21, "13F94582-825D-4659-9752-35B937EF09B3", 21, 1302277668, "386464", 1302277668, "386464", null, "Big Brothers Big Sisters Of  Metropolitan Chicago", "Mentoring", "560", "W", "Lake", "St", "Chicago", "IL", "60604", "312-427-0627", "312-427-0760", null, "42", "Near West Side" ]
+, [ 22, "175A9099-0794-43CC-9D68-1318CE781031", 22, 1302277668, "386464", 1302277668, "386464", null, "Block Club Federation", "Out of School", "1620", "N", "Pulaski", "Rd", "Chicago", "IL", "60639", null, null, null, "30", "Humboldt Park" ]
+, [ 23, "7DA7D886-EE0B-439B-9AFE-D6709FAA9D7D", 23, 1302277668, "386464", 1302277668, "386464", null, "Boulevard Arts Center Justine ", "Out of School", "5440", "S", "Racine", "Ave", "Chicago", "IL", "60609", "773-436-4400", "773-436-4045", null, "16", "New City" ]
+, [ 24, "43A53F36-9FCC-4BCD-B32B-F91221B22075", 24, 1302277668, "386464", 1302277668, "386464", null, "Boys and Girls Club  Valentine", "Out of School", "3400", "S", "Emerald", "Ave", "Chicago", "IL", "60616", "773-927-7373", "773-927-8527", null, "11", "Bridgeport" ]
+, [ 25, "D06BDB73-502B-4CB4-B083-B2C934C42D6B", 25, 1302277668, "386464", 1302277668, "386464", null, "Boys and Girls Club Cotter", "Out of School", "2915", "N", "Leavitt", "St", "Chicago", "IL", "60618", "773-348-1866", "773-348-4643", null, "1", "North Center" ]
+, [ 26, "3E2F8C33-F84B-4160-84F0-839CFDA5381D", 26, 1302277668, "386464", 1302277668, "386464", null, "Boys and Girls Clubs Salem", "Out of School", "10909", "S", "Cottage Grove", "Ave", "Chicago", "IL", "60636", "312-235-8027", "312-427-4120", null, "17", "Pullman" ]
+, [ 27, "C16820ED-5082-4A3E-9044-9D0A6FD6BE37", 27, 1302277668, "386464", 1302277668, "386464", null, "Boys and Girls Dr. King", "Summer Program only", "2950", "W", "Washington", "St", "Chicago", "IL", "60612", "773-638-0425", "773-638-4104", null, "2", "East Garfield Park" ]
+, [ 28, "1D9E31FE-8EB5-474A-89C5-3B851DC763D9", 28, 1302277668, "386464", 1302277668, "386464", null, "Boys and Girls General Wood", "Out of School", "2950", "W", "25th", "St", "Chicago", "IL", "60623", "773-247-0700", "773-927-4599", null, "12", "South Lawndale" ]
+, [ 29, "A8312488-49BD-49FD-96E1-2C6DEA5E0D0C", 29, 1302277668, "386464", 1302277668, "386464", null, "Boys and Girls James Jordan", "Summer Program only", "2102", "W", "Monroe", "St", "Chicago", "IL", "60612", "312-226-2323", "312-226-9788", null, "2", "Near West Side" ]
+, [ 30, "621C33A8-5A36-4646-A319-CF51D4E5AF17", 30, 1302277668, "386464", 1302277668, "386464", null, "Boys and Girls Little Village", "Out of School", "2801", "S", "Ridgeway", "St", "Chicago", "IL", "60623", "773-277-1800", "773-277-4777", null, "22", "South Lawndale" ]
+, [ 31, "1A9F61F8-5809-4DAF-B33A-5C8EC4E651FF", 31, 1302277668, "386464", 1302277668, "386464", null, "Boys and Girls Logan Square", "Out of School", "3228", "W", "Palmer", "St", "Chicago", "IL", "60647", "773-342-8800", "773-342-3898", null, "26", "Logan Square" ]
+, [ 32, "E31FCA93-FB76-4770-8785-9D50A0DC5551", 32, 1302277668, "386464", 1302277668, "386464", null, "Boys and Girls McCormick", "Summer Program only", "4835", "N", "Sheridan", "Rd", "Chicago", "IL", "60609", "773-271-8400", "773-271-2425", null, "48", "Uptown" ]
+, [ 33, "B1F217CE-5C55-4E8A-912B-615E9E6E5AE1", 33, 1302277668, "386464", 1302277668, "386464", null, "Boys and Girls Wendell Green", "Summer Program only", "9600", "S", "Vincennes", "Ave", "Chicago", "IL", "60643", "312- 235-8000", "312-427-4110", null, "21", "Washington Heights" ]
+, [ 34, "FD540DD4-1673-4842-8CFB-C3FC688BFBFC", 34, 1302277668, "386464", 1302277668, "386464", null, "Boys and Girls Yancey", "Out of School", "6201", "S", "Stewart", "Ave", "Chicago", "IL", "60621", "773-535-0010", "773-535-0011", null, "20", "Englewood" ]
+, [ 35, "F4DBE601-3033-40F0-ABB7-4F7AF00271D6", 35, 1302277668, "386464", 1302277668, "386464", null, "Brighton Park Neighborhood Council", "Out of School", "3542", "S", "Washtenaw", "Ave", "Chicago", "IL", "60632", "773-523-7110", "773-523-7023", null, "12", "Brighton Park" ]
+, [ 36, "147875F3-8F9E-4C49-B922-17EEC1BF6E06", 36, 1302277668, "386464", 1302277668, "386464", null, "BUILD, Inc - Gang Violence", "Gang Intervention", "4343", "W", "Wrightwood", "St", "Chicago", "IL", "60639", "312-492-9614", "312-492-5973", null, "31", "Belmont Craigin" ]
+, [ 37, "BFF39891-D79F-4D33-964C-7AC89659655C", 37, 1302277668, "386464", 1302277668, "386464", null, "BUILD, Inc - Humboldt Park", "Out of School", "1223", "N", "Milwaukee", "Ave", "Chicago", "IL", "60642", "773-227-2880", "773-227-3012", null, "35", "West Town" ]
+, [ 38, "00C085B0-73D0-48F7-84F0-2A1AE2D0D010", 38, 1302277668, "386464", 1302277668, "386464", null, "Cabrini Connections - Huron", "Mentoring", "800", "W", "Huron", "St", "Chicago", "IL", "60642", "312-492-9795", "312-492-9795", null, "27", "West Town" ]
+, [ 39, "6DA90671-6791-4A74-B0DB-2AACB827D528", 39, 1302277668, "386464", 1302277668, "386464", null, "Cambodian Association of Illinois", "Out of School", "2831", "W", "Lawrence", "Ave", "Chicago", "IL", "60625", "773-878-7090", "773-878-5299", null, "47", "Lincoln Square" ]
+, [ 40, "97EEFBA3-12DF-4DEB-B8E2-2DFA0D351128", 40, 1302277668, "386464", 1302277668, "386464", null, "Carole Robertson Center for  Living - Arts & Culture", "Out of School", "2929", "W", "29th", "St", "Chicago", "IL", "60623", "773-521-1600", "773-521-6308", " 312-243-7300", "24", "South Lawndale" ]
+, [ 41, "6B5F238C-B08E-4FC8-8558-49E2A4F52A7F", 41, 1302277668, "386464", 1302277668, "386464", null, "Carole Robertson Center for  Living - Sports & Recreation", "Out of School", "2929", "W", "19th ", "St", "Chicago", "IL", "60623", "773-521-1600", "773-521-6308", "312-243-7300", "24", "South Lawndale" ]
+, [ 42, "59689260-E6FF-4631-9E69-D5635D349D8A", 42, 1302277668, "386464", 1302277668, "386464", null, "Casa Central", "Out of School", "1351", "N", "California", "Ave", "Chicago", "IL", "60622", "773-645-2450", "773-645-2475", "773-645-2330", "26", "West Town" ]
+, [ 43, "16AA153E-38AA-4016-A34D-0CDD36EED738", 43, 1302277668, "386464", 1302277668, "386464", null, "Catholic Youth Ministry - Morgan  Park", "Out of School", "1825", "W", "Monterey", "Ave", "Chicago", "IL", "60643", "773-881-0193", "773-881-0617", null, "19", "Morgan Park" ]
+, [ 44, "9D0CC84B-50A7-4F09-89C7-963D2B69E84B", 44, 1302277668, "386464", 1302277668, "386464", null, "Center of Higher Development - Bronzeville", "Out of School", "3515", "S", "Cottage Grove", "Ave", "Chicago", "IL", "60653", "773-955-1681", "773-721-3920", null, "4", "Oakland" ]
+, [ 45, "FBE332EE-C6B6-4FD1-AEF5-2DD3C3393CC5", 45, 1302277668, "386464", 1302277668, "386464", null, "Center of Higher Development - South Chicago", "Out of School", "8732", "S", "Burley", "Ave", "Chicago", "IL", "60617", "773-643-1881", "773-721-3920", null, "7", "South Chicago" ]
+, [ 46, "730CD879-346A-47FD-80CF-C6FB7111B6D0", 46, 1302277668, "386464", 1302277668, "386464", null, "Center on Halsted", "YRCC", "3656", "N", "Halsted", "St", "Chicago", "IL", "60613", "773-472-6469", null, null, "44", "Lakeview" ]
+, [ 47, "6C3A0DFC-E215-4780-97A4-1C0C6FA67717", 47, 1302277668, "386464", 1302277668, "386464", null, "Central States SER - Jobs - Archer Heights", "Out of School", "4721", "S", "Cicero", "Ave", "Chicago", "IL", "60632", "773-542-9030", "773-542-9212", null, "23", "Garfield Ridge" ]
+, [ 48, "DCD7277E-189B-4D76-A60E-28EF5E1D92F1", 48, 1302277668, "386464", 1302277668, "386464", null, "Central States SER - Jobs - Gang Intervention", "Out of School", "7601", "S", "Kostner", "St", "Chicago", "IL", "60652", "773-542-9030", "773-542-9212", null, "13", "West Lawn" ]
+, [ 49, "EDC3C811-CF0F-46AB-A6AD-EFCA928CABD5", 49, 1302277668, "386464", 1302277668, "386464", null, "Central States SER", "YRCC", "3948", "W", "26th ", "St", "Chicago", "IL", "60623", "773-542-9030", null, null, "22", "South Lawndale" ]
+, [ 50, "F22BAD13-9A19-4820-957B-154BAC7CB5B1", 50, 1302277668, "386464", 1302277668, "386464", null, "Centro Romero - Latino Youth Power", "Out of School", "6216", "N", "Clark", "St", "Chicago", "IL", "60660", "773-508-5300", "773-508-5399", null, "40", "Edgewater" ]
+, [ 51, "29F3C053-C0CB-4470-B068-9C126E881A02", 51, 1302277668, "386464", 1302277668, "386464", null, "Centro Romero - Youth Learning and Leadership Program", "Out of School", "6216", "N", "Clark", "St", "Chicago", "IL", "60660", "773.508.5300", "773-508-5399", null, "40", "Edgewater" ]
+, [ 52, "81F2E129-F16C-42B4-A6E9-2DCC7BC7B58F", 52, 1302277668, "386464", 1302277668, "386464", null, "Changing Worlds", "Out of School", "4250", "S", "Rockwell", "St", "Chicago", "IL", "60632", "312-421-8040", "312-421-8466", null, "12", "Brighton Park" ]
+, [ 53, "40F02CEA-975A-4356-87DC-FA7528A2D3D7", 53, 1302277668, "386464", 1302277668, "386464", null, "Charles A. Hayes Family - Investment Center", "Out of School", "4455", "S", "King ", "Dr", "Chicago", "IL", "60653", "773-548-4455", "773-548-8375", null, "3", "Grand Boulevard" ]
+, [ 54, "857FA44B-4C6F-452D-A7EB-DE45FDD2DA84", 54, 1302277668, "386464", 1302277668, "386464", null, "Chicago Child Care Society", "Mentoring", "5467", "S", "University", "Ave", "Chicago", "IL", "60615", "773-643-0452", "773-643-0620", null, "4", "Hyde Park" ]
+, [ 55, "2F55D618-48D1-4C3F-A28D-062DFD5600A2", 55, 1302277668, "386464", 1302277668, "386464", null, "Chicago Horticultural Society/Chicago Botanic Garden", "Out of School", "7200", "S", "Ingleside", "Ave", "Chicago", "IL", "60619", null, null, null, "5", "Greater Grand Crossing" ]
+, [ 56, "C2505FB1-697B-4AB6-B312-1E4CEDDB27C2", 56, 1302277668, "386464", 1302277668, "386464", null, "Chicago House and Social Service", "Out of School", "4621", "N", "Beacon", "St", "Chicago", "IL", "60640", "773.248.5200 x 314", "773-248-5019", null, "46", "Uptown" ]
+, [ 57, "0A5920B7-E95E-42F8-86F8-B84D72A1CC55", 57, 1302277668, "386464", 1302277668, "386464", null, "Chicago Training Center", "Out of School", "2411", "W", "55th", "St", "Chicago", "IL", "60632", "312-342-5241", null, "312-485-7809", "16", "New City" ]
+, [ 58, "09D4156D-3DB4-4806-88D8-12A3685238E4", 58, 1302277668, "386464", 1302277668, "386464", null, "Chicago Urban League - Nulites", "Out of School", "7025", "S", "Princeton", null, "Chicago", "IL", "60621", "773-451-3564", "773-451-3542", null, "6", "Greater Grand Crossing" ]
+, [ 59, "C8A68A2F-78BE-4344-B2ED-22800A0B4EF7", 59, 1302277668, "386464", 1302277668, "386464", null, "Chicago Youth Centers- ABC Youth Center", "Out of School", "3415", "W", "13th", "Pl", "Chicago", "IL", "60623", "773-762-5655", "773-762-0812", "312-795-3500", "24", "North Lawndale" ]
+, [ 60, "40A58E7B-2387-475E-A3B6-DB6E3001A94D", 60, 1302277668, "386464", 1302277668, "386464", null, "Chicago Youth Centers- Centro  Nuestro", "Out of School", "3222", "W", "Division", "St", "Chicago", "IL", "60623", "773-489-3157", "773-489-3376", "312-795-3500", "26", "Humboldt Park" ]
+, [ 61, "BBA69A10-12F0-4D9E-A9C4-E9B4A67EF86E", 61, 1302277668, "386464", 1302277668, "386464", null, "Chicago Youth Centers- Elliot  Donnelley", "Out of School", "3947", "S", "Michigan", "Ave", "Chicago", "IL", "60653", "773-268-3815", "773-268-9460", "312-795-3500", "3", "Grand Boulevard" ]
+, [ 62, "5ABD2D47-A574-43E6-A849-2E476D3BF0BF", 62, 1302277668, "386464", 1302277668, "386464", null, "Chicago Youth Centers- Fellowship House", "Out of School", "844", "W", "32nd", "St", "Chicago", "IL", "60608", "312-326-2282  ", "312-326-4874         312-795-3520", "312-795-3500", "11", "Bridgeport" ]
+, [ 63, "9429BF7F-EE47-4763-9A35-49A686FA5039", 63, 1302277668, "386464", 1302277668, "386464", null, "Chicago Youth Centers- Rebecca Crown", "Out of School", "7601", "S", "Phillips", "Ave", "Chicago", "IL", "60649", "773-731-0444 ", "773-731-4177        312-795-3520", " 312-795-3500", "7", "South Shore" ]
+, [ 64, "EB86E0E6-6584-479B-A670-AD2038130328", 64, 1302277668, "386464", 1302277668, "386464", null, "Chicago Youth Programs - Cabrini Green                                             ", "Mentoring", "1230", "N", "Burling ", "St", "Chicago", "IL", "60615", "773-924-0220", "773-924-0222", null, "3", "Near North Side" ]
+, [ 65, "598A9A31-47F0-4914-A2E3-F820E3BBDC6A", 65, 1302277668, "386464", 1302277668, "386464", null, "Chicago Youth Programs - Uptown", "Mentoring", "4425", "N", "Malden", "St", "Chicago", "IL", "60640", "773-924-0220", "773-924-0222", null, "46", "Uptown" ]
+, [ 66, "0E4A6B4D-00AA-4386-B31E-3A9E4B6427EF", 66, 1302277668, "386464", 1302277668, "386464", null, "Chicago Youth Programs - Washington Park", "Mentoring", "5722", "S", "Indiana", "Ave", "Chicago", "IL", "60615", "773-924-0220 xt. 123", "773-924-0222", null, "20", "Washington Park" ]
+, [ 67, "36BB8366-30E4-4D4D-BE40-A92D2ABFD99E", 67, 1302277668, "386464", 1302277668, "386464", null, "Child Link", "Counseling", "1100", "W", "Cermak", "Rd", "Chicago", "IL", "60608", "312-339-5508", "312-377-4888", null, "25", "Lower West Side" ]
+, [ 68, "66CBAD06-7068-474D-8E7A-06431F2E3296", 68, 1302277668, "386464", 1302277668, "386464", null, "Child Link", "Homeless", "1100", "W", "Cermak", "Rd", "Chicago", "IL", "60608", "312-339-5508", "312-377-4888", null, "25", "Near West Side" ]
+, [ 69, "EB3FE4D6-412F-4284-A297-838625FDA935", 69, 1302277668, "386464", 1302277668, "386464", null, "ChildServ (Benito Juarez H.S.)", "Counseling", "2833", "W", "Adams", "St", "Chicago", "IL", "60608", "773-867-7327", "773-693-0322", null, "2", "East Garfield Park" ]
+, [ 70, "06F42E79-08C5-4490-A985-3D25262C1040", 70, 1302277668, "386464", 1302277668, "386464", null, "Chinese American Service League", "Out of School", "2141", "S", "Tan", "Ct", "Chicago", "IL", "60616", "312-791-0418", "312-791-0509", null, "25", "Armour Square" ]
+, [ 71, "5BCA9633-5BB9-45D7-A344-3DAEAA7CBB90", 71, 1302277668, "386464", 1302277668, "386464", null, "Chinese Mutual Aid Association", "Out of School", "1016", "W", "Argyle", "St", "Chicago", "IL", "60640", "773-784-2900", "773-784-2984", null, "46", "Uptown" ]
+, [ 72, "0D5CF320-1BB1-4EE5-AC8D-C0B6D5CD8F0D", 72, 1302277668, "386464", 1302277668, "386464", null, "Christ Center of Truth Ministries", "Out of School", "402", "W", "71st", "St", "Chicago", "IL", "60621", "773-487-3088", "773-488-3801", "773-487-3088", "6", "Englewood" ]
+, [ 73, "31E63918-7453-42AB-81EC-55BE7DBD8805", 73, 1302277668, "386464", 1302277668, "386464", null, "Christ Way M.B. Church", "Out of School", "1210", "E", "62nd", "St", "Chicago", "IL", "60637", "773-363-9563", "773-363-1876", null, "20", "Woodlawn" ]
+, [ 74, "EA2404C5-5E71-4DE7-BE09-68CB9363DB92", 74, 1302277668, "386464", 1302277668, "386464", null, "Christian Fellowship Flock - Chosen Generation", "Summer Program ", "2435", "W", "Division", "St", "Chicago", "IL", "60622", "773-772-1141", "773-772-5933", null, "26", "Humboldt Park" ]
+, [ 75, "69F8F740-6CEA-4626-A8EA-861E9E0E3C58", 75, 1302277668, "386464", 1302277668, "386464", null, "Comer Science and Education Foundation - Career Exploration", "Out of School", "7200", "S", "Ingleside", "St", "Chicago", "IL", "60619", "773-358-4070", "773-358-4089", null, "5", "Greater Grand Crossing" ]
+, [ 76, "2E91AEC2-F425-42BC-B5E0-A702A0FA55B7", 76, 1302277668, "386464", 1302277668, "386464", null, "Comer Science and Education Foundation - Green Industries", "Out of School", "7200", "S", "Ingleside", "St", "Chicago", "IL", "60619", "773-358-4070", "773-358-4089", null, "5", "Greater Grand Crossing" ]
+, [ 77, "C5B2CDDD-C928-4A40-A95B-4F0166E58221", 77, 1302277668, "386464", 1302277668, "386464", null, "Community Help Center DBA Muslim Women", "Out of School", "6349", "N", "Western", "Ave", "Chicago", "IL", "60659", "773-764-1686", "773-764-6753", null, "50", "West Ridge" ]
+, [ 78, "380DED2B-B98A-4F96-A44B-FC02C42A27C8", 78, 1302277668, "386464", 1302277668, "386464", null, "Concordia", "Summer Program ", "3300", "N", "Whipple", "St", "Chicago", "IL", "60618", "773-463-1600", "773-463-1690", null, "33", "Avondale" ]
+, [ 79, "9239F47E-BFC3-4C2C-9F3C-A2A165F5C829", 79, 1302277668, "386464", 1302277668, "386464", null, "Core Music Foundation NFP", "Out of School", "144", "W", "79th", "St", "Chicago", "IL", "60621", "773-962-7490", "877-852-7586", null, "6", "Greater Grand Crossing" ]
+, [ 80, "7CCA2C8B-4F88-435B-B0D7-1640A4D9EC5B", 80, 1302277668, "386464", 1302277668, "386464", null, "Counseling Center of Lake View", "Counseling", "1400", "W", "Greenleaf", "Ave", "Chicago", "IL", "60626", "773-382-4095", "773-508-7231       773-549-3265", "773-549-5886", "49", "Rogers Park" ]
+, [ 81, "31508EC5-2C94-4701-83F7-5C7D74D9B841", 81, 1302277668, "386464", 1302277668, "386464", null, "DMI Information Processing Center", "Out of School", "5090", "W", "Harrison", "St", "Chicago", "IL", "60644", "773-378-0261", "773-378-2408", null, "29", "Austin" ]
+, [ 82, "D0B1F386-647D-4A59-8FE1-C12842D1C290", 82, 1302277668, "386464", 1302277668, "386464", null, "Douglas Park Youth Services", "Out of School", "2715", "W", "24th", "St", "Chicago", "IL", "60608", "773-847-5320", "815-293-0204", null, "28", "South Lawndale" ]
+, [ 83, "A1B1B06C-8591-4022-A831-94D3D474DBC8", 83, 1302277668, "386464", 1302277668, "386464", null, "E.F. Ghougan and Associates", "Counseling", "2931", "S", "Wabash", "Ave", "Chicago", "IL", "60616", "773-450-8713", "312-567-1449", null, "2", "Douglas" ]
+, [ 84, "E67B63DF-C44C-45A5-A792-B4580E5F6FED", 84, 1302277668, "386464", 1302277668, "386464", null, "Each One Teach One Literacy", "Out of School", "6720", "S", "Stewart ", "Ave", "Chicago", "IL", "60621", "708-280-1383 cell", "877-274-1284", "773.848.6751 cell", "6", "Englewood" ]
+, [ 85, "278B1B88-821F-49A2-8963-61561755D153", 85, 1302277668, "386464", 1302277668, "386464", null, "East Village Youth Program", "Out of School", "3643", "W", "Belmont", "Ave", "Chicago", "IL", "60618", "312-275-0440 xt.1", "312-275-0441", "312-275-0440 xt.2", "35", "Avondale" ]
+, [ 86, "6202C42E-3379-46FB-BED7-9FEDDA4ACDB8", 86, 1302277668, "386464", 1302277668, "386464", null, "Edgewater Community Council", "Out of School", "6219", "N", "Sheridan", "Rd", "Chicago", "IL", "60660", "773-334-5609 x 1364", "773-508-4790", " 773-334-5609 X 1364", "49", "Edgewater" ]
+, [ 87, "1C9A8F13-A353-44CC-B4F4-E08C8EB9C30B", 87, 1302277668, "386464", 1302277668, "386464", null, "Elijah's House", "Out of School", "6301", "S", "Halsted", "St", "Chicago", "IL", "60621", "773-517-5108", "219-803-0115", null, "6", "Englewood" ]
+, [ 88, "7F7E93EE-CEE4-4AA5-AF4C-1290D0D53E9D", 88, 1302277668, "386464", 1302277668, "386464", null, "Ethiopian Community Association of Chicago, Inc.", "Out of School", "4750", "N", "Sheridan", "Rd", "Chicago", "IL", "60640", "773-508-0303", "773-728-0571", null, "46", "Uptown" ]
+, [ 89, "330544EC-A963-4655-8E11-2EE2A44465CB", 89, 1302277668, "386464", 1302277668, "386464", null, "Family Care Mission", "Summer Program ", "7859", "S", "Ashland", "Ave", "Chicago", "IL", "60620", "773-723-5400", "773-723-8164", null, "17", "Auburn Gresham" ]
+, [ 90, "D5FE2376-0B36-4BC1-8D96-B9828BE19AA0", 90, 1302277668, "386464", 1302277668, "386464", null, "Family Focus Lawndale", "Out of School", "3517", "W", "Arthington", "St", "Chicago", "IL", "60624", "773.722.5057x229", "773.722.5160", null, "24", "North Lawndale" ]
+, [ 91, "C7E13A12-04F8-45B7-A9B7-0F3DFF456700", 91, 1302277668, "386464", 1302277668, "386464", null, "Family Focus Nuestra Familia", "Out of School", "4145", "W", "Armitage", "Ave", "Chicago", "IL", "60639", "773-276-0940", "773-276-0980", null, "30", "Hermosa" ]
+, [ 92, "4C1595A6-1445-4E64-B6FF-7B437CF9F5CD", 92, 1302277668, "386464", 1302277668, "386464", null, "Family Matters", "Out of School", "7731", "N", "Marshfield", "Ave", "Chicago", "IL", "60626", "773-338-6311", "773-338-6335", null, "49", "Rogers Park" ]
+, [ 93, "CABAAF7C-F246-4179-80C9-BB29E28C3E3C", 93, 1302277668, "386464", 1302277668, "386464", null, "Forward P.C.", "Counseling", "3265", "W", "Armitage", "Ave", "Chicago", "IL", "60647", "773-862-4675", "773-862-4685", null, "35", "Logan Square" ]
+, [ 94, "F71309B4-F165-4D88-903A-D0901C72FEFD", 94, 1302277668, "386464", 1302277668, "386464", null, "Fraternite Notre Dame", "Out of School", "502", "N", "Central", "Ave", "Chicago", "IL", "60644", "773-261-0101", "773-261-6577", null, "29", "Austin" ]
+, [ 95, "54B0CE75-7ABC-4C44-83D1-26FD4EC7C0AE", 95, 1302277668, "386464", 1302277668, "386464", null, "Girl Scouts of Chicago", "Out of School", "4247", "W", "31st", "St", "Chicago", "IL", "60616", "312-416-2500", "312-416-2932", "219-795-9640 Fax 219-795-1244", "22", "South Lawndale" ]
+, [ 96, "0CCA6E57-78AC-4236-9438-F926091D6077", 96, 1302277668, "386464", 1302277668, "386464", null, "Girls in the Game", "Out of School", "1501", "W", "Randolph", "St", "Chicago", "IL", "60607", "312-633-4263", "312-633-4897", null, "27", "Near West Side" ]
+, [ 97, "B2A47DF6-58DE-42E7-A811-A52C447EBBE8", 97, 1302277668, "386464", 1302277668, "386464", null, "Graffiti Zone", "Out of School", "1410", "N", "Springfield", "Ave", "Chicago", "IL", "60651", "773-319-3112", null, null, "30", "Humboldt Park" ]
+, [ 98, "3ECA2828-6858-4655-81CC-32D8A3A07A69", 98, 1302277668, "386464", 1302277668, "386464", null, "Hamdard Center for Health and Human Services", "Out of School", "1542", "W", "Devon", "St", "Chicago", "IL", "60660", "773-465-4600", "773-465-4666", null, "40", "Rogers Park" ]
+, [ 99, "83D4C545-04C7-4E6F-BFFA-1E8FBE2252AF", 99, 1302277668, "386464", 1302277668, "386464", null, "Heartland Human Care Service - Violence Recovery Service", "Counseling", "2106", "W", "35th", "St", "Chicago", "IL", "60636", "773-847-4417", "773-847-4942", null, "11", "McKinley Park" ]
+, [ 100, "B3D232A6-84DF-4152-9EB8-A293B0EB35CC", 100, 1302277668, "386464", 1302277668, "386464", null, "Heartland Human Care Service - YRS Youth Counseling ", "Counseling", "2732", "N", "Kedzie", "Ave", "Chicago", "IL", "60647", "773-433-1256", "773-271-8810", null, "35", "Logan Square" ]
+, [ 101, "1066502B-CD9A-4B4B-9089-A1266FDF20E4", 101, 1302277668, "386464", 1302277668, "386464", null, "Hedgewisch Community Committee", "Out of School", "13260", "S", "Brandon", "Ave", "Chicago", "IL", "60633", "773-646-4488", "773-646-4841", null, "10", "Hegewisch" ]
+, [ 102, "08A966D4-B1F3-4618-8374-700D384F94E4", 102, 1302277668, "386464", 1302277668, "386464", null, "Hermosa  Community", "Mentoring", "2105", "N", "Pulaski", "Rd", "Chicago", "IL", "60639", "773-252-6729", "773-252-7516", null, "30", "Logan Square" ]
+, [ 103, "5A6297BF-C3F0-4510-A846-A667E8E46D85", 103, 1302277668, "386464", 1302277668, "386464", null, "HighSight", "Out of School", "315", "W", "Walton", "St", "Chicago", "IL", "60610", "312-787-9824", "312-787-7713", "773-787-9824 fax 773-787-7713", "27", "Near North Side" ]
+, [ 104, "1F9BC70D-E2BA-48E0-9572-396151E99848", 104, 1302277668, "386464", 1302277668, "386464", null, "Home of Life Community Development", "Out of School", "4647", "W", "Washington", "St", "Chicago", "IL", "60644", "773-626-8655 xt 204", "773-626-1387", null, "28", "Austin" ]
+, [ 105, "33EDC1B7-9CD6-49F4-BEA3-480D2FDAF51E", 105, 1302277668, "386464", 1302277668, "386464", null, "Hope Organization", "Out of School", "9231", "S", "Cottage Grove", "Ave", "Chicago", "IL", "60619", "773-487-8441", "773-487-8603", null, "8", "Chatham" ]
+, [ 106, "B8882F1F-8C98-41CD-A316-A33F4E879E9A", 106, 1302277668, "386464", 1302277668, "386464", null, "Howard Area Community Center - Paulina", "Out of School", "7414", "W", "Wolcott", "St", "Chicago", "IL", "60626", "773-381-3652", "773-381-4043           773-262-6645", "773-262-6622", "49", "Rogers Park" ]
+, [ 107, "D14D0C92-0B5A-4D7C-A44B-E096B4B20E4A", 107, 1302277668, "386464", 1302277668, "386464", null, "Howard Brown Health Center", "Mentoring", "3179", "N", "Broadway", null, "Chicago", "IL", "60657", null, null, null, "44", "Lakeview" ]
+, [ 108, "694026A8-162A-45F5-9350-62698C8BE029", 108, 1302277668, "386464", 1302277668, "386464", null, "Hyde Park Neighborhood Club", "Out of School", "5480", "S", "Kenwood", "St", "Chicago", "IL", "60615", "773-643-4062", "773-643-4262", null, "4", "Hyde Park" ]
+, [ 109, "8BB845C9-0AC2-4C8A-BB46-A2F2A39E0ADF", 109, 1302277668, "386464", 1302277668, "386464", null, "I C.A.R.E Ministries - Iowa", "Out of School", "4925", "W", "Division", "St", "Chicago", "IL", "60651", "773-227-0099", "773-227-0189", null, "37", "Austin" ]
+, [ 110, "D7C07942-D6B0-4773-9FF9-259E25959D4C", 110, 1302277668, "386464", 1302277668, "386464", null, "Impact Family Center", "Out of School", "10956", "S", "State", "St", "Chicago", "IL", "60628", null, null, null, "34", "Roseland" ]
+, [ 111, "B126AED2-C190-44DB-B400-771B01C83CE3", 111, 1302277668, "386464", 1302277668, "386464", null, "Indo-American Center", "Out of School", "6328", "N", "California", "Ave", "Chicago", "IL", "60653", "773-973-4444", "773-973-0157", null, "50", "West Ridge" ]
+, [ 112, "93293B5E-86E7-4747-9B36-7DDE576766D1", 112, 1302277668, "386464", 1302277668, "386464", null, "Inner City Youth Development", "Out of School", "7050", "S", "May", "St", "Chicago", "IL", "60659", "773-410-1621", "773-434-1611", null, "17", "Englewood" ]
+, [ 113, "1B25BA6C-F077-403A-BD63-8118E30E7C7A", 113, 1302277668, "386464", 1302277668, "386464", null, "Institute of Positive Education", "Out of School", "7825", "S", "Ellis", "Ave", "Chicago", "IL", "60619", "773-651-2425", "773-651-2427", null, "8", "Greater Grand Crossing" ]
+, [ 114, "5608A848-15E6-4CFD-A1A8-5E68A8D09D0D", 114, 1302277668, "386464", 1302277668, "386464", null, "Instituto Del Progreso Latino - Keep Educating Youth", "Out of School", "2315", "W", "24th", "Pl", "Chicago", "IL", "60608", "773-890-0055", "773-890-1537", "773-890-0055", "25", "Lower West Side" ]
+, [ 115, "3232A53C-5FF5-4686-AA82-385FFE5941C6", 115, 1302277668, "386464", 1302277668, "386464", null, "Interfaith Refugee and Immigration Ministries", "Out of School", "1212", "W", "Balmoral", "Ave", "Chicago", "IL", "60640", "773-989-5647", "773-989-0484", null, "48", "Edgewater" ]
+, [ 116, "C53E17FF-44D3-4866-B2BD-47AC88E6BA6D", 116, 1302277668, "386464", 1302277668, "386464", null, "Jane Addams Hull House Association", "Out of School", "4640", "S", "Lamon", "Ave", "Chicago", "IL", "60638", "312-235-5369", "312-235-5287", "312-906-8600", "23", "Garfield Ridge" ]
+, [ 117, "C296311D-637D-4398-8286-CC272A68820D", 117, 1302277668, "386464", 1302277668, "386464", null, "JHP Community Center", "Out of School", "5110", "N", "Western", "Ave", "Chicago", "IL", "60625", "312-952-2126  ", "773-577-0512", "773-293-3621", "40", "Lincoln Square" ]
+, [ 118, "9B58EDD7-E5DA-4631-A792-1314870968C2", 118, 1302277668, "386464", 1302277668, "386464", null, "Kenwood Oakland Community Organization", "Out of School", "4434", "S", "Lake Park", "Ave", "Chicago", "IL", "60653", "773-548-7500", "773-548-9264", null, "4", "Kenwood" ]
+, [ 119, "EF3B9379-90CB-4795-92F2-7E1217B3AEA3", 119, 1302277668, "386464", 1302277668, "386464", null, "Kids Off The Block, Inc. (Kids off the Block", "Out of School", "11621", "S", "Michigan", "Ave", "Chicago", "IL", "60628", "773-995-9077", "773-264-3912", null, "9", "West Pullman" ]
+, [ 120, "C1C1E592-9C48-45E7-AE10-9F9E1FE1825C", 120, 1302277668, "386464", 1302277668, "386464", null, "Kids Off The Block, Inc. (KOB Community Basketball)", "Out of School", "11621", "S", "Michigan", "Ave", "Chicago", "IL", "60628", "773-995-9077", "773-264-3912", null, "9", "West Pullman" ]
+, [ 121, "50B874A3-F6D5-4D53-BCB1-ED021F0DC613", 121, 1302277668, "386464", 1302277668, "386464", null, "Korean American Resource and Cultural Center", "Out of School", "2701", "W", "Peterson", "Ave", "Chicago", "IL", "60659", "773-293-4051", "773-588-9159", null, "40", "West Ridge" ]
+, [ 122, "9BE704A4-8B92-4254-8007-56481E60F122", 122, 1302277668, "386464", 1302277668, "386464", null, "Kuumba Lynx", "Out of School", "4501", "N", "Clarendon", "Ave", "Chicago", "IL", "60640", "773-550-4229", "312-742-4499", null, "46", "Uptown" ]
+, [ 123, "9AD2FE73-DE01-431C-8409-2108B1A8B3F6", 123, 1302277668, "386464", 1302277668, "386464", null, "Learning Network Center", "Out of School", "5911", "W", "Midway", "Park", "Chicago", "IL", "60644", "773-378-7076", "773-378-1741", null, "29", "Austin" ]
+, [ 124, "5E714F6B-0E89-40C8-B0DE-95F9484C845F", 124, 1302277668, "386464", 1302277668, "386464", null, "Lemuel Austin Youth Foundation", "Out of School", "507", "W", "111th", "St", "Chicago", "IL", "60628", "773-928-6875", "773-928-1078", null, "34", "Roseland" ]
+, [ 125, "A5D9192B-C85E-41B8-BEB2-A365DA033B0C", 125, 1302277668, "386464", 1302277668, "386464", null, "Lester & Rosalie - Anixter Center", "Out of School", "6610", "N", "Clark", "St", "Chicago", "IL", "60626", "773-973-7900 ext. 227", "773-973-5268", null, "43", "Lincoln Park" ]
+, [ 126, "2D87A92B-87FE-4E18-B00F-EE9694385745", 126, 1302277668, "386464", 1302277668, "386464", null, "Life Directions", "Mentoring", "2345", "S", "Christiana", "Ave", "Chicago", "IL", "60623", "773-265-5806", "773-265-5835", null, "22", "South Lawndale" ]
+, [ 127, "8C234DB5-7E7F-439F-A1F9-0A855BCB6526", 127, 1302277668, "386464", 1302277668, "386464", null, "Little Black Pearl Workshop", "Out of School", "1060", "E", "47th", "St", "Chicago", "IL", "60653", "773-285-1211", "773-285-1633", "773-285-1211 ex. 307", "4", "Kenwood" ]
+, [ 128, "CB4CB796-C9B2-457D-A4B3-69867B6C0489", 128, 1302277668, "386464", 1302277668, "386464", null, "Local Motions, Inc.", "Out of School", "6246", "W", "North", "Ave", "Chicago", "IL", "60639", "773-622-3267", "773-637-3262", null, "29", "Austin" ]
+, [ 129, "F9C01644-7806-4D1D-90D1-0A4C3748FCC0", 129, 1302277668, "386464", 1302277668, "386464", null, "Logan Square Neighborhood Association", "Out of School", "1841", "N", "Springfield", "Ave", "Chicago", "IL", "60647", "773.384.4370", "773-384-0624", null, "30", "Hermosa" ]
+, [ 130, "832D532E-C045-497A-9BD9-6953B604B8C7", 130, 1302277668, "386464", 1302277668, "386464", null, "Love to Serve", "Out of School", "1744", "W", "Pryor", "Ave", "Chicago", "IL", "60643", "773-233-6163", "773-233-1901", null, "19", "Morgan Park" ]
+, [ 131, "570EFB56-A343-487F-BE0F-783F4792131E", 131, 1302277668, "386464", 1302277668, "386464", null, "Major Adams", "Out of School", "2522", "W", "Washington", "Ave", "Chicago", "IL", "60612", "312-421-6903", "312-421-7384", "773-218-6700", "27", "Near West Side" ]
+, [ 132, "4691F7EF-10BB-4E8F-AE35-121495E10605", 132, 1302277668, "386464", 1302277668, "386464", null, "Marillac Social Center", "Counseling", "212", "S", "Francisco", "Ave", "Chicago", "IL", "60612", "773-722-7440", "773-722-1469", "312-278-4274 fax 773-722-1469", "28", "East Garfield Park" ]
+, [ 133, "26C58D78-E873-463C-923F-6FDCF967E911", 133, 1302277668, "386464", 1302277668, "386464", null, "Marion Nzinga Stamps", "Out of School", "405", "W", "Evergreen", "Ave", "Chicago", "IL", "60610", "312-933-3474", "312-335-8670", "312-643-5210", "2", "Near West Side" ]
+, [ 134, "61B6C1FE-4F16-4D16-9413-ED5875381456", 134, 1302277668, "386464", 1302277668, "386464", null, "Metropolitan Chicago Youth for Christ", "Out of School", "1211", "S", "Western", "Ave", "Chicago", "IL", "60608", "312.226.1177", "312-226-1270", "630-588-0700 fax 630-871-0978", "25", "Near West Side" ]
+, [ 135, "49912161-E10C-4AC2-ACA4-D952139A6FEE", 135, 1302277668, "386464", 1302277668, "386464", null, "Metropolitan Family Services -  Calumet Center at Risk", "Counseling", "235", "E", "103rd", "St", "Chicago", "IL", "60628", "773-371-3637 ", "773-371-3699        312-986-4334", "773-371-3632 ", "9", "Roseland" ]
+, [ 136, "CDE7CB66-22F5-423C-BB71-BF21C26E2F86", 136, 1302277668, "386464", 1302277668, "386464", null, "Metropolitan Family Services - Project North Center", "Counseling", "3249", "N", "Central", "Ave", "Chicago", "IL", "60634", "773-371-3707 ", "773-282-6698       312-986-4334", "312-986-4135", "38", "Portage Park" ]
+, [ 137, "356E35E1-2BF1-4F51-BA37-5B6F03A902D2", 137, 1302277668, "386464", 1302277668, "386464", null, "Metropolitan Family Services - Reinberg/Northwest Youth", "Out of School", "3425", "N", "Major", "Ave", "Chicago", "IL", "60634", "773-371-3707 ", "773-282-6698       312-986-4334", "312-986-4135", "38", "Portage Park" ]
+, [ 138, "19317666-59D6-4EA8-8776-382E7652B45C", 138, 1302277668, "386464", 1302277668, "386464", null, "Metropolitan Family Services - Southeast Chicago ACES", "Counseling", "3062", "E", "91st", "St", "Chicago", "IL", "60617", "773-371-2949  ", "773-371-2960      312-986-4334", "312-986-4135", "10", "South Chicago" ]
+, [ 139, "BE44A0D0-DF4F-4B6D-84C9-30416FAFD49A", 139, 1302277668, "386464", 1302277668, "386464", null, "Mid-Austin  Steering Arts & Cultural", "Out of School", "816", "N", "Laramie", "Ave", "Chicago", "IL", "60651", "773-287-5717", "773-287-9418", null, "37", "Austin" ]
+, [ 140, "87077311-221E-447E-A1DB-BCE7E9E4B3A7", 140, 1302277668, "386464", 1302277668, "386464", null, "Mid-Austin  Steering GED", "Out of School", "816", "N", "Laramie", "Ave", "Chicago", "IL", "60651", "773-287-5717", "773-287-9418", null, "37", "Austin" ]
+, [ 141, "D8554D45-FFCC-42C4-8929-7FAF43C1DE04", 141, 1302277668, "386464", 1302277668, "386464", null, "Mikva Challenge Grant Foundation", "Out of School", "25", "E", "Washington", "St", "Chicago", "IL", "60604", "312-863-6340", "312-863-6341", "312-863-6361", "42", "Loop" ]
+, [ 142, "181A1580-A084-4A30-A73D-C04994C33B4A", 142, 1302277668, "386464", 1302277668, "386464", null, "Mujeres Latinas En Accion", "Out of School", "1823", "W", "17th", "St", "Chicago", "IL", "60608", "773-890-7676", "773-890-7650", "312-738-5354 ", "25", "Lower West Side" ]
+, [ 143, "C7C8429B-0AA2-47E4-9BAE-A999594A21E7", 143, 1302277668, "386464", 1302277668, "386464", null, "National Museum of Mexican Art", "Out of School", "1401", "W", "18th", "St", "Chicago", "IL", "60608", "312-433-3944", "312-738-9740", null, "25", "Lower West Side" ]
+, [ 144, "4AF6C8AC-AE7A-419C-824F-839E78928791", 144, 1302277668, "386464", 1302277668, "386464", null, "Near North Development Corporation", "Out of School", "1420", "N", "Hudson", "Ave", "Chicago", "IL", "60610", "312-337-5666", "312-337-5753", null, "27", "Near North Side" ]
+, [ 145, "FE6776C4-AF9C-483E-AA17-174B76BEA1A4", 145, 1302277668, "386464", 1302277668, "386464", null, "Neighborhood Boys Girls - Coonley Community School", "Out of School", "4046", "N", "Leavitt", "Ave", "Chicago", "IL", "60618", "773-463-4161", "773-463-5392", "773-534-5140", "47", "North Center" ]
+, [ 146, "A6847221-D165-481D-996E-44F6DA3EE112", 146, 1302277668, "386464", 1302277668, "386464", null, "Neighborhood Boys Girls - NBGC Clubhouse Athletics", "Out of School", "2501", "W", "Irving Park", "Rd", "Chicago", "IL", "60618", "773-463-4161", "773-463-5392", null, "47", "North Center" ]
+, [ 147, "4690CA38-AA55-4609-8461-0BE5E285B772", 147, 1302277668, "386464", 1302277668, "386464", null, "Neighborhood Technology Resource  Center (The)", "Out of School", "3517", "W", "Arthington", "St", "Chicago", "IL", "60624", "773-722-5653", "773-722-5676", "773-722-5653 (program)", "24", "North Lawndale" ]
+, [ 148, "64A6598C-7A6C-4AF8-A4C8-F1A76ECC0540", 148, 1302277668, "386464", 1302277668, "386464", null, "New Hope Community Service Center", "Out of School", "7601", "S", "Cicero", "Ave", "Chicago", "IL", "60652", "773-284-7590", "773-284-7543", null, "13", "West Town" ]
+, [ 149, "438E252D-B6FC-4FB9-A7F4-2949E2D77966", 149, 1302277668, "386464", 1302277668, "386464", null, "Passages Alternative Living Program, Inc.", "Mentoring", "10", "W", "35th", "St", "Chicago", "IL", "60616", "312-225-3800", "312-225-0896", null, "3", "Douglas" ]
+, [ 150, "6416682A-0426-4A71-8879-9DCEC1EDC20F", 150, 1302277668, "386464", 1302277668, "386464", null, "Penedo Charitable Organization", "Out of School", "2651", "S", "Central Park", "Ave", "Chicago", "IL", "60632", "312-306-9996", "312-306-9997", null, "22", "South Lawndale" ]
+, [ 151, "41CDFD8E-00FB-45BD-AEF7-99C0CDBB8123", 151, 1302277668, "386464", 1302277668, "386464", null, "Polish American Association - Teen Start", "Counseling", "3330", "N", "Lockwood", "Ave", "Chicago", "IL", "60641", "773-282-8206  x316", "773-282-1324", null, "45", "Portage Park" ]
+, [ 152, "72CFE7FF-E738-47BD-81F0-6E4A6A9DB6D6", 152, 1302277668, "386464", 1302277668, "386464", null, "Prevention Force Family Center", "Out of School", "3333", "W", "Arthington", "St", "Chicago", "IL", "60624", "773-826-5543", "773-826-5543", null, "24", "North Lawndale" ]
+, [ 153, "0A4D5BEA-4007-4B34-91DD-61497F0632FD", 153, 1302277668, "386464", 1302277668, "386464", null, "Project Exploration", "Out of School", "1930", "S", "Archer", "Ave", "Chicago", "IL", "60616", "773-834-7614", "773-834-7625", "773-834-7662", "3", "Woodlawn" ]
+, [ 154, "A7AF618E-8A63-4F90-BC7B-9B32AF8C8F2D", 154, 1302277668, "386464", 1302277668, "386464", null, "Project Hope, Inc.", "Out of School", "11302", "S", "Michigan", "Ave", "Chicago", "IL", "60628", "312-282-2074", "312-267-1809", "773-412-6468", "9", "Roseland" ]
+, [ 155, "05697A39-030E-474A-ACA2-E64F9B807375", 155, 1302277668, "386464", 1302277668, "386464", null, "Pros Arts Studio", "Out of School", "119", "W", "Cullerton", "St", "Chicago", "IL", "60616", "312-226-7767", "312-226-7012", null, "25", "Lower West Side" ]
+, [ 156, "178B5D36-5814-436C-B1A0-E6CDBDEFEC8E", 156, 1302277668, "386464", 1302277668, "386464", null, "Puerto Rican Arts Alliance", "Out of School", "1440", "N", "Humboldt", "Dr", "Chicago", "IL", "60622", "773-342-8865", "773-348-6887", null, "26", "Humboldt Park" ]
+, [ 157, "27FCFB94-4264-42E3-8CD3-203E493D2604", 157, 1302277668, "386464", 1302277668, "386464", null, "R.B.C. Community Service Center", "Out of School", "1159", "W", "51St.", "St", "Chicago", "IL", "60609", "773-536-3374", "773-536-3802", null, "16", "New City" ]
+, [ 158, "B04CF00F-88FA-4CE2-B02D-902E60AA3994", 158, 1302277668, "386464", 1302277668, "386464", null, "Roseland Youth Center", "Out of School", null, null, null, null, "Chicago", "IL", null, "773-568-1460", null, null, "9", null ]
+, [ 159, "ECC21877-D2B9-4C64-A2EE-F78DDD6C790B", 159, 1302277668, "386464", 1302277668, "386464", null, "SGA - Brighton Park", "Counseling", "4250", "S", "Rockwell", "St", "Chicago", "IL", "60632", "773-535-4285", "773-535-6829", "312-663-0305", "34", "Brighton Park" ]
+, [ 160, "A75A7A19-8C8D-4973-8D99-2D2665EE065D", 160, 1302277668, "386464", 1302277668, "386464", null, "Sinai Community Institute", "Out of School", "2653", "W", "Ogden", "St", "Chicago", "IL", "60608", "773-257-6651", "773-257-6365", "773-257-6936", "28", "North Lawndale" ]
+, [ 161, "B2F6A3DA-882B-4796-9F3B-41D09B445B5E", 161, 1302277668, "386464", 1302277668, "386464", null, "South Central Community Services, Inc. - Academic Enrichment", "Out of School", "1021", "E", "83rd", "St", "Chicago", "IL", "60619", "773-483-0412", "773-483-0902", null, "8", "Chatham" ]
+, [ 162, "578C97E8-4D8C-4FDF-B58A-4F90609DC36F", 162, 1302277668, "386464", 1302277668, "386464", null, "South Central Community Services, Inc. - Sports & Fitness", "Out of School", "213", "E", "79th", "St", "Chicago", "IL", "60619", "773-483-0900", "773-483-6161", null, "6", "Chatham" ]
+, [ 163, "FBCDA3D2-7FBC-454A-BF14-B17C52D4234F", 163, 1302277668, "386464", 1302277668, "386464", null, "South Central Community Services, Inc. - Youth Sports Dvlpmt", "Out of School", "1021", "E", "83rd", "St", "Chicago", "IL", "60619", "773-483-0412", "773-483-0902", null, "8", "Chatham" ]
+, [ 164, "FB5A3A3D-00F2-4F6D-ABBE-7EB835319BD6", 164, 1302277668, "386464", 1302277668, "386464", null, "South Chicago YMCA", "Out of School", "3039", "E", "91st", "St", "Chicago", "IL", "60617", "773-721-9100", "773-721-9330", null, "10", "South Chicago" ]
+, [ 165, "C8064610-D10A-44B0-B7FD-3B247AD87E34", 165, 1302277668, "386464", 1302277668, "386464", null, "South Shore Drill Team/Performance Arts Ensemble - 90th", "Out of School", "7200", "S", "Ingleside", "Ave", "Chicago", "IL", "60619", "773-752-7830", "773-752-7457", null, "5", "Greater Grand Crossing" ]
+, [ 166, "C04F7205-B3F0-43D7-9FA4-C388BC5D61B7", 166, 1302277668, "386464", 1302277668, "386464", null, "South Side Help Center", "Out of School", "10420", "S", "Halsted", "St", "Chicago", "IL", "60628", "773-445-5445", "773-445-9818", null, "34", "Washington Heights" ]
+, [ 167, "12113D7F-1BC8-4413-A7E5-037111EADAA1", 167, 1302277668, "386464", 1302277668, "386464", null, "South Side Help Center", "YRCC", "10420", "S", "Halsted", "St", "Chicago", "IL", "60628", "773-445-5445", "773-445-9818", null, "34", "Washington Heights" ]
+, [ 168, "B5F52734-C890-4E69-BE2C-9967DDD68363", 168, 1302277668, "386464", 1302277668, "386464", null, "Southwest Youth Services Collaborative", "Out of School", "3500", "W", "63rd ", "Ave", "Chicago", "IL", "60629", "773-476-3534", "773-476-3615", "773-434-2001", "15", "Chicago Lawn" ]
+, [ 169, "02113612-5596-40FE-A954-527874C0C018", 169, 1302277668, "386464", 1302277668, "386464", null, "Southwest Youth Services Collaborative", "YRCC", "3500", "W", "63rd ", "Ave", "Chicago", "IL", "60629", "773-476-3534", "773-476-3615", "773-434-2001", "15", "Chicago Lawn" ]
+, [ 170, "D5E1754A-F96D-43BD-95D7-644B0A8A007F", 170, 1302277668, "386464", 1302277668, "386464", null, "St. Joseph Services at Casa De Providencia", "Out of School", "819", "N", "Leamington", "Ave", "Chicago", "IL", "60651", "773-278-0484", "773-278-0192", null, "37", "Austin" ]
+, [ 171, "79D0E66A-9FD9-44D6-BC9D-AB53519E7CC8", 171, 1302277668, "386464", 1302277668, "386464", null, "St. Paul Community Development", "Out of School", "4526", "S", "Wabash", "St", "Chicago", "IL", "60653", "773-285-8721", "773-285-2660", null, "3", "Grand Boulevard" ]
+, [ 172, "70D354E1-5613-4458-9141-10CF2C40C648", 172, 1302277668, "386464", 1302277668, "386464", null, "Street-Level Youth Media", "Summer Program ", "2459", "W", "Augusta", "Blvd", "Chicago", "IL", "60622", "773-862-5331", "773-862-0754", null, "1", "West Town" ]
+, [ 173, "ED322855-2888-4FD4-9519-0EC98DF23F07", 173, 1302277668, "386464", 1302277668, "386464", null, "Successful Living", "Out of School", "36", "W", "119th", "St", "Chicago", "IL", "60628", "773-785-2200", "773-660-0409", null, "34", "West Pullman" ]
+, [ 174, "8C6C8AF3-F8D0-48AD-929D-D4C68AF32FF7", 174, 1302277668, "386464", 1302277668, "386464", null, "Sunlight African Youth Center", "Out of School", "4554", "N", "Broadway", "Ave", "Chicago", "IL", "60640", "773-506-8061", "773-506-3847", null, "46", "Uptown" ]
+, [ 175, "751DA00B-656B-4ECB-81CB-785AC3018648", 175, 1302277668, "386464", 1302277668, "386464", null, "T.E.A.M.", "Out of School", "8104", "S", "Wentworth", "Ave", "Chicago", "IL", "60620", "773-723-0103", "773-723-0104", null, "21", "Chatham" ]
+, [ 176, "9BD32674-775C-442E-A0E5-880617E9E990", 176, 1302277668, "386464", 1302277668, "386464", null, "Teen Living Programs", "Out of School", "3739", "S", "Indiana", "St", "Chicago", "IL", "60653", "312-568-5700", "312-568-5701", null, "3", "Douglas" ]
+, [ 177, "EE831D65-EBC6-40E3-90A8-EBBA171B0FDD", 177, 1302277668, "386464", 1302277668, "386464", null, "The Black Star Project", "Mentoring", "3509", "S", "King", "Dr", "Chicago", "IL", "60653", "773-285-9600", "773-285-9602", null, "4", "Douglas" ]
+, [ 178, "0911BB2C-0D62-4302-A05A-767141A1B2A4", 178, 1302277668, "386464", 1302277668, "386464", null, "The Catholic Bishop of Chicago - Holy Cross IHM  Parish", "Out of School", "4541", "S", "Wood", "St", "Chicago", "IL", "60609", "773.376.3900", "773-376-8929", null, "20", "West Town" ]
+, [ 179, "2B8BFB6C-B996-4BB7-B786-FEDD3455A896", 179, 1302277668, "386464", 1302277668, "386464", null, "The Catholic Bishop of Chicago - Presentation", "Out of School", "3906", "W ", "Lexington", "St", "Chicago", "IL", "60624", "773-522-1354", "773-522-1806", null, "24", "Douglas Park" ]
+, [ 180, "2702505E-593E-431D-86BD-AAC4F1FFE24E", 180, 1302277668, "386464", 1302277668, "386464", null, "The Catholic Bishop of Chicago - St. Pius", "Out of School", "2020", "S", "Blue Island", "Ave", "Chicago", "IL", "60608", "312-226-6161", "312-226-6119", "312-226-6161", "25", "Lower West Side" ]
+, [ 181, "C3785CFD-D5E4-4B8A-BD75-AC1B3960397B", 181, 1302277668, "386464", 1302277668, "386464", null, "The Catholic Bishop of Chicago - St. Sabina (Umoja Expression)", "Out of School", "1210", "W", "78th ", "Pl", "Chicago", "IL", "60620", "773-483-4333", "773-483-9538", null, "17", "Auburn Gresham" ]
+, [ 182, "6B08BCFB-6318-4AE1-A8D2-6D7E7766B880", 182, 1302277668, "386464", 1302277668, "386464", null, "The Catholic Bishop of Chicago - St. Sabina (Umoja General)", "Out of School", "1210", "W", "78th ", "Pl", "Chicago", "IL", "60620", "773-483-4333", "773-483-9538", null, "17", "Auburn Gresham" ]
+, [ 183, "D8DE892C-924F-41D6-AA92-338FCB8FDCEB", 183, 1302277668, "386464", 1302277668, "386464", null, "The Miracle Center", "Out of School", "3740", "W", "Belden", "St", "Chicago", "IL", "60647", "773-276-5933", "773-276-5933", "773-276-5933 ext 6", "35", "Hermosa" ]
+, [ 184, "DAE94ABF-E8F9-4590-AFEF-A1133A44C6EE", 184, 1302277668, "386464", 1302277668, "386464", null, "The Night Ministry", "Homeless", "4711", "N", "Ravenswood", "Ave", "Chicago", "IL", "60640", "773-506-6011", "773-784-5865", null, "47", "Uptown" ]
+, [ 185, "4A77AB1B-4029-4C71-BEDE-F349F15751E8", 185, 1302277668, "386464", 1302277668, "386464", null, "The Salvation Army ", "Out of School", "20", "S", "Campbell", "Ave", "Chicago", "IL", "60630", "773-205-3009", "773-205-3585", null, "2", "Near West Side" ]
+, [ 186, "904EE381-9E61-403A-ADB9-9F0C1088B419", 186, 1302277668, "386464", 1302277668, "386464", null, "The Salvation Army - Family & Community Services", "Counseling", "845", "W", "69th", "St", "Chicago", "IL", "60621", "312-733-4801", "773-205-3585", "773-205-3565", "17", "Englewood" ]
+, [ 187, "E306B810-F784-4844-A2A7-8F1EA717376C", 187, 1302277668, "386464", 1302277668, "386464", null, "The Student Conservation Association, Inc.", "Out of School", "28", "E", "Jackson", "Blvd", "Chicago", "IL", "60604", "603-543-1700", "603-543-1828", null, "42", "The Loop" ]
+, [ 188, "1579F76F-EBF9-428D-AD40-4DFA19B9A2CB", 188, 1302277668, "386464", 1302277668, "386464", null, "There is Hope - There is Hope", "Mentoring", "3939", "W", "79th", "St", "Chicago", "IL", "60652", "815-931-7488", "773-614-1633", null, "18", "Ashburn" ]
+, [ 189, "BC6157D8-CA14-4470-B390-9811CD20B950", 189, 1302277668, "386464", 1302277668, "386464", null, "There is Hope - Gate Keepers", "Out of School", "11511", "S", "Vincennes", "Ave", "Chicago", "IL", "60643", "815-931-7488", "773-614-1633", null, "34", "Morgan Park" ]
+, [ 190, "9D23533F-A8D2-4ADF-BF4A-7DB2F79F41FC", 190, 1302277668, "386464", 1302277668, "386464", null, "There is Hope - LOE/MOV", "Mentoring", "11533", "S", "Ada", "St", "Chicago", "IL", "60643", "815-931-7488", "773-614-1633", null, "34", "West Pullman" ]
+, [ 191, "469253CA-0C4E-4A32-9B1E-CE5E5F89335B", 191, 1302277668, "386464", 1302277668, "386464", null, "True Star Foundation - True Star Media", "Out of School", "1130", "S", "Wabash", "Ave", "Chicago", "IL", "60605", "312-588-0100", "312-588-0175", null, "2", "The Loop" ]
+, [ 192, "38D1BECF-49C6-477C-93E9-4C06AF8F6447", 192, 1302277668, "386464", 1302277668, "386464", null, "Union League Boys & Girls Club- Club One", "Out of School", "2157", "W", "19th ", "St", "Chicago", "IL", "60608", "312-435-5987", "312-583-0320", null, "25", "Lower West Side" ]
+, [ 193, "465D54E2-D8F6-4822-8615-A121B3A79056", 193, 1302277668, "386464", 1302277668, "386464", null, "Union League Boys and Girls Clubs - Lafayette Club", "Out of School", "2714", "W", "Augusta", "Blvd", "Chicago", "IL", "60622", "312-435-5987", "312-583-0320", null, "1", "West Town" ]
+, [ 194, "706FEAA3-8D4D-43B4-B8EC-90930318C4F5", 194, 1302277668, "386464", 1302277668, "386464", null, "Union League Boys & Girls Clubs", "YRCC", null, null, null, null, "Chicago", "IL", null, null, null, null, null, null ]
+, [ 195, "6095D9D2-5EA9-48AF-AF45-47975218D75E", 195, 1302277668, "386464", 1302277668, "386464", null, "United Neighborhood Organization", "Out of School", "954", "W", "Washington", "Blvd", "Chicago", "IL", "60607", "312-432-6301", "312-432-0077", null, "27", "Near West Side" ]
+, [ 196, "081CBD38-89CA-4658-8FE3-409D8DC5844A", 196, 1302277668, "386464", 1302277668, "386464", null, "Universal Family Connection", "Counseling", "1350", "W", "103rd", "St", "Chicago", "IL", "60643", "773-881-1711 xt.1114", "773-881-3379", null, "21", "Beverly" ]
+, [ 197, "6794C8C1-1793-4F2A-8D11-F171F3E14650", 197, 1302277668, "386464", 1302277668, "386464", null, "Universal Family Connection", "OST - Gang Intervention", "1055", "W", "80th", "St", "Chicago", "IL", "60620", "773-881-1711", "773-881-3379", null, "21", "Beverly" ]
+, [ 198, "693E60F9-C9B6-4384-9662-A4AC7B73E3B9", 198, 1302277668, "386464", 1302277668, "386464", null, "Universal Family Connection", "Counseling", "1055", "W", "80th", "St", "Chicago", "IL", "60620", "773-881-1711", "773-881-3379", null, "21", "Beverly" ]
+, [ 199, "310A6339-8434-46B3-AF7B-100AF93DA21B", 199, 1302277668, "386464", 1302277668, "386464", null, "Vietnamese Association of Illinois", "Out of School", "5110", "N", "Broadway", "Ave", "Chicago", "IL", "60640", "773-728-3700", "773-728-0497", null, "46", "Uptown" ]
+, [ 200, "933F828E-7665-4B94-8D80-2D0BB4C2F433", 200, 1302277668, "386464", 1302277668, "386464", null, "Westside Youth Technical Entrp.Center (WYTEC)", "Out of School", "4213", "W", "Madison", "St", "Chicago", "IL", "60624", "773-533-3500", "773-533-3507", null, "28", "West Garfield Park" ]
+, [ 201, "12847AAA-70DA-4D1C-91CF-2A8C6F9BFF07", 201, 1302277668, "386464", 1302277668, "386464", null, "Westtown Concerned Citizens Coalition", "Out of School", "3501", "W", "Armitage", "Ave", "Chicago", "IL", "60647", "773.235.2144", "773-235-2159", null, "26", "Humboldt Park" ]
+, [ 202, "2244CC4C-E642-41B6-B9C6-A8606347FE4F", 202, 1302277668, "386464", 1302277668, "386464", null, "Will Feed Community Organization", "Out of School", "6401", "S", "Sangamon", "St", "Chicago", "IL", "60621", "773.651.9220", "773-651-8491", null, "16", "Englewood" ]
+, [ 203, "11CECD96-11D4-4B2F-AC0D-0B6AA4F492FE", 203, 1302277668, "386464", 1302277668, "386464", null, "Worldwide Family Center", "Out of School", "4945", "W", "Division", "Ave", "Chicago", "IL", "60651", "773-895-4411", "773-378-1758", null, "37", "Austin" ]
+, [ 204, "10145335-613E-4E9D-B601-5B7183A76641", 204, 1302277668, "386464", 1302277668, "386464", null, "YMCA - Adventure Camp", "Out of School", "6235", "S", "Homan ", "St", "Chicago", "IL", "60629", "312-447-3096", "312-447-3843", null, "15", "Chicago Lawn" ]
+, [ 205, "189F12C8-85F5-4A37-A4DD-A33E1FE4758D", 205, 1302277668, "386464", 1302277668, "386464", null, "YMCA - Oglesby Community Schools Program", "Out of School", "7646", "S", "Green", "St", "Chicago", "IL", "60620", null, null, null, "17", "Auburn Gresham" ]
+, [ 206, "3D1F798B-D975-42B3-AE37-3FC12C10A898", 206, 1302277668, "386464", 1302277668, "386464", null, "YMCA - South Chicago (Prevention Initiative)", "Out of School", "3039", "E", "91st", "St", "Chicago", "IL", "60617", null, null, null, "10", "South Chicago" ]
+, [ 207, "2AFCF809-EAD1-4ACF-AA65-3B6768FF8A1D", 207, 1302277668, "386464", 1302277668, "386464", null, "YMCA - South Side", "Out of School", "6330", "S", "Stony Island", "Ave", "Chicago", "IL", "60637", "773.947.0700 xt. 2544", "773-947-8953", null, "20", "Woodlawn" ]
+, [ 208, "360A7ECA-F5CC-4C51-9605-C413E6C5B206", 208, 1302277668, "386464", 1302277668, "386464", null, "YMCA Irving Park", "Out of School", "4251", "N", "Irving Park", "Rd", "Chicago", "IL", "60641", "312-932-1249", "312-932-1333", "773-777-7500 fax 773-777-8892", "38", "Irving Park" ]
+, [ 209, "D14872F0-CCB5-4E43-AC26-C3D8FA8AD70C", 209, 1302277668, "386464", 1302277668, "386464", null, "YMCA of Metropolitan - Kelly Hall ", "Out of School", "801", "N", "Dearborn", "St", "Chicago", "IL", "60610", "773-418-6701", "312-447-7543", null, "42", "Near North Side" ]
+, [ 210, "1642525D-611A-40F1-AD1C-3D24A56C84B6", 210, 1302277668, "386464", 1302277668, "386464", null, "YMCA of Metropolitan - Little Village", "Gang Intervention", "1608", "W", "21st", "St", "Chicago", "IL", "60608", "773-418-6701", "312-447-7543", null, "25", "Lower West Side" ]
+, [ 211, "B9E55DF4-EB56-4379-A2A5-61418E8056ED", 211, 1302277668, "386464", 1302277668, "386464", null, "YMCA of Metropolitan - Logan Square ", "Gang Intervention", "1834", "N", "Lawndale", "Ave", "Chicago", "IL", "60647", "773-542-5409 xt.18", "773-542-5889", "773-418-6701 fax 312-447-7543", "26", "Logan Square" ]
+, [ 212, "1DC02553-AACA-4762-B299-50ECA1717518", 212, 1302277668, "386464", 1302277668, "386464", null, "YMCA of Metropolitan - South Chicago", "Gang Intervention", "3039", "E", "91st", "St", "Chicago", "IL", "60617", "773-418-6701", "312-447-7543", null, "10", "South Chicago" ]
+, [ 213, "7C9E7EA9-EB2A-42BC-8167-47CA35D2D9A8", 213, 1302277668, "386464", 1302277668, "386464", null, "YMCA Rauner Family", "Out of School", "2700", "S", "Western", "Ave", "Chicago", "IL", "60608", "773-847-3115", "773-847-3451", null, "25", "Lower West Side" ]
+, [ 214, "6D4CBF56-7BA4-4A55-AB48-370598E3C807", 214, 1302277668, "386464", 1302277668, "386464", null, "Young Creative Minds", "Out of School", "4726", "W", "Race", "St", "Chicago", "IL", "60644", "773-272-8675", null, null, "28", "Austin" ]
+, [ 215, "1BB11D54-15C2-4909-98D9-7E4F5E8EC551", 215, 1302277668, "386464", 1302277668, "386464", null, "Youth Guidance-Douglas Academy", "Counseling", "3900", "N", "Lawndale", "Ave", "Chicago", "IL", "60618", "312-404-3180", "312-253-4917", "773-534-6176", "39", "Irving Park" ]
+, [ 216, "7815FD37-86E5-4886-913D-295B5CF97478", 216, 1302277668, "386464", 1302277668, "386464", null, "Youth Guidance-South Loop", "Out of School", "1212", "S", "Plymouth", "St", "Chicago", "IL", "60603", "312-404-3180", "312-253-4917", "773-534-8690", "2", "Near North Side" ]
+, [ 217, "6C92BAB6-601E-4FB1-9069-94231757DABA", 217, 1302277668, "386464", 1302277668, "386464", null, "Youth Guidance-Thurgood Marshall", "Counseling", "534", "N", "Waller", "Ave", "Chicago", "IL", "60644", "312-404-3180", "312-253-4917", null, "29", "Austin" ]
+, [ 218, "0E7433A2-1CC1-4B19-A131-2E98811EA0E1", 218, 1302277668, "386464", 1302277668, "386464", null, "Youth Service Project", "Out of School", "3942", "W", "North", "Ave", "Chicago", "IL", "60647", "773-772-6270", "773-772-8755", null, "30", "Humboldt Park" ]
+, [ 219, "17E9C423-AFED-4D6A-B5C5-5BEF446E4CE2", 219, 1302277668, "386464", 1302277668, "386464", null, "Youth Technology Corps", "Out of School", "7601", "S", "Phillips", "Ave", "Chicago", "IL", "60649", "847-609-2469", "847-486-9844", null, "7", "South Shore" ]
+, [ 220, "7F565DB1-71CC-4F91-9F8F-6977124660B1", 220, 1302277668, "386464", 1302277668, "386464", null, "YWCA of Metropolitan Chicago - TechGyrls", "Out of School", "6600", "S", "Cottage Grove", "Ave", "Chicago", "IL", "60637", "773-496-5649", "312-372-4673", null, "20", "Woodlawn" ]
+, [ 221, "F436F5BF-47AA-455D-9A7B-30EE0187AD07", 221, 1302277668, "386464", 1302277668, "386464", null, "Zam's Hope", "Out of School", "6401", "N", "Artesian", "Ave", "Chicago", "IL", "60645", "773-719-9267", "773-764-6064", null, "50", "West Ridge" ]
+ ]
+}

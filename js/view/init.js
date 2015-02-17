@@ -25,6 +25,8 @@ function init() {
     context.getWomenAndChildrenHealthClinics();
     context.getCommunityHealthCenters();
     context.getSTIHealthClinics();
+    context.getNeighborhoodHealthClinics();
+    context.getPCCommunityHealthCenters();
     context.addLegend();
 
 

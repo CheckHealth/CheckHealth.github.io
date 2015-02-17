@@ -10,3 +10,5 @@ function extend(ChildClass, ParentClass) {
 extend(WomenChildrenMarker, AbstractMarker);
 extend(CommServiceCentersMarker, AbstractMarker);
 extend(STIClinicsMarker, AbstractMarker);
+extend(NeighborhoodHealthClinicMarker, AbstractMarker);
+extend(PCCommHealthClinicMarker, AbstractMarker);
