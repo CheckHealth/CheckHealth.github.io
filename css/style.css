@@ -22,15 +22,15 @@ svg {
 }
 
 path {
-    fill: #000;
-    fill-opacity: .75;
+    /*fill: #000;*/
+    fill-opacity: .4;
     stroke: #000;
     stroke-width: 1.5px;
 }
 
 path:hover {
-    fill: brown;
-    fill-opacity: .7;
+    /*fill: brown;*/
+    fill-opacity: .9;
 }
 
 .info {

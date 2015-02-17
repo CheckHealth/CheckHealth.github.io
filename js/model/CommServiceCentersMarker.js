@@ -23,7 +23,7 @@ var CommServiceCentersMarker = function(data) {
         icon: "check-square",
         spin:false,
         markerColor: "white",
-        iconColor: "blue"
+        iconColor: "black"
     });
 
     this.setIconNew(icon);

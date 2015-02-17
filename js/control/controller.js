@@ -39,8 +39,8 @@ Controller.prototype.init = function() {
 
 Controller.prototype.addLegend= function() {
     var self = this;
-
-    var legend = L.control({position: 'bottomright'});
+    var info = L.control(),
+        legend = L.control({position: 'bottomright'});
 
     legend.onAdd = function (map) {
 
@@ -56,41 +56,31 @@ Controller.prototype.addLegend= function() {
         return div;
     };
 
+    info.onAdd = function (map) {
+        this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+        this.update();
+        return this._div;
+    };
+
+// method that we will use to update the control based on feature properties passed
+    info.update = function (props) {
+        //var div = d3.select("info leaflet-control");
+        this._div.innerHTML = '<h4>Zip Code Density</h4>' +  (props ?
+        '<b>' + props.id + '</b><br />' + props.properties.density + ' people / mi<sup>2</sup>'
+            : 'Hover over a zone');
+    };
+
+    info.addTo(self.map.map);
+
     legend.addTo(self.map.map);
+
+
 };
 
 Controller.prototype.testD3TopoJson= function(){
     var svg = d3.select(this.map.map.getPanes().overlayPane).append("svg").attr("id", "zipSVG"),
         g = svg.append("g").attr("class", "leaflet-zoom-hide").attr("class", "zipcodes"),
         self = this;
-
-/*
-    function mouseOver(d){
-        d3.select("#divmap").transition().duration(200).style("opacity", .9);
-
-        d3.select("#divmap").html(tooltipHtml(d.properties))
-            .style("left", (d3.event.pageX) + "px")
-            .style("top", (d3.event.pageY - 28) + "px");
-
-        function tooltipHtml(d){	//function to create html content string in tooltip div.
-            console.log("mouseOver", d)
-            return "<h4>"+ d.zipcode+"</h4><table>"+
-                "<tr><td>Count</td><td>"+(d.density)+"</td></tr>"+
-                "</table>";
-        }
-    }
-
-    function mouseOut(){
-        d3.select("#tooltip").transition().duration(500).style("opacity", 0);
-    }
-
-    d3.select(id).selectAll(".state")
-        .data(uStatePaths).enter().append("path").attr("class","state").attr("d",function(d){ return d.d;})
-        .style("fill",function(d){ return data[d.id].color; })
-        .on("mouseover", mouseOver).on("mouseout", mouseOut);
-
-*/
-
 
     d3.json("assets/Data/Clean/Location/chicago_ZC_Counts_topo.json", function(error, json) {
         if (error) return console.error(error);
@@ -103,14 +93,23 @@ Controller.prototype.testD3TopoJson= function(){
             .data(chi.features)
             .enter().append("path")
             .attr("class", function(d) { return "zip."+d.id})
-            .style("fill", function(d) { return self.color(d.properties.density) });
+            .style("fill", function(d) { return self.color(d.properties.density) })
+            .on("mouseover", function(d) {
+                console.log("data is", d);
+                var div = d3.select("div.info.leaflet-control");
+                console.log("info leaflet-control",div);
+
+                var content = '<h4>Zip Code Density</h4>' +  (d ?
+                '<b>Zip: ' + d.id + '</b><br />Densty: ' + d.properties.density : 'Hover over a zone')
+                div.html(content);
+                console.log("info leaflet-control",div);
+            });
 
         self.map.map.on("viewreset", reset);
         reset();
 
         // Reposition the SVG to cover the features.
         function reset() {
-
             var bounds = path.bounds(chi),
                 topLeft = bounds[0],
                 bottomRight = bounds[1];
@@ -130,9 +129,42 @@ Controller.prototype.testD3TopoJson= function(){
             var point = self.map.map.latLngToLayerPoint(new L.LatLng(y, x));
             this.stream.point(point.x, point.y);
         }
+
+
+        d3.selectAll('.zip').on("hover", function(d){
+            console.log("in zip",d)
+        });
+
     }.bind(this));
 
 };
+
+
+function mouseOver(d){
+    d3.select("#divmap").transition().duration(200).style("opacity", .9);
+
+
+    d3.select("#divmap").html(tooltipHtml(d.properties))
+        .style("left", (d3.event.pageX) + "px")
+        .style("top", (d3.event.pageY - 28) + "px");
+
+    function tooltipHtml(d){	/* function to create html content string in tooltip div. */
+        console.log("mouseOver", d)
+        return "<h4>"+ d.zipcode+"</h4><table>"+
+            "<tr><td>Count</td><td>"+(d.density)+"</td></tr>"+
+            "</table>";
+    }
+
+}
+
+function mouseOut(){
+    d3.select("#tooltip").transition().duration(500).style("opacity", 0);
+}
+
+//d3.select(id).selectAll(".state")
+//    .data(uStatePaths).enter().append("path").attr("class","state").attr("d",function(d){ return d.d;})
+//    .style("fill",function(d){ return data[d.id].color; })
+//    .on("mouseover", mouseOver).on("mouseout", mouseOut);
 
 
 Controller.prototype.testD3GeoJson= function(){
@@ -204,6 +236,9 @@ Controller.prototype.getTopoBoundingDataFromFile= function(){
     }.bind(this))
 };
 
+
+
+
 Controller.prototype.getCommunityHealthCenters= function() {
     d3.json("assets/Data/Clean/Services/CommServiceCentersClean.json", function(data){
         console.log("working on data Community health centers...");
@@ -267,34 +302,34 @@ Controller.prototype.ableDisable = function(button) {
         case 'STIClinics':
             if(this.STIClinicsBool == 0){
                 this.STIClinicsBool = 1;
-                button.textContent = "STI Clinics ON";
+                button.textContent = "STI Clinics OFF";
                 this.removeMarkers(this.STIClinics);
             }else{
                 this.STIClinicsBool = 0;
-                button.textContent = "STI Clinics OFF";
+                button.textContent = "STI Clinics ON";
                 this.getSTIHealthClinics();
             }
             break;
         case 'CommunityHealthCenters':
             if(this.CommunityHealthCentersBool == 0){
                 this.CommunityHealthCentersBool = 1;
-                button.textContent = "Community Health C. ON";
+                button.textContent = "Community Health C. OFF";
                 this.removeMarkers(this.CommunityHealthCenters);
             }else{
                 this.CommunityHealthCentersBool = 0;
-                button.textContent = "Community Health C. OFF";
+                button.textContent = "Community Health C. ON";
                 this.getCommunityHealthCenters();
             }
             break;
         case 'WomenChildrenClinics':
             if(this.WomenChildrenClinicsBool == 0){
                 this.WomenChildrenClinicsBool = 1;
-                button.textContent = "Women Children Clinics ON";
+                button.textContent = "Women Children Clinics OFF";
                 this.removeMarkers(this.WomenChildrenClinics);
             }
             else{
                 this.WomenChildrenClinicsBool = 0;
-                button.textContent = "Women Children Clinics OFF";
+                button.textContent = "Women Children Clinics ON";
                 this.getWomenAndChildrenHealthClinics();
             }
             break;
