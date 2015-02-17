@@ -41,9 +41,17 @@ Controller.prototype.addLegend= function() {
     var self = this;
     var info = L.control(),
         legend = L.control({position: 'bottomright'});
+    //    buttons = L.control({position: 'topleft'});
+    //
+    //buttons.onAdd = function(map) {
+    //    var div = L.DomUtil.create('div', 'info button');
+    //    div.innerHTML = "<img src='assets/img/medkit.svg' height='20' width='20'/> <button id='STIClinics' type='button' onclick='self.ableDisable(this)'>STI Clinics ON</button><br><br>"+
+    //                    "<img src='assets/img/check.png' height='20' width='20'/> <button id='CommunityHealthCenters' type='button' onclick='self.ableDisable(this)'>Community Health C. ON</button><br><br>" +
+    //                    "<img src='assets/img/heart.svg' height='20' width='20'/><button id ='WomenChildrenClinics' type='button' onclick='self.ableDisable(this)'>Women Children Clinics ON</button>"
+    //    return div;
+    //};
 
     legend.onAdd = function (map) {
-
         var div = L.DomUtil.create('div', 'info legend'),
             grades = [1, 10, 50, 100, 500, 1000, 2000, 5000];
 
@@ -57,7 +65,7 @@ Controller.prototype.addLegend= function() {
     };
 
     info.onAdd = function (map) {
-        this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+        this._div = L.DomUtil.create('div', 'info population'); // create a div with a class "info"
         this.update();
         return this._div;
     };
@@ -70,8 +78,8 @@ Controller.prototype.addLegend= function() {
             : 'Hover over a zone');
     };
 
+    //buttons.addTo(self.map.map);
     info.addTo(self.map.map);
-
     legend.addTo(self.map.map);
 
 
@@ -95,14 +103,12 @@ Controller.prototype.testD3TopoJson= function(){
             .attr("class", function(d) { return "zip."+d.id})
             .style("fill", function(d) { return self.color(d.properties.density) })
             .on("mouseover", function(d) {
-                console.log("data is", d);
-                var div = d3.select("div.info.leaflet-control");
-                console.log("info leaflet-control",div);
-
-                var content = '<h4>Zip Code Density</h4>' +  (d ?
-                '<b>Zip: ' + d.id + '</b><br />Densty: ' + d.properties.density : 'Hover over a zone')
-                div.html(content);
-                console.log("info leaflet-control",div);
+                var div = d3.select("div.info.population.leaflet-control");
+                div.html('<h4>Zip Code Density</h4>' +
+                    (d ?'<b>Zip: </b>' +
+                    d.id +'<br/><b>Pop:</b> ' +
+                    d.properties.density : 'Hover over a zone')
+                );
             });
 
         self.map.map.on("viewreset", reset);
@@ -138,34 +144,6 @@ Controller.prototype.testD3TopoJson= function(){
     }.bind(this));
 
 };
-
-
-function mouseOver(d){
-    d3.select("#divmap").transition().duration(200).style("opacity", .9);
-
-
-    d3.select("#divmap").html(tooltipHtml(d.properties))
-        .style("left", (d3.event.pageX) + "px")
-        .style("top", (d3.event.pageY - 28) + "px");
-
-    function tooltipHtml(d){	/* function to create html content string in tooltip div. */
-        console.log("mouseOver", d)
-        return "<h4>"+ d.zipcode+"</h4><table>"+
-            "<tr><td>Count</td><td>"+(d.density)+"</td></tr>"+
-            "</table>";
-    }
-
-}
-
-function mouseOut(){
-    d3.select("#tooltip").transition().duration(500).style("opacity", 0);
-}
-
-//d3.select(id).selectAll(".state")
-//    .data(uStatePaths).enter().append("path").attr("class","state").attr("d",function(d){ return d.d;})
-//    .style("fill",function(d){ return data[d.id].color; })
-//    .on("mouseover", mouseOver).on("mouseout", mouseOut);
-
 
 Controller.prototype.testD3GeoJson= function(){
     var svg = d3.select(this.map.map.getPanes().overlayPane).append("svg"),
