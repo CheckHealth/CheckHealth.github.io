@@ -10,10 +10,8 @@ Program: ZipCodeCounts.py
 
 ==============================================================================
 """
-
 import sys
 import json
-from nltk.probability import FreqDist
 
 
 def getZipCounts(fname):
@@ -23,7 +21,12 @@ def getZipCounts(fname):
     """
     counts = {}
     with open(fname) as f:
-        counts = FreqDist([z.strip() for z in f.readlines()])
+        for zc in f.readlines():
+            z = zc.strip()
+            if z in counts:
+                counts[z] += 1
+            else:
+                counts[z] = 1
     return counts
 
 

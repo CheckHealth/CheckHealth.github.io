@@ -9,6 +9,15 @@ function Controller() {
     this.map = new MapController();
     this.mapCenter = new L.LatLng(41.864755, -87.631474);
 
+    //mapboxgl.accessToken = "sk.eyJ1Ijoia3JiYWxtcnlkZSIsImEiOiJDRFNhak5zIn0.9CRaLPsvuUIhq0DuRIUFKg";
+    //this.mapGL = new mapboxgl.Map({
+    //    container: 'divmap',
+    //    center: [41.8369, -87.6847],
+    //    zoom: 9,
+    //    style: "../../assets/Data/maps/outdoors-v7.json",
+    //    hash: true
+    //});
+
     // Set up marker Container objects
     this.WomenChildrenClinics = {};
     this.CommunityHealthCenters = {};
@@ -87,12 +96,13 @@ Controller.prototype.testD3TopoJson= function(){
         g = svg.append("g").attr("class", "leaflet-zoom-hide").attr("class", "zipcodes"),
         self = this;
 
-    d3.json("/assets/Data/Clean/Location/chicago_ZC_Counts_topo.json", function(error, json) {
+    d3.json("./assets/Data/Clean/Location/chicago_ZC_Counts_topo.json", function(error, json) {
         if (error) return console.error(error);
         var transform = d3.geo.transform({point: projectPoint}),
             path = d3.geo.path().projection(transform);
 
         var chi = topojson.feature(json, json.objects.chicago_ZC_Geo);
+        window.chi = chi
 
         var feature = g.selectAll("path")
             .data(chi.features)

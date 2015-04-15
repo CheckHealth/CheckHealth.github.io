@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"Zip",
+				"ZipBoundaryGenerator"
+			],
+			[
+				"IN",
+				"INPUT_ZC"
+			],
+			[
+				"except",
+				"Exception	class"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
 				"zips",
 				"zipCodes	statement"
 			],
@@ -139,57 +155,66 @@
 			"file": "js/control/controller.js",
 			"settings":
 			{
-				"buffer_size": 13581,
+				"buffer_size": 14145,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "js/model/markers.js",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 425,
+				"buffer_size": 2896,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BrainChoropleth/index.html",
+			"file": "index-gl.html",
 			"settings":
 			{
-				"buffer_size": 3026,
+				"buffer_size": 4449,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "js/view/init.js",
+			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 1908,
+				"buffer_size": 904,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "js/model/NeighborhoodHealthClinicMarker.js",
+			"file": "assets/Utils/ZipBoundaryGenerator.sh",
 			"settings":
 			{
-				"buffer_size": 1376,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/Data/Clean/Services/NeighborhoodHealthClinicsClean.json",
-			"settings":
-			{
-				"buffer_size": 3990,
+				"buffer_size": 6351,
 				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
-		"height": 169.0,
+		"height": 373.0,
+		"last_filter": "ht",
 		"selected_items":
 		[
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
 			[
 				"jso",
 				"Set Syntax: JSON"
@@ -197,10 +222,6 @@
 			[
 				"fo",
 				"Format: Javascript"
-			],
-			[
-				"py",
-				"Set Syntax: Python"
 			],
 			[
 				"f",
@@ -213,10 +234,6 @@
 			[
 				"js",
 				"Set Syntax: JSON"
-			],
-			[
-				"for",
-				"Format: Javascript"
 			],
 			[
 				"pyth",
@@ -467,7 +484,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 457.0
+		"width": 475.0
 	},
 	"console":
 	{
@@ -491,20 +508,36 @@
 	],
 	"file_history":
 	[
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils/MergeCountsAndLocation.py",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils/ZipBoundaryGenerator.sh",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils/ZipCounts.py",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils/ZipCodeCounts.py",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Clean/Location/chicago_ZC_Geo.json",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils/extractGeoJson.sh",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils/extractTopoJson.sh",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils/ZipCodeExtractor.py",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils/ZipCodeBoundaryBuilder.py",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/index.html",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils/ZipCountsBuilder.py",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/model/markers.js",
+		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BrainChoropleth/index.html",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/view/init.js",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils/test.py",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/Location/places.json",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/.gitignore",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/Enrollment/RedCap_zipCodes_04-14-2015.txt",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/model/NeighborhoodHealthClinicMarker.js",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Clean/Services/NeighborhoodHealthClinicsClean.json",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Clean/Services/PCCommHealthClinicClean.json",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/Services/NeighborhoodHealthClinics.json",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Clean/Services/NeighborhoodHealthClinicsClean.json",
 		"/Users/krbalmryde/Downloads/lifeguide_source/Server_Requirements.txt",
 		"/Users/krbalmryde/Downloads/lifeguide_source/readme.txt",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/CheckHealth.sublime-project",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/control/controller.js",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/view/init.js",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/STIClinicsClean.json",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/.idea/workspace.xml",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils/ZipCountsBuilder.py",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Clean/Location/chicago_ZC_Counts_topo.json",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Clean/Location/chicago_ZC_topo.json",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Utils/ZipBoundaryGenerator.sh",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/chicago_ZC_topo.json",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/PatientZipsRaw.txt",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/chicagoZC_topo.json",
@@ -512,7 +545,6 @@
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/chicago_ZC_Geo.json",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/chi.json",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/model/CommServiceCentersMarker.js",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/model/markers.js",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/chiZipCodesTopo.json",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/chiZipCodesGeo.jspn",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/CommServiceCentersClean.json",
@@ -526,7 +558,6 @@
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/tl_2010_17_zcta510/foo",
 		"/Users/krbalmryde/Downloads/ne_10m_admin_0_map_subunits/ne_10m_admin_0_map_subunits.prj",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/ZipCodes.txt",
-		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/index.html",
 		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/PhantomJsACDC.txt",
 		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/mail/contact_me.php",
 		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/index.html",
@@ -572,7 +603,6 @@
 		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BicycleRace/stations.py",
 		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/SweetHomeChicago/Examples/js/modernizr.custom.79639.js",
 		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/CV/res.cls",
-		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BrainChoropleth/index.html",
 		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/CV/KyleBibliography.bib",
 		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BrainChoropleth/GeoJson/ax_144_inf_0mm.geojson",
 		"/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BrainChoropleth/WeaveTutorialData/ax_144_inf_0mm.geojson",
@@ -605,20 +635,7 @@
 		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/data/chi.json",
 		"/C/Users/Kyle/Dropbox/Class-Projects/cs227/SortTest.java",
 		"/C/Users/Kyle/Dropbox/Class-Projects/cs227/Seconds.java",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/backup/index_geo.html",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/data/chicago_health2.json",
-		"/E/Applications/Chocolatey/lib/ChocolateyGUI.0.11.1/tools/chocolateyUninstall.ps1",
-		"/E/Applications/Chocolatey/lib/PowerShell.3.0.20121027/ChocolateyInstall.ps1",
-		"/C/Users/Kyle/Dropbox/Personal-Projects/CV stuff/CV_Full/KyleCV_2014.tex",
-		"/C/Users/Kyle/AppData/Local/Temp/7zE65E2.tmp/Box.pde",
-		"/C/Users/Kyle/AppData/Local/Temp/7zE5140.tmp/Plot.pde",
-		"/C/Users/Kyle/AppData/Local/Temp/7zE3AD9.tmp/Plot.pde",
-		"/C/Users/Kyle/AppData/Local/Temp/7zOE49.tmp/args.txt",
-		"/C/Users/Kyle/AppData/Local/Temp/7zOE4A8.tmp/491_proj1_data.txt",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs227/CourseGrade227.java",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/Notes/basic.html",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/backup/dataFix.html",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/Notes/Heatmap/data.csv"
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/backup/index_geo.html"
 	],
 	"find":
 	{
@@ -639,6 +656,53 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"feature",
+			"'",
+			"LOC_COUNTS_TOPO",
+			"LOC_TOPO",
+			"LOC_GEO",
+			"ZIP_GEO",
+			"OUTPUT_ZC",
+			"INPUT_ZC",
+			"chicago_ZC_Geo",
+			"LOC_TOPO",
+			".json",
+			"CLEAN_LOC",
+			"CLEAN_ZC",
+			"RAW_ZC",
+			"RAW_LOC",
+			"ZIPGEO",
+			"ZCGEO",
+			"ZIPGEO",
+			"url",
+			"zipGeo",
+			"local ",
+			"zipStr",
+			"zipKey",
+			"zipKey2",
+			"keys[4]",
+			"keys[3]",
+			"keys[2]",
+			"keys[1]",
+			"keys[0]",
+			"'zipcode'",
+			"'properties'",
+			"'geometries'",
+			"'chicago_ZC_Geo'",
+			"'objects'",
+			"location['objects']['chicago_ZC_Geo']['geometries']",
+			"INPUT_LOC",
+			"INPUT_ZC",
+			"CLEAN",
+			"Clean",
+			"CLEAN",
+			"RAW",
+			"Raw",
+			"RAW",
+			"properties\": {\"zipcode",
+			"id",
+			"^\\n",
+			"\n",
 			"NeighboorhoodHealthClinicsBool",
 			"NeighborhoodHealthClinics",
 			"this.NeighboorhoodHealthClinics",
@@ -719,54 +783,7 @@
 			"\"id\"",
 			"oh",
 			"district",
-			".side",
-			"side",
-			"Side",
-			"side",
-			"\"side\":",
-			"comm",
-			"side",
-			"comm",
-			"slug",
-			"properties",
-			"chi.features[i].",
-			"> 1)",
-			"side:",
-			"if(",
-			"f(",
-			"]",
-			") > 1)",
-			"var",
-			" = [",
-			"[0-9][0-9]",
-			"(\"slug\":)(\"rogers_park\"|\"loop\")",
-			"(\"slug\":)(\"rogers_park\")",
-			"(\"slug\":)(\"near_north_side\"|\"loop\")",
-			"(\"slug\":)(\"cabrini*\"|\"gold_coast\"|\"goose_island\")",
-			"(\"slug\":)(\"cabrini*\"|\"gold_caost\"|\"goose_island\")",
-			"(\"slug\":)(\"rogers_park\"|\"lake_view\")",
-			"(\"slug\")+(\"cabrini*\"||\"gold_caost\"||\"goose_island\")",
-			"(\"slug\")+(\"cabrini\"||\"gold_caost\"||\"goose_island\")",
-			"(\"slug\":)+(\"cabrini\"|\"gold_caost\"|\"goose_island\")",
-			"\"slug",
-			"dcd",
-			" (index):67",
-			"json",
-			"SEC_NEIGH",
-			"\"PRI_NEIGH\"",
-			"\"COMM_AREA\"",
-			"\"SIDE\"",
-			"bronze",
-			"PRI_NEIGH",
-			"North Side",
-			"North",
-			"Near North Side",
-			"Belmont",
-			"Lake View",
-			"lakeview",
-			"Belmont",
-			"BELMONT",
-			"\"id\":"
+			".side"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -774,6 +791,8 @@
 		"regex": true,
 		"replace_history":
 		[
+			"",
+			"^",
 			"",
 			"\"district\":",
 			"community",
@@ -833,15 +852,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13581,
+						"buffer_size": 14145,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2012,
+								2012
 							]
 						],
 						"settings":
@@ -851,63 +870,68 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4845.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/model/markers.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 425,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								376,
-								376
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1421.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BrainChoropleth/index.html",
+					"buffer": 1,
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3026,
+						"buffer_size": 2896,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2205,
-								2214
+								672,
+								883
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 362.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index-gl.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1308,
+								1308
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 455.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -915,24 +939,24 @@
 				},
 				{
 					"buffer": 3,
-					"file": "js/view/init.js",
+					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1908,
+						"buffer_size": 904,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								376,
+								374
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -945,62 +969,32 @@
 				},
 				{
 					"buffer": 4,
-					"file": "js/model/NeighborhoodHealthClinicMarker.js",
+					"file": "assets/Utils/ZipBoundaryGenerator.sh",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1376,
+						"buffer_size": 6351,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								950,
+								950
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "assets/Data/Clean/Services/NeighborhoodHealthClinicsClean.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3990,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								27,
-								603
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 3851.0,
-						"translation.y": -0.0,
+						"translation.x": 0.0,
+						"translation.y": 20.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1045,17 +1039,27 @@
 	{
 		"height": 126.0
 	},
+	"pinned_build_system": "",
 	"project": "CheckHealth.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"sty",
+				"css/style.css"
+			],
+			[
+				"ind",
+				"CheckHealth.github.io/index.html"
+			],
 			[
 				"ax_144_inf_0mm",
 				"BrainChoropleth/GeoJson/ax_144_inf_0mm.geojson"
@@ -1250,6 +1254,7 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1262,6 +1267,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -1274,7 +1280,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 286.0,
 	"status_bar_visible": true,
 	"template_settings":

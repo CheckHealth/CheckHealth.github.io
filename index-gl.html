@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <!-- D3, topojson, and mapbox-gl -->
+    <script src="js/external/d3-3.5.5/d3.min.js"></script>
+    <script src="js/external/topojson-1.0/topojson.v1.min.js"></script>
+    <!--<script src="https://www.promisejs.org/polyfills/promise-6.1.0.min.js"></script>-->
+    <!--<script src="https://www.promisejs.org/polyfills/promise-done-6.1.0.min.js"></script>-->
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.6.0/mapbox-gl.js'></script>
+
+    <!-- stylesheet -->
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.6.0/mapbox-gl.css' rel='stylesheet' />
+
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+
+
+<div id='map'></div>
+
+<script>
+  mapboxgl.accessToken = "pk.eyJ1Ijoia3JiYWxtcnlkZSIsImEiOiJFZkx2eE9BIn0.1EGsThN1xouXwlOD2w0KeA";
+  var mapGL = new mapboxgl.Map({
+     container: 'map',
+     center: [41.8369, -87.6847],
+     zoom: 9,
+     style: "./assets/Data/maps/outdoors-v7.json",
+     hash: true
+  });
+
+
+  var color = d3.scale.threshold()
+                .domain([1, 10, 50, 100, 500, 1000, 2000, 5000])
+                .range(['rgb(255,255,204)','rgb(255,237,160)','rgb(254,217,118)','rgb(254,178,76)','rgb(253,141,60)','rgb(252,78,42)','rgb(227,26,28)','rgb(189,0,38)','rgb(128,0,38)']);
+
+
+    mapGL.on('style.load', function(){
+        d3.json("./assets/Data/Clean/Location/chicago_ZC_Counts_topo.json", function(error, json) {
+            var chi = topojson.feature(json, json.objects.chicago_ZC_Geo);
+            console.log("foobarbaz",chi);
+            chi.features.forEach(function(z) {
+                console.log(z, z.id, typeof(z.id))
+//                mapGL.addSource(z.id, {"type":"geojson", "data": z});
+                mapGL.addSource("route", {
+                    "type": "geojson",
+                    "data": {
+                        "type": "Feature",
+                        "properties": {},
+                        "geometry": {
+                            "type": "LineString",
+                            "coordinates": [
+                                [-122.48369693756104, 37.83381888486939],
+                                [-122.48348236083984, 37.83317489144141],
+                                [-122.48339653015138, 37.83270036637107],
+                                [-122.48356819152832, 37.832056363179625],
+                                [-122.48404026031496, 37.83114119107971],
+                                [-122.48404026031496, 37.83049717427869],
+                                [-122.48348236083984, 37.829920943955045],
+                                [-122.48356819152832, 37.82954808664175],
+                                [-122.48507022857666, 37.82944639795659],
+                                [-122.48610019683838, 37.82880236636284],
+                                [-122.48695850372314, 37.82931081282506],
+                                [-122.48700141906738, 37.83080223556934],
+                                [-122.48751640319824, 37.83168351665737],
+                                [-122.48803138732912, 37.832158048267786],
+                                [-122.48888969421387, 37.83297152392784],
+                                [-122.48987674713133, 37.83263257682617],
+                                [-122.49043464660643, 37.832937629287755],
+                                [-122.49125003814696, 37.832429207817725],
+                                [-122.49163627624512, 37.832564787218985],
+                                [-122.49223709106445, 37.83337825839438],
+                                [-122.49378204345702, 37.83368330777276]
+                            ]
+                        }
+                    }
+                })
+//                mapGL.addLayer({
+//                  "id": zip.id,
+//                  "type": "fill",
+//                  "source": zip.id,
+//                  "paint": {
+//                    "fill-opacity": .4,
+//                    "fill-color": color(zip.properties.density),
+//                    "fill-outline-color": "#000"
+//                  }
+//                })
+            })
+        })
+    })
+
+</script>
+
+</body>
+</html>
