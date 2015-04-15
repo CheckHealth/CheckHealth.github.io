@@ -82,11 +82,12 @@ Controller.prototype.addLegend= function() {
 };
 
 Controller.prototype.testD3TopoJson= function(){
+    console.log("This thing here!!", this.map.map.getPanes().overlayPane)
     var svg = d3.select(this.map.map.getPanes().overlayPane).append("svg").attr("id", "zipSVG"),
         g = svg.append("g").attr("class", "leaflet-zoom-hide").attr("class", "zipcodes"),
         self = this;
 
-    d3.json("assets/Data/Clean/Location/chicago_ZC_Counts_topo.json", function(error, json) {
+    d3.json("./assets/Data/Clean/Location/chicago_ZC_Counts_Topo.json", function(error, json) {
         if (error) return console.error(error);
         var transform = d3.geo.transform({point: projectPoint}),
             path = d3.geo.path().projection(transform);
@@ -133,82 +134,83 @@ Controller.prototype.testD3TopoJson= function(){
         }
 
 
-        d3.selectAll('.zip').on("hover", function(d){
-            console.log("in zip",d)
-        });
+        //d3.selectAll('.zip').on("hover", function(d){
+        //    console.log("in zip",d)
+        //});
 
     }.bind(this));
 
 };
 
-Controller.prototype.testD3GeoJson= function(){
-    var svg = d3.select(this.map.map.getPanes().overlayPane).append("svg"),
-        g = svg.append("g").attr("class", "leaflet-zoom-hide");
 
-    d3.json("assets/Data/Clean/chicago_ZC_Geo.json", function(collection) {
-        var transform = d3.geo.transform({point: projectPoint}),
-            path = d3.geo.path().projection(transform);
+//Controller.prototype.testD3GeoJson= function(){
+//    var svg = d3.select(this.map.map.getPanes().overlayPane).append("svg"),
+//        g = svg.append("g").attr("class", "leaflet-zoom-hide");
+//
+//    d3.json("assets/Data/Clean/chicago_ZC_Geo.json", function(collection) {
+//        var transform = d3.geo.transform({point: projectPoint}),
+//            path = d3.geo.path().projection(transform);
+//
+//        var feature = g.selectAll("path")
+//            .data(collection.features)
+//            .enter().append("path");
+//
+//        self.map.map.on("viewreset", reset);
+//        reset();
+//
+//        // Reposition the SVG to cover the features.
+//        function reset() {
+//            var bounds = path.bounds(collection),
+//                topLeft = bounds[0],
+//                bottomRight = bounds[1];
+//
+//            svg .attr("width", bottomRight[0] - topLeft[0])
+//                .attr("height", bottomRight[1] - topLeft[1])
+//                .style("left", topLeft[0] + "px")
+//                .style("top", topLeft[1] + "px");
+//
+//            g   .attr("transform", "translate(" + -topLeft[0] + "," + -topLeft[1] + ")");
+//
+//            feature.attr("d", path);
+//        }
+//
+//        // Use Leaflet to implement a D3 geometric transformation.
+//        function projectPoint(x, y) {
+//            var point = self.map.map.latLngToLayerPoint(new L.LatLng(y, x));
+//            this.stream.point(point.x, point.y);
+//        }
+//    });
+//
+//};
 
-        var feature = g.selectAll("path")
-            .data(collection.features)
-            .enter().append("path");
-
-        self.map.map.on("viewreset", reset);
-        reset();
-
-        // Reposition the SVG to cover the features.
-        function reset() {
-            var bounds = path.bounds(collection),
-                topLeft = bounds[0],
-                bottomRight = bounds[1];
-
-            svg .attr("width", bottomRight[0] - topLeft[0])
-                .attr("height", bottomRight[1] - topLeft[1])
-                .style("left", topLeft[0] + "px")
-                .style("top", topLeft[1] + "px");
-
-            g   .attr("transform", "translate(" + -topLeft[0] + "," + -topLeft[1] + ")");
-
-            feature.attr("d", path);
-        }
-
-        // Use Leaflet to implement a D3 geometric transformation.
-        function projectPoint(x, y) {
-            var point = self.map.map.latLngToLayerPoint(new L.LatLng(y, x));
-            this.stream.point(point.x, point.y);
-        }
-    });
-
-};
-
-Controller.prototype.getBoundingDataFromFile= function(){
-    d3.json("assets/Data/Clean/chi.json", function(error, json) {
-        if (error) return console.error(error);
-        var chi = topojson.feature(json, json.objects.chicago_health2);
-        console.log(chi);
-        L.geoJson(chi).addTo(this.map)
-    }.bind(this))
-};
-
-Controller.prototype.getGeoBoundingDataFromFile= function(){
-    d3.json("assets/Data/Clean/Location/chicago_ZC_Geo.json", function(error, json) {
-        if (error) return console.error(error);
-        var chi = json.features;
-        console.log(chi);
-        L.geoJson(chi).addTo(this.map)
-    }.bind(this))
-};
-
-Controller.prototype.getTopoBoundingDataFromFile= function(){
-    d3.json("assets/Data/Clean/Location/chicago_ZC_Topo.json", function(error, json) {
-        if (error) return console.error(error);
-        window.chi = json;
-        //var chi = json.features;
-        var chi = topojson.feature(json, json.objects.zipCodes);
-        console.log(chi);
-        L.geoJson(chi).addTo(this.map)
-    }.bind(this))
-};
+//Controller.prototype.getBoundingDataFromFile= function(){
+//    d3.json("assets/Data/Clean/chi.json", function(error, json) {
+//        if (error) return console.error(error);
+//        var chi = topojson.feature(json, json.objects.chicago_health2);
+//        console.log(chi);
+//        L.geoJson(chi).addTo(this.map)
+//    }.bind(this))
+//};
+//
+//Controller.prototype.getGeoBoundingDataFromFile= function(){
+//    d3.json("assets/Data/Clean/Location/chicago_ZC_Geo.json", function(error, json) {
+//        if (error) return console.error(error);
+//        var chi = json.features;
+//        console.log(chi);
+//        L.geoJson(chi).addTo(this.map)
+//    }.bind(this))
+//};
+//
+//Controller.prototype.getTopoBoundingDataFromFile= function(){
+//    d3.json("assets/Data/Clean/Location/chicago_ZC_Topo.json", function(error, json) {
+//        if (error) return console.error(error);
+//        window.chi = json;
+//        //var chi = json.features;
+//        var chi = topojson.feature(json, json.objects.zipCodes);
+//        console.log(chi);
+//        L.geoJson(chi).addTo(this.map)
+//    }.bind(this))
+//};
 
 
 
@@ -292,6 +294,7 @@ Controller.prototype.removeMarkers = function(MarkersArray) {
         this.map.removeLayer(MarkersArray[i]);
     }
 };
+
 Controller.prototype.ableDisable = function(button) {
     console.log("called ableDisable!");
     console.log("disable/able : ", button.id);

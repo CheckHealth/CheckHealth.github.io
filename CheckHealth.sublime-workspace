@@ -136,38 +136,64 @@
 	"buffers":
 	[
 		{
-			"contents": "List what I am doing, and What I am NOT doing\n\n\nPlan of work:\n\nScope of work:\n---------------\nCreate CHECK portal which contains different feeds of data coming from 3rd party vendors, such as medical health information, local partnerhsips with Community Health Clinic\n\nProject will be hosted, operated, and maintaied by the partners of Pediatrics and NOT the concern of EVL\n\nDevelopment and Testing\n-Check portal,\n\n\nMaintanence of website\n\n\nCHECK should be\n\n\n\n1) Research questions\n    What sort of interactive features can we use that will encourage active use and make people WANT to come back?\n    How can we give participants a sense of control, without actually giving them control\n\n\nWhat kind of information do we want from the MyChart folks?\n    Appointments -> Calendar type information\n    Health related stuffs? Progress, Prognosis,\n\n\n\nWhat are services need consistent across the population groups?\n\nTransportation issues:\n    Can we arrange for transportation?\n    Medica{id,are} has 80 vendors that coordinate pick ups....may be smaller number of people to pickup... PACE\n\n\nAppointment Reminders:\n    Multiple reminders\n    SMS reminders, confirm yes/no, connects to the system automatically.\n\n\nHow to give them the sense of self-control\n    provide them with communication tools and information that they can use to ask intelligent questions\n    Tips\n\n\nData tracking components. Need to discuss participant tracking\n\n\n\nWhat are the levels of Access? HIPPA compliant firewalls? Can we personalize participants \"profile\" with medically specific knowledge? <- This is a hippa issue for sure...\n\n\nParticipant profile will be generated from the data feed provided by the MyChart\n\nPersonalization Give them the sense of control\n\n\nClean, Readable, options for Audio source vs purely literary\n\nMost of these kids cant read good\n\nGoals, Behavioral Change component, Motivational Interactive components* (backup psychosocial theories, )\n\n\n\nDepression --> Mental Health (How to be mentally healthy)",
+			"file": "js/control/controller.js",
 			"settings":
 			{
-				"buffer_size": 2001,
-				"line_ending": "Unix",
-				"name": "List what I am doing, and What I am NOT doing"
-			}
-		},
-		{
-			"file": "/Users/krbalmryde/Downloads/lifeguide_source/readme.txt",
-			"settings":
-			{
-				"buffer_size": 4938,
+				"buffer_size": 13581,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Server Requirements:\n    Tomcat 7.0\n    Java 1.6-1.7\n    Any recent version of MySQL\n    SMTP must be enabled\n\n    ",
+			"file": "js/model/markers.js",
 			"settings":
 			{
-				"buffer_size": 115,
-				"line_ending": "Unix",
-				"name": "Server Requirements:"
+				"buffer_size": 425,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BrainChoropleth/index.html",
+			"settings":
+			{
+				"buffer_size": 3026,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/view/init.js",
+			"settings":
+			{
+				"buffer_size": 1908,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/model/NeighborhoodHealthClinicMarker.js",
+			"settings":
+			{
+				"buffer_size": 1376,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/Data/Clean/Services/NeighborhoodHealthClinicsClean.json",
+			"settings":
+			{
+				"buffer_size": 3990,
+				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 400.0,
+		"height": 169.0,
 		"selected_items":
 		[
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
 			[
 				"fo",
 				"Format: Javascript"
@@ -207,10 +233,6 @@
 			[
 				"instal",
 				"Package Control: Install Package"
-			],
-			[
-				"jso",
-				"Set Syntax: JSON"
 			],
 			[
 				"migra",
@@ -469,6 +491,11 @@
 	],
 	"file_history":
 	[
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Clean/Services/PCCommHealthClinicClean.json",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Raw/Services/NeighborhoodHealthClinics.json",
+		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/assets/Data/Clean/Services/NeighborhoodHealthClinicsClean.json",
+		"/Users/krbalmryde/Downloads/lifeguide_source/Server_Requirements.txt",
+		"/Users/krbalmryde/Downloads/lifeguide_source/readme.txt",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/CheckHealth.sublime-project",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/control/controller.js",
 		"/Users/krbalmryde/Dropbox/Work-Projects/CheckHealth/CheckHealth.github.io/js/view/init.js",
@@ -591,12 +618,7 @@
 		"/C/Users/Kyle/Dropbox/Class-Projects/cs227/CourseGrade227.java",
 		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/Notes/basic.html",
 		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/backup/dataFix.html",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/Notes/Heatmap/data.csv",
-		"/C/Users/Kyle/Dropbox/Class-Projects/ISTA516/HW5/secretgraffiti/dropbox-app.json",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs251/Lab2/diagram.txt",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs335/.metadata/.plugins/com.python.pydev.analysis/python_v1_bm109oo8jsa5gnqmc06ekl12p/v1_indexcache/Carbon.Help_buje.v1_indexcache",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/backup_chiGEOcr84.html",
-		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/HW1/data/chicagoGEOcrs84.json"
+		"/C/Users/Kyle/Dropbox/Class-Projects/cs424/Notes/Heatmap/data.csv"
 	],
 	"find":
 	{
@@ -617,6 +639,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"NeighboorhoodHealthClinicsBool",
+			"NeighborhoodHealthClinics",
+			"this.NeighboorhoodHealthClinics",
+			"NeighboorhoodHealthClinics",
+			"WomenChildrenClinics",
 			"Enrollment",
 			"_ENROLL",
 			"ENROLL",
@@ -739,12 +766,7 @@
 			"lakeview",
 			"Belmont",
 			"BELMONT",
-			"\"id\":",
-			"id",
-			"WEST ELSDON",
-			"West Elsdon",
-			"WEST ELSDON",
-			"}"
+			"\"id\":"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -802,100 +824,183 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "js/control/controller.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2001,
+						"buffer_size": 13581,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								457,
-								457
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "List what I am doing, and What I am NOT doing",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 590.0,
+						"translation.y": 4845.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/Users/krbalmryde/Downloads/lifeguide_source/readme.txt",
+					"file": "js/model/markers.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4938,
+						"buffer_size": 425,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4910,
-								4910
+								376,
+								376
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1613.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 115,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								115,
-								115
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Server Requirements:",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/krbalmryde/Dropbox/Code-Projects/KrbAlmryde.github.io/projects/BrainChoropleth/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2205,
+								2214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 362.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/view/init.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/model/NeighborhoodHealthClinicMarker.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "assets/Data/Clean/Services/NeighborhoodHealthClinicsClean.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3990,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								603
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 3851.0,
+						"translation.y": -0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -918,18 +1023,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.474762373776,
 			1.0
 		],
 		"rows":
