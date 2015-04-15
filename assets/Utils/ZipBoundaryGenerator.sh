@@ -28,8 +28,8 @@ DIR_CLEAN_LOC="../Data/Clean/Location"
 # Setup filenames and urls for
 ZIPCODE_GIS="tl_2012_us_zcta510"
 LOCATION_GEOJSON="chicago_ZC_Geo"
-LOCATION_TOPOJSON="chicago_ZC_Topo"
-LOCATION_TOPOJSON_COUNTS="chicago_ZC_Counts_Topo"
+LOCATION_TOPOJSON="chicago_ZC_topo"
+LOCATION_TOPOJSON_COUNTS="chicago_ZC_Counts_topo"
 URL="http://www2.census.gov/geo/tiger/TIGER2012/ZCTA5/${ZIPCODE_GIS}.zip"
 
 #================================================================================
