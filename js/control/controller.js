@@ -87,7 +87,7 @@ Controller.prototype.testD3TopoJson= function(){
         g = svg.append("g").attr("class", "leaflet-zoom-hide").attr("class", "zipcodes"),
         self = this;
 
-    d3.json("./assets/Data/Clean/Location/chicago_ZC_Counts_Topo.json", function(error, json) {
+    d3.json("assets/Data/Clean/Location/chicago_ZC_Counts_Topo.json", function(error, json) {
         if (error) return console.error(error);
         var transform = d3.geo.transform({point: projectPoint}),
             path = d3.geo.path().projection(transform);
